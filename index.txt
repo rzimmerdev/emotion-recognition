@@ -1,5 +1,9 @@
 1, 104, robot AND Any Field: psychology AND Any Field: emotion
-2, 50, psychology AND Any Field: machine AND Any Field: sentiment AND Any Field: analysis
+2, 50, psychology AND Any Field: machine AND Any Field: analysis AND Field: sentiment
 3, 27, psychology AND Any Field: machine OR Any Field: robot AND Any Field: sentiment analysis AND Any Field: emotion* OR Any Field: detection
 4, 6838, Any Field: emotion OR Any Field: sentiment AND Any Field: detection AND Any Field: algorithm OR Any Field: machine OR Any Field: robot
 5, 81, Any Field: sentiment AND Any Field: analysis AND Any Field: algorithm
+6, 33, Any Field: emotion AND Any Field: recognition AND Any Field: vision AND Any Field: facial AND Any Field: clinic*
+7, 27, Any Field: emotion AND Any Field: detection AND Any Field: computer vision OR Any Field: algorithm OR Any Field: recognition AND Any Field: embodied OR Any Field: agent* OR Any Field: robot
+8, 56, Any Field: psychology AND Any Field: machine OR Any Field: robot AND Any Field: sentiment* OR Any Field: analysis* AND Any Field: computer vision
+9, 10, Any Field: emotion AND Any Field: machine OR Any Field: robot AND Any Field: sentiment* OR Any Field: analysis* AND Any Field: computer vision

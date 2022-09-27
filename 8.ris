@@ -1,0 +1,1438 @@
+Provider: American Psychological Association
+Database: PsycINFO
+Content: application/x-research-info-systems
+
+TY  - CHAP
+DESCRIPTORS  - Human Machine Systems
+ID  - 2004-12704-045
+T1  - Person-machine systems.
+T2  - Encyclopedia of psychology, Vol. 6.
+A1  - Williges, Robert C.
+SP  - 144
+EP  - 152
+Y1  - 2000
+CY  - New York,  NY,  US
+PB  - Oxford University Press
+SN  - 1-55798-655-X (Hardcover)
+N2  - This entry includes the following topics: system design approaches; life cycle design; iterative design; initial design; prototype design; final design; system design and analysis methods; handbooks and standards; human factors methods; computer-based ergonomic tools; ethnographic methods; experimental design; usability evaluation methods; human consideration in systems; human physical capabilities; workplace design; environmental factors; individual differences; human sensory capabilities; vision; audition; human cognitive abilities; spatial perception; attention sharing; workload analysis; human memory; process control; error analysis; human motor abilities; manual control; decision making; speech communication; organizational considerations; personnel training; training requirements; training program; training evaluation; goal of user-centered design. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - Human Machine Systems
+M3  - doi:10.1037/10521-045
+DO  - 10.1037/10521-045
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Perceptual Motor Coordination; Robotics
+ID  - 1993-98908-006
+T1  - Computational modelling of hand–eye coordination.
+T2  - Active perception.
+T3  - Computer vision.
+A1  - Blake, Andrew
+SP  - 227
+EP  - 244
+Y1  - 1993
+CY  - Hillsdale,  NJ,  US
+PB  - Lawrence Erlbaum Associates, Inc
+SN  - 0-8058-1290-3 (Hardcover)
+N2  - we are developing a visually guided robot arm that is able to grasp and transport objects across an obstacle-strewn environment / recent work has shown how analysis of moving image contours can provide estimates of the shape of curved surfaces / this forms the basis of the robot's capabilities / [chapter discusses] a computational theory of the visual planning of two-fingered grasps / a qualitative theory for classification of grasps is described and demonstrated / optimal finger positions are obtained from the mutual intersection of the local symmetry and antisymmetry sets, and of a third set, the critical set of the grasp map (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Perceptual Motor Coordination
+KW  - Robotics
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Causal Analysis;  *Cognitive Psychology;  *Machine Learning;  *Reasoning; Computational Modeling
+PMID  - 29342689
+ID  - 2018-01146-001
+T1  - Causal generative models are just a start.
+JF  - Behavioral and Brain Sciences
+A1  - Davis, Ernest
+A1  - Marcus, Gary
+VL  - 40
+Y1  - 2017
+CY  - United Kingdom
+AD  - Davis, Ernest: Department of Computer Science, New York University, New York, NY, US, 10012, davise@cs.nyu.edu
+PB  - Cambridge University Press
+SN  - 1469-1825(Electronic),0140-525X(Print)
+N2  - Human reasoning is richer than Lake et al. acknowledge, and the emphasis on theories of how images and scenes are synthesized is misleading. For example, the world knowledge used in vision presumably involves a combination of geometric, physical, and other knowledge, rather than just a causal theory of how the image was produced. In physical reasoning, a model can be a set of constraints rather than a physics engine. In intuitive psychology, many inferences proceed without detailed causal generative models. How humans reliably perform such inferences, often in the face of radically incomplete information, remains a mystery. (PsycINFO Database Record (c) 2018 APA, all rights reserved)
+KW  - *Causal Analysis
+KW  - *Cognitive Psychology
+KW  - *Machine Learning
+KW  - *Reasoning
+KW  - Computational Modeling
+M3  - doi:10.1017/S0140525X17000115
+DO  - 10.1017/S0140525X17000115
+ER  -
+TY  - BOOK
+DESCRIPTORS  - *Psychophysics;  *Robotics; Vision
+ID  - 1991-98668-000
+T1  - Understanding vision.
+T2  - Understanding vision.
+A1  - Watt, Roger J.
+SP  - xii, 301
+EP  - xii, 301
+Y1  - 1991
+CY  - San Diego,  CA,  US
+PB  - Academic Press
+SN  - 0-12-738500-2 (Hardcover); 0-12-738501-0 (Paperback)
+N2  - Vision is both an important part of our sensory and perceptual capacities and an essential source of information for guiding actions and decisions in robot systems.  Roger Watt provides a unified approach to human and computer vision in this book, in the first part developing a theoretical framework for understanding visual processes in both types of system, and in the second part explaining the nature of psychophysical enquiry into human vision. The material covered includes the functions of vision, the physical and statistical nature of optical images, the mathematical nature of elementary image operations and descriptions, and the use of visual models in interpreting the visual ouput.  Key features of the book are: the formal analysis of vision supported by introductory explanations of all necessary concepts and mathematics; extensive illustrations and student exercises; detailed description and analysis of psychophysical experiments and data; [and] a classified bibliography for each chapter.  This is an important text for students of vision, psychology, engineering and computer science, providing the foundations and material for understanding vision in its human and machine domains. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Psychophysics
+KW  - *Robotics
+KW  - Vision
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Algorithms;  *Machine Learning;  *Mental Health;  *Psychiatric Symptoms;  *Task Complexity; Automation; Scoring (Testing); Health Personnel
+ID  - 2020-91060-001
+T1  - Toward learning machines at a Mother and Baby Unit.
+JF  - Frontiers in Psychology
+A1  - Boman, Magnus
+A1  - Downs, Johnny
+A1  - Karali, Abubakrelsedik
+A1  - Pawlby, Susan
+VL  - 11
+Y1  - 2020
+CY  - Switzerland
+AD  - Boman, Magnus: mab@kth.se
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Agnostic analyses of unique video material from a Mother and Baby Unit were carried out to investigate the usefulness of such analyses to the unit. The goal was to improve outcomes: the health of mothers and their babies. The method was to implement a learning machine that becomes more useful over time and over task. A feasible set-up is here described, with the purpose of producing intelligible and useful results to healthcare professionals at the unit by means of a vision processing pipeline, grouped together with multi-modal capabilities of handling annotations and audio. Algorithmic bias turned out to be an obstacle that could only partly be handled by modern pipelines for automated feature analysis. The professional use of complex quantitative scoring for various mental health-related assessments further complicated the automation of laborious tasks. Activities during the MBU stay had previously been shown to decrease psychiatric symptoms across diagnostic groups. The implementation and first set of experiments on a learning machine for the unit produced the first steps toward explaining why this is so, in turn enabling decision support to staff about what to do more and what to do less of. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Machine Learning
+KW  - *Mental Health
+KW  - *Psychiatric Symptoms
+KW  - *Task Complexity
+KW  - Automation
+KW  - Scoring (Testing)
+KW  - Health Personnel
+M3  - doi:10.3389/fpsyg.2020.567310
+DO  - 10.3389/fpsyg.2020.567310
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Perceptual Motor Processes;  *Performance;  *Sensory Feedback;  *Visual Feedback; Human Machine Systems; Task Complexity
+PMID  - 8026837
+ID  - 1994-43386-001
+T1  - Teleoperator performance with varying force and visual feedback.
+JF  - Human Factors
+A1  - Massimino, Michael J.
+A1  - Sheridan, Thomas B.
+VL  - 36
+SP  - 145
+EP  - 157
+Y1  - 1994
+CY  - US
+PB  - Human Factors & Ergonomics Society
+SN  - 1547-8181(Electronic),0018-7208(Print)
+N2  - Determined the effects of various forms of visual and force feedback on human performance for several "peg-in-hole"-type telemanipulation tasks. Each of male graduate students used a master/slave manipulator during 2 experimental sessions. In 1 session Ss performed the tasks with direct vision, where subtended visual angle, force feedback, task difficulty, and the interaction of subtended visual angle and force feedback made significant differences in task completion times. During the other session the tasks were performed using a video monitor for visual feedback, and video frame rate, force feedback, task difficulty, and the interaction of frame rate and force feedback were found to make significant differences in task times. An analysis between the direct and video viewing environments showed that apart from subtended visual angle and reduced frame rate, the video medium itself did not significantly affect task times relative to direct viewing. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Perceptual Motor Processes
+KW  - *Performance
+KW  - *Sensory Feedback
+KW  - *Visual Feedback
+KW  - Human Machine Systems
+KW  - Task Complexity
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Cognitive Processes;  *Eye Fixation;  *Eye Movements;  *Digital Images;  *Image Analysis; Computers; Semantics; Narrative Analysis
+ID  - 2020-65730-001
+T1  - Computational framework for fusing eye movements and spoken narratives for image annotation.
+JF  - Journal of Vision
+A1  - Vaidyanathan, Preethi
+A1  - Prud'hommeaux, Emily
+A1  - Alm, Cecilia O.
+A1  - Pelz, Jeff B.
+VL  - 20
+Y1  - 2020
+CY  - US
+AD  - Vaidyanathan, Preethi: Eyegaze Inc., Fairfax, 10363 Democracy Lane, Fairfax, VA, US, 22030, pxv1621@rit.edu
+PB  - Assn for Research in Vision & Ophthalmology (ARVO)
+SN  - 1534-7362(Electronic)
+N2  - Despite many recent advances in the field of computer vision, there remains a disconnect between how computers process images and how humans understand them. To begin to bridge this gap, we propose a framework that integrates human-elicited gaze and spoken language to label perceptually important regions in an image. Our work relies on the notion that gaze and spoken narratives can jointly model how humans inspect and analyze images. Using an unsupervised bitext alignment algorithm originally developed for machine translation, we create meaningful mappings between participants’ eye movements over an image and their spoken descriptions of that image. The resulting multimodal alignments are then used to annotate image regions with linguistic labels. The accuracy of these labels exceeds that of baseline alignments obtained using purely temporal correspondence between fixations and words. We also find differences in system performances when identifying image regions using clustering methods that rely on gaze information rather than image features. The alignments produced by our framework can be used to create a database of low-level image features and high-level semantic annotations corresponding to perceptually important image regions. The framework can potentially be applied to any multimodal data stream and to any visual domain. To this end, we provide the research community with access to the computational framework. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Cognitive Processes
+KW  - *Eye Fixation
+KW  - *Eye Movements
+KW  - *Digital Images
+KW  - *Image Analysis
+KW  - Computers
+KW  - Semantics
+KW  - Narrative Analysis
+M3  - doi:10.1167/jov.20.7.13
+DO  - 10.1167/jov.20.7.13
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Human Computer Interaction;  *Human Machine Systems;  *Visual Search; Computational Modeling
+ID  - 2011-28660-002
+T1  - A computational model of “active vision” for visual search in human–computer interaction.
+JF  - Human-Computer Interaction
+A1  - Halverson, Tim
+A1  - Hornof, Anthony J.
+VL  - 26
+SP  - 285
+EP  - 314
+Y1  - 2011
+CY  - United Kingdom
+AD  - Halverson, Tim: WPAFB, 711 HPW/RHCP, Bldg 840, Rm W200, 2510 Fifth Street, Fifth Street, OH, US, 45433-7951, timothy.halverson@wpafb.af.mil
+PB  - Taylor & Francis
+SN  - 1532-7051(Electronic),0737-0024(Print)
+N2  - Human visual search plays an important role in many human–computer interaction (HCI) tasks. Better models of visual search are needed not just to predict overall performance outcomes, such as whether people will be able to find the information needed to complete an HCI task, but to understand the many human processes that interact in visual search, which will in turn inform the detailed design of better user interfaces. This article describes a detailed instantiation, in the form of a computational cognitive model, of a comprehensive theory of human visual processing known as “active vision” (Findlay & Gilchrist, 2003). The computational model is built using the Executive Process-Interactive Control cognitive architecture. Eye-tracking data from three experiments inform the development and validation of the model. The modeling asks—and at least partially answers—the four questions of active vision: (a) What can be perceived in a fixation? (b) When do the eyes move? (c) Where do the eyes move? (d) What information is integrated between eye movements? Answers include: (a) Items nearer the point of gaze are more likely to be perceived, and the visual features of objects are sometimes misidentified. (b) The eyes move after the fixated visual stimulus has been processed (i.e., has entered working memory). (c) The eyes tend to go to nearby objects. (d) Only the coarse spatial information of what has been fixated is likely maintained between fixations. The model developed to answer these questions has both scientific and practical value in that the model gives HCI researchers and practitioners a better understanding of how people visually interact with computers, and provides a theoretical foundation for predictive analysis tools that can predict aspects of that interaction. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Human Computer Interaction
+KW  - *Human Machine Systems
+KW  - *Visual Search
+KW  - Computational Modeling
+M3  - doi:10.1080/07370024.2011.625237
+DO  - 10.1080/07370024.2011.625237
+ER  -
+TY  - THES
+DESCRIPTORS  - *Computers;  *Machine Learning;  *Marketing;  *Physiological Arousal;  *Social Media; Aesthetics; Brand Names; Learning
+ID  - 2021-94589-042
+T1  - Image content effectiveness analysis of social media posts using machine learning methods.
+A1  - He, Minghui
+VL  - 83
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4209(Print)
+N2  - With the evolution of the Internet, social media sites nowadays have become increasingly important in marketing campaigns for brands and companies. And thanks to faster Wi-Fi and cellular speed and better phone cameras, more and more images are being created and shared on social media every day. As more visual contents appear, understanding how consumers respond to visual content is essential to the brand's social media marketing strategy. Rather than merely checking the effect of the presence of the images in the post, our research goes more in-depth and aims to shed light on the role of different image characteristics. In this research, we evaluate images along two dimensions – informational value and entertaining value. We use whether the image features a product to measure the informational value and use aesthetic appraisal and perceived emotional arousal to measure the entertaining value, where the aesthetic appraisal indicates how beautiful the viewers feel about the image and the emotional arousal indicates the level of evoked emotionality in the viewers. To carry out the empirical analysis, we collect 3,803 brand posts containing 10,259 images from 8 international brands. We bring up a framework for image content analysis, in which computer vision techniques and image classification algorithms are utilized to investigate the image content features. Then we build a regression model to study how image's informational value and entertaining value affect customer engagement with the brand post, including the moderating effects of different themes, along with other image and post features. The results highlight the importance of finding the right pictures with proper features for posts with different themes. We also identify 17 interpretable image attributes across five dimensions relevant to the image's aesthetics and arousal to give direct and applicable implications for optimizing images on social media platforms.Our key findings are as follows. (1) An image's entertaining value is more important than its informational value in driving customer engagement; (2) It is important to consider the compatibility between image content features and the theme of the post; and (3) Aesthetic appraisal and emotional arousal, the two entertaining value measures, are related to different objective image attributes. By analyzing how those image contents affect social media audiences, our results help marketing practitioners better design the appropriate images and capitalize on social media engagement. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Computers
+KW  - *Machine Learning
+KW  - *Marketing
+KW  - *Physiological Arousal
+KW  - *Social Media
+KW  - Aesthetics
+KW  - Brand Names
+KW  - Learning
+ER  -
+TY  - THES
+DESCRIPTORS  - *Field Dependence;  *Human Information Storage;  *Visual Discrimination;  *Visual Displays; Human Computer Interaction; Human Machine Systems Design
+ID  - 1997-95007-143
+T1  - The relationship of field-dependent/field-independent cognitive style to the perception and usage of digital color images.
+A1  - Huang, Chuen-Min
+VL  - 57
+SP  - 4174
+EP  - 4174
+Y1  - 1997
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4209(Print)
+N2  - This study investigated the relationship of field-dependent/field-independent (FD/FI) cognitive style to the perception of color images with respect to color-depth and preference for display layouts. In addition, the study investigated display characteristics that would affect performance on an image retrieval task in terms of time spent, recall memory, and screens changed/revisited. The GEFT was used to determine cognitive style, FD and FI. Ishihara's Test for Color-Blindness was used to detect any color vision deficiency. A randomized administration was employed to the subjects for the two experimental tasks: a color discrimination task and an image retrieval task. The treatment varied only in presentation order. Cognitive style was the primary independent variable for the two tasks. Presentation time was fixed as a control variable for the first task. Presentation order--blocked into two treatments: high density layout first or low density layout first--was employed as the second independent variable for the second task. The method of minimizing the influence of individual variation of FD/FI subjects was to compare the demographic factors and the treatments that may influence response. A correlational analysis was used to determine whether and to what degree, a relationship exists between two or more variables. Results of the study did not support the hypotheses that cognitive style would be the primary predictor of performance on color discrimination task and image retrieval task. No consistent effect due to cognitive style was found. However, results indicated that FD subjects were more affected by different treatments than were FI subjects. This finding supported previous studies that FD is an important instructional variable. Results from this study showed that different treatments did make differences between FD/FI for the preference of display layouts. Implications for curriculum and system design are proposed. Furthermore, these results suggest that an ease of use design may be more useful than cognitive style consideration in enhancing search performance on an image retrieval task. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Field Dependence
+KW  - *Human Information Storage
+KW  - *Visual Discrimination
+KW  - *Visual Displays
+KW  - Human Computer Interaction
+KW  - Human Machine Systems Design
+ER  -
+TY  - THES
+DESCRIPTORS  - *Communication;  *Information;  *Technology;  *Image Analysis; Digital Video
+ID  - 2018-21182-026
+T1  - Computational image analysis for axonal transport, phenotypic profiling, and digital pathology.
+A1  - Nirschl, Jeffrey John
+VL  - 79
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2018
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - Recent advances in fluorescent probes, microscopy, and imaging platforms have revolutionized biology and medicine, generating multi-dimensional image datasets at unprecedented scales. Traditional, low-throughput methods of image analysis are inadequate to handle the increased "volume, velocity, and variety" that characterize the realm of big data. Thus, biomedical imaging requires a new set of tools, which include advanced computer vision and machine learning algorithms. In this work, we develop computational image analysis solutions to biological questions at the level of single-molecules, cells, and tissues. At the molecular level, we dissect the regulation of dynein-dynactin transport initiation using in vitro reconstitution, single-particle tracking, super-resolution microscopy, live-cell imaging in neurons, and computational modeling. We show that at least two mechanisms regulate dynein transport initiation neurons: (1) cytoplasmic linker proteins, which are regulated by phosphorylation, increase the capture radius around the microtubule, thus reducing the time cargo spends in a diffusive search; and (2) a spatial gradient of tyrosinated alpha-tubulin enriched in the distal axon increases the affinity of dynein-dynactin for microtubules. Together, these mechanisms support a multi-modal recruitment model where interacting layers of regulation provide efficient, robust, and spatiotemporal control of transport initiation. At the cellular level, we develop and train deep residual convolutional neural networks on a large and diverse set of cellular microscopy images. Then, we apply networks trained for one task as deep feature extractors for unsupervised phenotypic profiling in a different task. We show that neural networks trained on one dataset encode robust image phenotypes that are sufficient to cluster subcellular structures by type and separate drug compounds by the mechanism of action, without additional training, supporting the strength and flexibility of this approach. Future applications include phenotypic profiling in image-based screens, where clustering genetic or drug treatments by image phenotypes may reveal novel relationships among genetic or pharmacologic pathways. Finally, at the tissue level, we apply deep learning pipelines in digital pathology to segment cardiac tissue and classify clinical heart failure using whole-slide images of cardiac histopathology. Together, these results demonstrate the power and promise of computational image analysis, computer vision, and deep learning in biological image analysis. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Communication
+KW  - *Information
+KW  - *Technology
+KW  - *Image Analysis
+KW  - Digital Video
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Mathematical Modeling;  *Motion Perception;  *Statistical Probability;  *Velocity;  *Visual Perception; Computer Simulation; Neurophysiology; Spatial Perception; Temporal Frequency; Visual Cortex
+ID  - 2002-02646-004
+T1  - Velocity likelihoods in biological and machine vision.
+T2  - Probabilistic models of the brain:  Perception and neural function.
+T3  - Neural information processing series.
+A1  - Weiss, Yair
+A1  - Fleet, David J.
+SP  - 77
+EP  - 96
+Y1  - 2002
+CY  - Cambridge,  MA,  US
+PB  - The MIT Press
+SN  - 0-262-18224-6 (Hardcover)
+N2  - This chapter briefly reviews the successes of Bayesian statistical models in accounting for 2-dimensional human motion perception. These models require a formula for the likelihood of a velocity given image data. The chapter shows that such a formula can be derived from a simple generative model--the scene translates and conserves noise while the image equals the projected scene plus independent noise. The connection between the likelihood function derived from this generative model and commonly used cost functions in computer vision is reviewed, and it is also shown that the likelihood function can be calculated by summing the squared outputs of spatiotemporal oriented filters. There are intriguing similarities between the calculation implied by the ideal likelihood function and common models for motion analysis in the visual striate cortex. Topics discussed include: motion analysis as Bayesian inference, what is likelihood function for image velocity (generative models, extensions, connection to other models of early motion analysis), connection to physiology, and examples of likelihoods on specific stimuli. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Mathematical Modeling
+KW  - *Motion Perception
+KW  - *Statistical Probability
+KW  - *Velocity
+KW  - *Visual Perception
+KW  - Computer Simulation
+KW  - Neurophysiology
+KW  - Spatial Perception
+KW  - Temporal Frequency
+KW  - Visual Cortex
+M3  - doi:10.7551/mitpress/5583.001.0001
+DO  - 10.7551/mitpress/5583.001.0001
+ER  -
+TY  - THES
+DESCRIPTORS  - *Algorithms;  *Analysis;  *Estimation;  *Machine Learning; Image Analysis
+ID  - 2010-99240-009
+T1  - Machine learning of image analysis with convolutional networks and topological constraints.
+A1  - Jain, Viren
+VL  - 71
+SP  - 3762
+EP  - 3762
+Y1  - 2010
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - We present an approach to solving computer vision problems in which the goal is to produce a high-dimensional, pixel-based interpretation of some aspect of the underlying structure of an image. Such tasks have traditionally been categorized as "low-level vision" problems, and examples include image denoising, boundary detection, and motion estimation. Our approach is characterized by two main elements, both of which represent a departure from previous work. The first is a focus on convolutional networks, a machine learning strategy that operates directly on an input image with no use of hand-designed features and employs many thousands of free parameters that are learned from data. Previous work in low-level vision has been largely focused on completely hand-designed algorithms or learning methods with a hand-designed feature space. We demonstrate that a learning approach with high model complexity, but zero prior knowledge about any specific image domain, can outperform existing techniques even in the challenging area of natural image processing. We also present results that establish how convolutional networks are closely related to Markov random fields (MRFs), a popular probabilistic approach to image analysis, but can in practice can achieve significantly greater model complexity. The second aspect of our approach is the use of domain specific cost functions and learning algorithms that reflect the structured nature of certain prediction problems in image analysis. In particular, we show how concepts from digital topology can be used in the context of boundary detection to both evaluate and optimize the high-order property of topological accuracy. We demonstrate that these techniques can significantly improve the machine learning approach and outperform state of the art boundary detection and segmentation methods. Throughout our work we maintain a special interest and focus on application of our methods to connectomics, an emerging scientific discipline that seeks high-throughput methods for recovering neural connectivity data from brains. This application requires solving low-level image analysis problems on a tera-voxel or peta-voxel scale, and therefore represents an extremely challenging and exciting arena for the development of computer vision methods. (Copies available exclusively from MIT Libraries, Rm. 14-0551, Cambridge, MA 02139-4307. Ph. 617-253-5668; Fax 617-253-1690.) (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Analysis
+KW  - *Estimation
+KW  - *Machine Learning
+KW  - Image Analysis
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Contextual Associations;  *Statistics;  *Data Mining; Contextual Cues
+PMID  - 24194723
+ID  - 2017-38737-001
+T1  - Statistics of high-level scene context.
+JF  - Frontiers in Psychology
+A1  - Greene, Michelle R.
+VL  - 4
+Y1  - 2013
+CY  - Switzerland
+AD  - Greene, Michelle R.: Department of Computer Science, Stanford University, 353 Serra Mall Rm 241, Stanford, CA, US, 94305, mrgreene@stanford.edu
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Context is critical for recognizing environments and for searching for objects within them: contextual associations have been shown to modulate reaction time and object recognition accuracy, as well as influence the distribution of eye movements and patterns of brain activations. However, we have not yet systematically quantified the relationships between objects and their scene environments. Here I seek to fill this gap by providing descriptive statistics of object-scene relationships. A total of 48,167 objects were hand-labeled in 3499 scenes using the LabelMe tool (Russell et al., 2008). From these data, I computed a variety of descriptive statistics at three different levels of analysis: the ensemble statistics that describe the density and spatial distribution of unnamed “things” in the scene; the bag of words level where scenes are described by the list of objects contained within them; and the structural level where the spatial distribution and relationships between the objects are measured. The utility of each level of description for scene categorization was assessed through the use of linear classifiers, and the plausibility of each level for modeling human scene categorization is discussed. Of the three levels, ensemble statistics were found to be the most informative (per feature), and also best explained human patterns of categorization errors. Although a bag of words classifier had similar performance to human observers, it had a markedly different pattern of errors. However, certain objects are more useful than others, and ceiling classification performance could be achieved using only the 64 most informative objects. As object location tends not to vary as a function of category, structural information provided little additional information. Additionally, these data provide valuable information on natural scene redundancy that can be exploited for machine vision, and can help the visual cognition community to design experiments guided by statistics rather than intuition. (PsycINFO Database Record (c) 2018 APA, all rights reserved)
+KW  - *Contextual Associations
+KW  - *Statistics
+KW  - *Data Mining
+KW  - Contextual Cues
+M3  - doi:10.3389/fpsyg.2013.00777
+DO  - 10.3389/fpsyg.2013.00777
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Animal Behavior;  *Automated Information Processing;  *Stereoscopic Presentation;  *Tracking; Animal Environments; Cameras; Phenotypes; Rats
+PMID  - 32232737
+ID  - 2020-79783-024
+T1  - Improved 3D tracking and automated classification of rodents’ behavioral activity using depth-sensing cameras.
+JF  - Behavior Research Methods
+A1  - Gerós, Ana
+A1  - Magalhães, Ana
+A1  - Aguiar, Paulo
+VL  - 52
+SP  - 2156
+EP  - 2167
+Y1  - 2020
+CY  - Germany
+AD  - Aguiar, Paulo: Instituto de Investigacao e Inovacao em Saude, Universidade do Porto, Porto, Portugal, pauloaguiar@ineb.up.pt
+PB  - Springer
+SN  - 1554-3528(Electronic),1554-351X(Print)
+N2  - Analysis of rodents’ behavior/activity is of fundamental importance in many research fields. However, many behavioral experiments still rely on manual scoring, with obvious problems in reproducibility. Despite important advances in video-analysis systems and computational ethology, automated behavior quantification is still a challenge. The need for large training datasets, background stability requirements, and reduction to two-dimensional analysis (impairing full posture characterization), limit their use. Here we present a novel integrated solution for behavioral analysis of individual rats, combining video segmentation, tracking of body parts, and automated classification of behaviors, using machine learning and computer vision methods. Low-cost depth cameras (RGB-D) are used to enable three-dimensional tracking and classification in dark conditions and absence of color contrast. Our solution automatically tracks five anatomical landmarks in dynamic environments and recognizes seven distinct behaviors, within the accuracy range of human annotations. The developed free software was validated in experiments where behavioral differences between Wistar Kyoto and Wistar rats were automatically quantified. The results reveal the capability for effective automated phenotyping. An extended annotated RGB-D dataset is also made publicly available. The proposed solution is an easy-to-use tool, with low-cost setup and powerful 3D segmentation methods (in static/dynamic environments). The ability to work in dark conditions means that natural animal behavior is not affected by recording lights. Furthermore, automated classification is possible with only ~30 minutes of annotated videos. By creating conditions for high-throughput analysis and reproducible quantitative measurements of animal behavior experiments, we believe this contribution can greatly improve behavioral analysis research. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Animal Behavior
+KW  - *Automated Information Processing
+KW  - *Stereoscopic Presentation
+KW  - *Tracking
+KW  - Animal Environments
+KW  - Cameras
+KW  - Phenotypes
+KW  - Rats
+M3  - doi:10.3758/s13428-020-01381-9
+DO  - 10.3758/s13428-020-01381-9
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Eye Movements;  *Face Perception;  *Visual Perception; Algorithms; Motor Processes; Vision
+PMID  - 25641371
+ID  - 2015-08809-009
+T1  - Humans have idiosyncratic and task-specific scanpaths for judging faces.
+JF  - Vision Research
+A1  - Kanan, Christopher
+A1  - Bseiso, Dina N. F.
+A1  - Ray, Nicholas A.
+A1  - Hsiao, Janet H.
+A1  - Cottrell, Garrison W.
+VL  - 108
+SP  - 67
+EP  - 76
+Y1  - 2015
+CY  - Netherlands
+AD  - Kanan, Christopher: ckanan@caltech.edu
+PB  - Elsevier Science
+SN  - 0042-6989(Print)
+N2  - Since Yarbus’s seminal work, vision scientists have argued that our eye movement patterns differ depending upon our task. This has recently motivated the creation of multi-fixation pattern analysis algorithms that try to infer a person’s task (or mental state) from their eye movements alone. Here, we introduce new algorithms for multi-fixation pattern analysis, and we use them to argue that people have scanpath routines for judging faces. We tested our methods on the eye movements of subjects as they made six distinct judgments about faces. We found that our algorithms could detect whether a participant is trying to distinguish angriness, happiness, trustworthiness, tiredness, attractiveness, or age. However, our algorithms were more accurate at inferring a subject’s task when only trained on data from that subject than when trained on data gathered from other subjects, and we were able to infer the identity of our subjects using the same algorithms. These results suggest that (1) individuals have scanpath routines for judging faces, and that (2) these are diagnostic of that subject, but that (3) at least for the tasks we used, subjects do not converge on the same “ideal” scanpath pattern. Whether universal scanpath patterns exist for a task, we suggest, depends on the task’s constraints and the level of expertise of the subject. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Eye Movements
+KW  - *Face Perception
+KW  - *Visual Perception
+KW  - Algorithms
+KW  - Motor Processes
+KW  - Vision
+M3  - doi:10.1016/j.visres.2015.01.013
+DO  - 10.1016/j.visres.2015.01.013
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Artificial Intelligence;  *Models;  *Recognition (Learning); Visual Perception
+PMID  - 11198238
+ID  - 2001-16218-012
+T1  - Reconstructing mental object representations: A machine vision approach to human visual recognition.
+JF  - Spatial Vision
+A1  - Osman, Erol
+A1  - Pearce, Adrian R.
+A1  - Jüttner, Martin
+A1  - Rentschler, Ingo
+VL  - 13
+SP  - 277
+EP  - 286
+Y1  - 2000
+CY  - Netherlands
+PB  - VSP
+SN  - 1568-5683(Electronic),0169-1015(Print)
+N2  - Introduces a new approach to assess visual representations underlying the recognition of objects. Human performance is modeled by CLARET, a machine learning and matching system, based on inductive logic programming and graph matching principles. The model is applied to data of a learning experiment addressing the role of prior experience in the ontogenesis of mental object representations. Prior experience was varied in terms of sensory modality, i.e. visual versus haptic versus visuohaptic. The analysis revealed distinct differences between the representational formats used by subjects with haptic versus those with no prior object experience. These differences suggest that prior haptic exploration stimulates the evolution of object representations which are characterized by an increased differentiation between attribute values and a pronounced structural encoding. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Artificial Intelligence
+KW  - *Models
+KW  - *Recognition (Learning)
+KW  - Visual Perception
+M3  - doi:10.1163/156856800741090
+DO  - 10.1163/156856800741090
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Artificial Intelligence;  *Computers;  *Deception;  *Counterterrorism;  *Digital Images; Algorithms; Ethics; War; Digital Technology
+ID  - 2019-35853-010
+T1  - Deep fakes and computer vision: The paradox of new images.
+T2  - How technology is changing human behavior: Issues and benefits.
+A1  - Portmess, Lisa
+SP  - 139
+EP  - 150
+Y1  - 2019
+CY  - Santa Barbara,  CA,  US
+PB  - Praeger/ABC-CLIO
+SN  - 978-1-4408-6951-8 (Hardcover); 978-1-4408-6952-5 (Digital (undefined format))
+N2  - New images and their enabling technologies require rethinking the nature of digital image processing in high-risk contexts of algorithmic warfare, where authentication is rarely possible and ethical issues are intractable. Images are neither transparent nor legible without interpretation, and the risks of indiscriminate killings, inherent in banned weapons such as landmines, cluster bombs, and chemical weapons, are heightened in algorithmic warfare by the uncertain state of truth in the digital image and its fluid and precarious relationship to the real. This chapter explores the relationship of artificial intelligence with counterinsurgency and counterterrorism efforts and examines philosophical analysis of digital image processing and its relevance to digital maps that annotate objects of military interest and improve recognition and tracking. Paradoxically, such images generated by machine-learning algorithms, which are meant to enhance image understanding and enhance our grasp of reality, share the same uncertain ontology with computer-generated digital impersonation and deep fakes used in malicious hoaxes and fake news. The chapter examines this parallel and argues that new images and their enabling technologies require rethinking the nature of digital image processing in high-stakes war-fighting contexts in which authentication is rarely possible and ethical issues remain intractable. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Artificial Intelligence
+KW  - *Computers
+KW  - *Deception
+KW  - *Counterterrorism
+KW  - *Digital Images
+KW  - Algorithms
+KW  - Ethics
+KW  - War
+KW  - Digital Technology
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Activity Level;  *Pandemics;  *Animal Shelters;  *COVID-19;  *Quarantine; Dogs
+ID  - 2022-55192-001
+T1  - Evaluation of shelter dog activity levels before and during COVID-19 using automated analysis.
+JF  - Applied Animal Behaviour Science
+A1  - Byosiere, Sarah-Elizabeth
+A1  - Feighelstein, Marcelo
+A1  - Wilson, Kristiina
+A1  - Abrams, Jennifer
+A1  - Elad, Guy
+A1  - Farhat, Nareed
+A1  - van der Linden, Dirk
+A1  - Kaplun, Dmitrii
+A1  - Sinitca, Aleksandr
+A1  - Zamansky, Anna
+VL  - 250
+SP  - 1
+EP  - 8
+Y1  - 2022
+CY  - Netherlands
+AD  - Byosiere, Sarah-Elizabeth: 695 Park Ave., New York, NY, US, 10065, sb4894@hunter.cuny.edu
+PB  - Elsevier Science
+SN  - 1872-9045(Electronic),0168-1591(Print)
+N2  - Animal shelters have been found to represent stressful environments for pet dogs, both affecting behavior and influencing welfare. The current COVID-19 pandemic has brought to light new uncertainties in animal sheltering practices which may affect shelter dog behavior in unexpected ways. To evaluate this, we analyzed changes in dog activity levels before COVID-19 and during COVID-19 using an automated video analysis within a large, open-admission animal shelter in New York City, USA. Shelter dog activity was analyzed during two two-week long time periods: (i) just before COVID-19 safety measures were put in place (Feb 26-Mar 17, 2020) and (ii) during the COVID-19 quarantine (July 10–23, 2020). During these two periods, video clips of 15.3 second, on average, were taken of participating kennels every hour from approximately 8 am to 8 pm. Using a two-step filtering approach, a matched sample (based on the number of days of observation) of 34 dogs was defined, consisting of 17 dogs in each group (N1/N2 = 17). An automated video analysis of active/non-active behaviors was conducted and compared to manual coding of activity. The automated analysis validated by comparison to manual coding reaching above 79% accuracy. Significant differences in the patterns of shelter dog activity were observed: less activity was observed in the afternoons before COVID-19 restrictions, while during COVID-19, activity remained at a constant average. Together, these findings suggest that 1) COVID-19 lockdown altered shelter dog in-kennel activity, likely due to changes in the shelter environment and 2) automated analysis can be used as a hands-off tool to monitor activity. While this method of analysis presents immense opportunity for future research, we discuss the limitations of automated analysis and guidelines in the context of shelter dogs that can increase accuracy of detection, as well as reflect on policy changes that might be helpful in mediating canine stress in changing shelter environments. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Activity Level
+KW  - *Pandemics
+KW  - *Animal Shelters
+KW  - *COVID-19
+KW  - *Quarantine
+KW  - Dogs
+M3  - doi:10.1016/j.applanim.2022.105614
+DO  - 10.1016/j.applanim.2022.105614
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Aesthetics;  *Algorithms;  *Machine Learning;  *Visual Attention; Mobile Applications; Feature Extraction
+ID  - 2015-52372-012
+T1  - Synthesized computational aesthetic evaluation of photos.
+JF  - Neurocomputing: An International Journal
+A1  - Wang, Weining
+A1  - Cai, Dong
+A1  - Wang, Li
+A1  - Huang, Qinghua
+A1  - Xu, Xiangmin
+A1  - Li, Xuelong
+VL  - 172
+SP  - 244
+EP  - 252
+Y1  - 2016
+CY  - Netherlands
+AD  - Huang, Qinghua: School of Electronic and Information Engineering, South China University of Technology, Guangzhou, China, 510640, qhhuang@scut.edu.cn
+PB  - Elsevier Science
+SN  - 0925-2312(Print)
+N2  - Assessing aesthetic appeal of images is a highly subjective task which has attracted a lot of interests recently. It is an interdisciplinary subject related to art, psychology, and computer vision. In this paper, we systematically study prior researches of feature extraction in this area, and category them into four groups, low level, rule based, information theory, and visual attention. In each group, the effectiveness and limitations of existing features are examined. Based on the analysis, we propose a comprehensive feature set, which include 16 novel features and 70 well proved features. With this feature set, we build the system under machine learning scheme consisting of an SVM based classifier to estimate if an image is high aesthetic or low aesthetic. The experiments are conducted on public datasets show that our comprehensive feature set outperforms conventional models that concentrate mainly on certain types of features. The combination of our features produces a promising classification accuracy of 82.4% and a good performance comparable to aesthetic rating of human. Finally, we implemented the proposed evaluation system on mobile devices. It can provide real-time feedback to help users capture appealing photos. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Aesthetics
+KW  - *Algorithms
+KW  - *Machine Learning
+KW  - *Visual Attention
+KW  - Mobile Applications
+KW  - Feature Extraction
+M3  - doi:10.1016/j.neucom.2014.12.106
+DO  - 10.1016/j.neucom.2014.12.106
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Driving Behavior; Simulation
+ID  - 1972-03912-001
+T1  - Human factors analysis of driver behavior by experimental systems methods.
+JF  - Accident Analysis and Prevention
+A1  - Smith, Karl U.
+A1  - Kao, Henry S.
+A1  - Kaplan, Richard
+VL  - 2
+SP  - 11
+EP  - 20
+Y1  - 1970
+CY  - Netherlands
+PB  - Elsevier Science
+SN  - 1879-2057(Electronic),0001-4575(Print)
+N2  - Used a combination of experimental closed-circuit tv, videotape, and hybrid computer methods to test the concept that the automobile functions as a wheeled exoskeleton of the driver, whose steering efficiency depends on the design of both control and sensory input characteristics of the machine skeleton. Measures of 12 ss' performances on a simulated driving task indicate that steering accuracy decreased systematically with increase in driving speed or rate of change in road course. Visual feedback delays, introduced as the lags between steering actions and the movements of the simulated vehicle relative to the road display, caused degradation of steering performance. Actual driving with laterally displaced tv images of the road showed that vision from the left side of the car may not represent the optimal origin of vision for the guidance of a vehicle. Findings support the view that the overall design of a shelled vehicle, based on the anthropomorphous concept of the man-vehicle relationship, must take into consideration both the road and the motor-sensory characteristics of the driver. (french, german, & spanish summaries) (19 ref.) (PsycINFO Database Record (c) 2018 APA, all rights reserved)
+KW  - *Driving Behavior
+KW  - Simulation
+M3  - doi:10.1016/0001-4575(70)90003-5
+DO  - 10.1016/0001-4575(70)90003-5
+ER  -
+TY  - THES
+DESCRIPTORS  - *Computers;  *Group Structure;  *Machine Learning;  *Social Interaction;  *Sociology; Deception; Polygraphs; Prediction
+ID  - 2021-94599-272
+T1  - Exploiting group structures to infer social interactions from videos.
+A1  - Bolonkin, Maksim
+VL  - 83
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - In this thesis, we consider the task of inferring the social interactions between humans by analyzing multi-modal data. Specifically, we attempt to solve some of the problems in interaction analysis, such as long-term deception detection, political deception detection, and impression prediction. In this work, we emphasize the importance of using knowledge about the group structure of the analyzed interactions. Previous works on the matter mostly neglected this aspect and analyzed a single subject at a time.Using the new Resistance dataset, collected by our collaborators, we approach the problem of long-term deception detection by designing a class of histogram-based features and a novel class of meta-features we call LiarRank. We develop a LiarOrNot model to identify spies in Resistance videos. We achieve AUCs of over 0.70 outperforming our baselines by 3% and human judges by 12%.For the problem of political deception, we first collect a dataset of videos and transcripts of 76 politicians from 18 countries making truthful and deceptive statements. We call it the Global Political Deception Dataset. We then show how to analyze the statements in a broader context by building a Video-Article-Topic graph. From this graph, we create a novel class of features called Deception Score that captures how controversial each topic is and how it affects the truthfulness of each statement. We show that our approach achieves 0.775 AUC outperforming competing baselines.Finally, we use the Resistance data to solve the problem of dyadic impression prediction. Our proposed Dyadic Impression Prediction System (DIPS) contains four major innovations: a novel class of features called emotion ranks, sign imbalance features derived from signed graphs theory, a novel method to align the facial expressions of subjects, and finally, we propose the concept of a multilayered stochastic network we call Temporal Delayed Network. Our DIPS architecture beats eight baselines from the literature, yielding statistically significant improvements of 19.9-30.8% in AUC. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Computers
+KW  - *Group Structure
+KW  - *Machine Learning
+KW  - *Social Interaction
+KW  - *Sociology
+KW  - Deception
+KW  - Polygraphs
+KW  - Prediction
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Behavioral Assessment;  *Environment;  *Monitoring; Technology
+PMID  - 17186755
+ID  - 2006-22401-013
+T1  - How a visual surveillance system hypothesizes how you behave.
+JF  - Behavior Research Methods
+A1  - Micheloni, C.
+A1  - Piciarelli, C.
+A1  - Foresti, G. L.
+VL  - 38
+SP  - 447
+EP  - 455
+Y1  - 2006
+CY  - US
+AD  - Piciarelli, C.: Dipartimento di Matematica e Informatica, Umversita degli Studi di Udine, Via delle Scienze 206, Udine, Italy, 33100, piccia@dimi.uniud.it
+PB  - Psychonomic Society
+SN  - 1554-3528(Electronic),1554-351X(Print)
+N2  - In the last few years, the installation of a large number of cameras has led to a need for increased capabilities in video surveillance systems. It has, indeed, been more and more necessary for human operators to be helped in the understanding of ongoing activities in real environments. Nowadays, the technology and the research in the machine vision and artificial intelligence fields allow one to expect a new generation of completely autonomous systems able to reckon the behaviors of entities such as pedestrians, vehicles, and so forth. Hence, whereas the sensing aspect of these systems has been the issue considered the most so far, research is now focused mainly on more newsworthy problems concerning understanding. In this article, we present a novel method for hypothesizing the evolution of behavior. For such purposes, the system is required to extract useful information by means of low-level techniques for detecting and maintaining track of moving objects. The further estimation of performed trajectories, together with objects classification, enables one to compute the probability distribution of the normal activities (e.g., trajectories). Such a distribution is defined by means of a novel clustering technique. The resulting clusters are used to estimate the evolution of objects' behaviors and to speculate about any intention to act dangerously. The provided solution for hypothesizing behaviors occurring in real environments was tested in the context of an outdoor parking lot. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Behavioral Assessment
+KW  - *Environment
+KW  - *Monitoring
+KW  - Technology
+M3  - doi:10.3758/BF03192799
+DO  - 10.3758/BF03192799
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Human Computer Interaction;  *Mobility Aids;  *Virtual Reality;  *Navigation Technology;  *Spatial Navigation; Avoidance; Tactual Perception; Test Construction; Vision Disorders
+ID  - 2019-59769-004
+T1  - Route selection and obstacle avoidance with a short-range haptic sensory substitution device.
+JF  - International Journal of Human-Computer Studies
+A1  - Lobo, Lorena
+A1  - Nordbeck, Patric C.
+A1  - Raja, Vicente
+A1  - Chemero, Anthony
+A1  - Riley, Michael A.
+A1  - Jacobs, David M.
+A1  - Travieso, David
+VL  - 132
+SP  - 25
+EP  - 33
+Y1  - 2019
+CY  - Netherlands
+AD  - Jacobs, David M.: Facultad de Psicologia, Universidad Autonoma de Madrid, Madrid, Spain, 28049, david.jacobs@uam.es
+PB  - Elsevier Science
+SN  - 1095-9300(Electronic),1071-5819(Print)
+N2  - The design of Sensory Substitution Devices (SSDs) often relies on the belief that the information supplied by the devices should allow the construction of spatial mental representations on the basis of which routes are planned. This study, in contrast, illustrates that navigation using an SSD can be conceived as an on-line, dynamic process, without the need for establishing a predefined plan or model of the task prior to its execution. We analyzed route selection performed with a vibrotactile SSD that could detect environmental surfaces only within a short spatial range, limiting the availability of information about remote parts of the environment to be navigated. Sixty sighted participants performed a navigation task that involved the goal of reaching a target destination while avoiding five obstacles (placed in randomly predetermined configurations). Three groups of participants differed in the sensory modality used (restricted visual, acoustic + vibrotactile, and restricted visual + vibrotactile). While participants in the visual condition had fewer obstacle collisions and reached the target location sooner, the groups coincided to a large extent in terms of the routes that they followed. Furthermore, the routes selected by participants in all groups conformed well to routes predicted by a dynamic model of visually-guided locomotion (Fajen and Warren, 2003). These findings show that local, limited information about environmental layout can support route selection equivalent to that seen when information about the full environmental layout is available. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Human Computer Interaction
+KW  - *Mobility Aids
+KW  - *Virtual Reality
+KW  - *Navigation Technology
+KW  - *Spatial Navigation
+KW  - Avoidance
+KW  - Tactual Perception
+KW  - Test Construction
+KW  - Vision Disorders
+M3  - doi:10.1016/j.ijhcs.2019.03.004
+DO  - 10.1016/j.ijhcs.2019.03.004
+ER  -
+TY  - THES
+DESCRIPTORS  - *Algorithms;  *Intention;  *Machine Learning;  *Simulation;  *Cognitive Neuroscience; Artificial Intelligence; Computers
+ID  - 2022-34092-256
+T1  - Modeling action intentionality in humans and machines.
+A1  - Feng, Qianli
+VL  - 83
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - Modeling action intentionality plays a major role in our society, with fundamental implications in the law, personal accountability and guilt. But what are the neural mechanisms that allow people to determine whether an observed behavior is intentional? Is it possible to design a machine intelligence that does the same? This dissertation presents a collection of studies to answer these questions. From human brain to machine intelligence, the studies explore possible computational mechanisms and algorithms for visual recognition and generation of intentional/non-intentional actions, as well as the regions in human brains hosting such computation. In the first study, by using machine learning algorithms on brain imaging data, we show that the brain areas associated with the visual analysis of biological motion, theory of mind, and the perception of bodies are involved in this visual recognition of intent. We demonstrate this to be the case even for minimalist, abstract scenes and inanimate agents behaving in a seemingly intentional or non-intentional manner. Furthermore, while behaviors that are easily and consistently interpreted by humans are robustly decoded in these brain regions, ambiguous ones are not, supporting a direct link between the perception of intent and these neural mechanisms. In the second and third studies, we focus on creating machine counterpart on humans' mentalizing capability, i.e., run simulations in our heads to study hypothetical actions others may perform, which, in turn, facilitates recognition of observed intentional and non-intentional actions. These two studies derives, to our knowledge, the first set of algorithms able to perform this high-level human tasks on minimalistic abstract agents (second study) and realistic human agents (third study). We then show how we can use this artificial mentalizing ability to recognize action intentionality and perform counterfactual reasoning from visual input.In the fourth study, we derive an algorithm that can infer whether the behavior of an agent in a scene is intentional or non-intentional based on its 3D kinematics, using common knowledge of self-propelled motion, Newtonian motion and their relationship. We show how the addition of this basic knowledge leads to a simple algorithm without the need for training. To test the derived algorithm, we use three dedicated datasets from abstract geometric animation to realistic videos of agents performing intentional and non-intentional actions. Experiments on these datasets show that our algorithm can recognize action intentionality, even without training data. The performance is comparable to various supervised baselines quantitatively, with sensible intentionality segmentation qualitatively. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Intention
+KW  - *Machine Learning
+KW  - *Simulation
+KW  - *Cognitive Neuroscience
+KW  - Artificial Intelligence
+KW  - Computers
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Artificial Intelligence;  *Cooperation;  *Experimentation;  *Ontologies;  *Knowledge Representation; Concepts; Sciences; Social Dilemma; Society; Statistical Power
+ID  - 2022-99115-013
+T1  - The cooperation databank: Machine-readable science accelerates research synthesis.
+JF  - Perspectives on Psychological Science
+A1  - Spadaro, Giuliana
+A1  - Tiddi, Ilaria
+A1  - Columbus, Simon
+A1  - Jin, Shuxian
+A1  - ten Teije, Annette
+A1  - Balliet, Daniel
+VL  - 17
+SP  - 1472
+EP  - 1489
+Y1  - 2022
+CY  - US
+AD  - Spadaro, Giuliana: Vrije Universiteit Amsterdam, Amsterdam, Netherlands, g.spadaro@vu.nl
+PB  - Sage Publications
+SN  - 1745-6924(Electronic),1745-6916(Print)
+N2  - Publishing studies using standardized, machine-readable formats will enable machines to perform meta-analyses on demand. To build a semantically enhanced technology that embodies these functions, we developed the Cooperation Databank (CoDa)—a databank that contains 2,636 studies on human cooperation (1958–2017) conducted in 78 societies involving 356,283 participants. Experts annotated these studies along 312 variables, including the quantitative results (13,959 effects). We designed an ontology that defines and relates concepts in cooperation research and that can represent the relationships between results of correlational and experimental studies. We have created a research platform that, given the data set, enables users to retrieve studies that test the relation of variables with cooperation, visualize these study results, and perform (a) meta-analyses, (b) metaregressions, (c) estimates of publication bias, and (d) statistical power analyses for future studies. We leveraged the data set with visualization tools that allow users to explore the ontology of concepts in cooperation research and to plot a citation network of the history of studies. CoDa offers a vision of how publishing studies in a machine-readable format can establish institutions and tools that improve scientific practices and knowledge. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Artificial Intelligence
+KW  - *Cooperation
+KW  - *Experimentation
+KW  - *Ontologies
+KW  - *Knowledge Representation
+KW  - Concepts
+KW  - Sciences
+KW  - Social Dilemma
+KW  - Society
+KW  - Statistical Power
+M3  - doi:10.1177/17456916211053319
+DO  - 10.1177/17456916211053319
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Autism Spectrum Disorders;  *Biological Markers; Learning
+ID  - 2020-21557-014
+T1  - Activity recognition system through deep learning analysis as an early biomarker of ASD characteristics.
+T2  - Interdisciplinary approaches to altering neurodevelopmental disorders.
+T3  - Advances in medical diagnosis, treatment, and care (AMDTC) book series.
+A1  - Abirami, S. P.
+A1  - Kousalya, G.
+A1  - Balakrishnan, P.
+SP  - 228
+EP  - 249
+Y1  - 2020
+CY  - Hershey,  PA,  US
+PB  - Medical Information Science Reference/IGI Global
+SN  - 9781799830696 (Hardcover); 9781799830702 (Digital (undefined format))
+N2  - Autism spectrum disorder (ASD) is a very high-flying area of research in the current era owing to its limited and on-going exploration. This chapter aims to bridge the gap of such late realization of autistic feature through machine intervention commonly known as computer vision. In this chapter, basic summarization of important characteristic features of autism and how those features could be measured and altered before a human could recognize are proposed. The chapter proposes a model for activity identification of the autistic child through video recordings. The approach is modelled in a way that consists of two phases: 1) Optical flow method detects the unusual frames based on motion pattern. 2) Each of these detected frames are fed to convolution neural network, which is trained to extract features and exactly classify if the particular frame under consideration belongs to usual or unusual class. This examines the various activities, time delay, and factors influencing the motion of the autistic child under constrained scenarios proving maximum accuracy and performance. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Autism Spectrum Disorders
+KW  - *Biological Markers
+KW  - Learning
+M3  - doi:10.4018/978-1-7998-3069-6.ch014
+DO  - 10.4018/978-1-7998-3069-6.ch014
+ER  -
+TY  - THES
+DESCRIPTORS  - *Animal Behavior;  *Behavior Analysis;  *Computers;  *Drug Usage Screening;  *Visual Attention; Interspecies Interaction
+ID  - 2022-70652-171
+T1  - Computer vision based behavior analysis.
+A1  - Yücel, Zeynep
+VL  - 83
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - In this thesis, recognition and understanding of behavior based on visual inputs and automated decision schemes are investigated. Behavior analysis is carried out on a wide scope ranging from animal behavior to human behavior. Due to this extensive coverage, we present our work in two main parts. Part I of the thesis investigates locomotor behavior of lab animals with particular focus on drug screening experiments, and Part II investigates analysis of behavior in humans, with specific focus on visual attention.The animal behavior analysis method presented in Part I, is composed of motion tracking based on background subtraction, determination of discriminative behavioral characteristics from the extracted path and speed information, summarization of these characteristics in terms of feature vectors and classification of feature vectors. The experiments presented in Part I indicate that the proposed animal behavior analysis system proves very useful in behavioral and neuropharmacological studies as well as in drug screening and toxicology studies. This is due to the superior capability of the proposed method in detecting discriminative behavioral alterations in response to pharmacological manipulations.The human behavior analysis scheme presented in Part II proposes an efficient method to resolve attention fixation points in unconstrained settings adopting a developmental psychology point of view. The head of the experimenter is modeled as an elliptic cylinder. The head model is tracked using Lucas-Kanade optical flow method and the pose values are estimated accordingly. The resolved poses are then transformed into the gaze direction and the depth of the attended object through two Gaussian regressors. The regression outputs are superposed to find the initial estimates for object center locations. These estimates are pooled to mimic human saccades realistically and saliency is computed in the prospective region to determine the final estimates for attention fixation points. Verifying the extensive generalization capabilities of the human behavior analysis method given in Part II, we propose that rapid gaze estimation can be achieved for establishing joint attention in interaction-driven robot communication as well. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Animal Behavior
+KW  - *Behavior Analysis
+KW  - *Computers
+KW  - *Drug Usage Screening
+KW  - *Visual Attention
+KW  - Interspecies Interaction
+ER  -
+TY  - THES
+DESCRIPTORS  - *Animal Communication; Motion Perception
+ID  - 2001-95018-323
+T1  - Categorical organization and machine perception of oscillatory motion patterns.
+A1  - Davis, James William
+VL  - 62
+SP  - 1459
+EP  - 1459
+Y1  - 2001
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - Many animal behaviors consist of using special patterns of motion for communication, with certain types of movements appearing widely across animal species. Oscillatory motions in particular are quite prevalent, where many of these repetitive movements can be characterized by a simple sinusoidal model with very specific and limited parameter values. We develop a computational model of categorical perception of these motion patterns based on their inherent structural regularity. The model proposes the initial construction of a hierarchical ordering of the model parameters to partition them into sub-categorical specializations. This organization is then used to specify the types and layout of localized computations required for the corresponding visual recognition system. The goal here is to do away with ad hoc motion recognition methods of computer vision, and instead exploit the underlying structural description for a motion category as a motivating mechanism for recognition. We implement this framework and present an analysis of the approach with synthetic and real oscillatory motions, and demonstrate its applicability within an interactive artificial life environment. With this categorical foundation for the description and recognition of related motions, we gain insight into the basis and development of a machine vision system designed to recognize these patterns. (Copies available exclusively from MIT Libraries, Rm. 14-0551, Cambridge, MA 02139-4307. Ph. 617-253-5668; Fax 617-253-1690.) (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Animal Communication
+KW  - Motion Perception
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Algorithms;  *Databases;  *Facial Features;  *Human Computer Interaction;  *Feature Extraction; Discrimination; Statistical Analysis; Texture Perception; Pattern Recognition (Cognitive Process)
+ID  - 2019-19582-004
+T1  - Discriminative spatiotemporal local binary pattern with revisited integral projection for spontaneous facial micro-expression recognition.
+JF  - IEEE Transactions on Affective Computing
+A1  - Huang, Xiaohua
+A1  - Wang, Su-Jing
+A1  - Liu, Xin
+A1  - Zhao, Guoying
+A1  - Feng, Xiaoyi
+A1  - Pietikäinen, Matti
+VL  - 10
+SP  - 32
+EP  - 47
+Y1  - 2019
+CY  - US
+AD  - Zhao, Guoying: School of Information and Technology, Northwest University, Xi’an, China, 710065, guoying.zhao@oulu.fi
+PB  - IEEE Publications Office
+SN  - 1949-3045(Electronic)
+N2  - Recently, there have been increasing interests in inferring mirco-expression from facial image sequences. Due to subtle facial movement of micro-expressions, feature extraction has become an important and critical issue for spontaneous facial micro-expression recognition. Recent works used spatiotemporal local binary pattern (STLBP) for micro-expression recognition and considered dynamic texture information to represent face images. However, they miss the shape attribute of face images. On the other hand, they extract the spatiotemporal features from the global face regions while ignore the discriminative information between two micro-expression classes. The above-mentioned problems seriously limit the application of STLBP to micro-expression recognition. In this paper, we propose a discriminative spatiotemporal local binary pattern based on an integral projection to resolve the problems of STLBP for micro-expression recognition. First, we revisit an integral projection for preserving the shape attribute of micro-expressions by using robust principal component analysis. Furthermore, a revisited integral projection is incorporated with local binary pattern across spatial and temporal domains. Specifically, we extract the novel spatiotemporal features incorporating shape attributes into spatiotemporal texture features. For increasing the discrimination of micro-expressions, we propose a new feature selection based on Laplacian method to extract the discriminative information for facial micro-expression recognition. Intensive experiments are conducted on three availably published micro-expression databases including CASME, CASME2 and SMIC databases. We compare our method with the state-of-the-art algorithms. Experimental results demonstrate that our proposed method achieves promising performance for micro-expression recognition. (PsycINFO Database Record (c) 2020 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Databases
+KW  - *Facial Features
+KW  - *Human Computer Interaction
+KW  - *Feature Extraction
+KW  - Discrimination
+KW  - Statistical Analysis
+KW  - Texture Perception
+KW  - Pattern Recognition (Cognitive Process)
+M3  - doi:10.1109/TAFFC.2017.2713359
+DO  - 10.1109/TAFFC.2017.2713359
+ER  -
+TY  - BOOK
+DESCRIPTORS  - *Physiology;  *Psychophysics;  *Vision; Biology; Computer Applications; Theories
+ID  - 1990-98667-000
+T1  - Science of vision.
+T2  - Science of vision.
+A2  - Leibovic, K. N.
+SP  - xix, 487
+EP  - xix, 487
+Y1  - 1990
+CY  - New York,  NY,  US
+PB  - Springer-Verlag Publishing
+SN  - 0-387-97270-6 (Hardcover); 3-540-97270-6 (Hardcover)
+N2  - "Science of Vision" explores important developments in our present understanding of vision from biological and neurocomputing perspectives. The book, which integrates contributions from a wide range of disciplines including anatomy, biophysics, biochemistry, computer science, electrical engineering, ophthalmology, physiology, and psychology, should be accessible to the scientifically mature nonspecialist and illuminating to both specialists and scientists from other fields.  In its discussion of biophysics and physiology, the first part of the volume considers structure and organization of the visual pathway, vertebrate photoreceptors, retina and cortex, and the development of orderly connections in the retinotectal system. The second section, on psychophysics, offers quantitative approaches to understanding perception as it arises from the biological substratum. It includes adaptation, color vision, and perceptual channels. Part three investigates those problems requiring mathematical analysis and computational approaches. Structure and function in visual information, computer vision analysis of stereopsis, 2-D and 3-D representations, boundary images, and applied machine vision are among the topics examined here. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Physiology
+KW  - *Psychophysics
+KW  - *Vision
+KW  - Biology
+KW  - Computer Applications
+KW  - Theories
+M3  - doi:10.1007/978-1-4612-3406-7
+DO  - 10.1007/978-1-4612-3406-7
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Computers;  *Facial Expressions; Statistical Correlation
+ID  - 2016-51953-013
+T1  - Sparse tensor canonical correlation analysis for micro-expression recognition.
+JF  - Neurocomputing: An International Journal
+A1  - Wang, Su-Jing
+A1  - Yan, Wen-Jing
+A1  - Sun, Tingkai
+A1  - Zhao, Guoying
+A1  - Fu, Xiaolan
+VL  - 214
+SP  - 218
+EP  - 232
+Y1  - 2016
+CY  - Netherlands
+AD  - Wang, Su-Jing: Key Laboratory of Behavior Sciences, Institute of Psychology, Chinese Academy of Sciences, Beijing, China, 100101, wangsujing@psych.ac.cn
+PB  - Elsevier Science
+SN  - 0925-2312(Print)
+N2  - A micro-expression is considered a fast facial movement that indicates genuine emotions and thus provides a cue for deception detection. Due to its promising applications in various fields, psychologists and computer scientists, particularly those focus on computer vision and pattern recognition, have shown interest and conducted research on this topic. However, micro-expression recognition accuracy is still low. To improve the accuracy of such recognition, in this study, micro-expression data and their corresponding Local Binary Pattern (LBP) (Ojala et al., 2002) [1] code data are fused by correlation analysis. Here, we propose Sparse Tensor Canonical Correlation Analysis (STCCA) for micro-expression characteristics. A sparse solution is obtained by the regularized low rank matrix approximation. Experiments are conducted on two micro-expression databases, CASME and CASME 2, and the results show that STCCA performs better than the Three-dimensional Canonical Correlation Analysis (3D-CCA) without sparse resolution. The experimental results also show that STCCA performs better than three-order Discriminant Tensor Subspace Analysis (DTSA3) with discriminant information, smaller projected dimensions and a larger training set sample size. The experiments also showed that Multi-linear Principal Component Analysis (MPCA) is not suitable for micro-expression recognition because the eigenvectors corresponding to smaller eigenvectors are discarded, and those eigenvectors include brief and subtle motion information. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Computers
+KW  - *Facial Expressions
+KW  - Statistical Correlation
+M3  - doi:10.1016/j.neucom.2016.05.083
+DO  - 10.1016/j.neucom.2016.05.083
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Computers;  *Emotions;  *Machine Learning;  *Painting (Art); Imagery; Learning; Models
+PMID  - 34393959
+ID  - 2021-75851-001
+T1  - Research on emotion analysis of Chinese literati painting images based on deep learning.
+JF  - Frontiers in Psychology
+A1  - Zhang, Jie
+A1  - Duan, Yingjing
+A1  - Gu, Xiaoqing
+VL  - 12
+Y1  - 2021
+CY  - Switzerland
+AD  - Zhang, Jie: zhangjie@jiangnan.edu.cn
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Starting from a pure-image perspective, using machine learning in emotion analysis methods to study artwork is a new cross-cutting approach in the field of literati painting and is an effective supplement to research conducted from the perspectives of aesthetics, philosophy, and history. This study constructed a literati painting emotion dataset. Five classic deep learning models were used to test the dataset and select the most suitable model, which was then improved upon for literati painting emotion analysis based on accuracy and model characteristics. The final training accuracy rate of the improved model was 54.17%. This process visualizes the salient feature areas of the picture in machine vision, analyzes the visualization results, and summarizes the connection law between the picture content of the Chinese literati painting and the emotion expressed by the painter. This study validates the possibility of combining deep learning with Chinese cultural research, provides new ideas for the combination of new technology and traditional Chinese literati painting research, and provides a better understanding of the Chinese cultural spirit and advanced factors. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Computers
+KW  - *Emotions
+KW  - *Machine Learning
+KW  - *Painting (Art)
+KW  - Imagery
+KW  - Learning
+KW  - Models
+M3  - doi:10.3389/fpsyg.2021.723325
+DO  - 10.3389/fpsyg.2021.723325
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Behavioral Sciences;  *Computers;  *Learning Schedules;  *Machine Learning;  *Spatial Organization; Rats; Responses; Spatial Learning
+PMID  - 34737691
+ID  - 2022-02488-001
+T1  - Beyond single discrete responses: An integrative and multidimensional analysis of behavioral dynamics assisted by machine learning.
+JF  - Frontiers in Behavioral Neuroscience
+A1  - León, Alejandro
+A1  - Hernandez, Varsovia
+A1  - Lopez, Juan
+A1  - Guzman, Isiris
+A1  - Quintero, Victor
+A1  - Toledo, Porfirio
+A1  - Avendaño-Garrido, Martha Lorena
+A1  - Hernandez-Linares, Carlos A.
+A1  - Escamilla, Esteban
+VL  - 15
+Y1  - 2021
+CY  - Switzerland
+AD  - León, Alejandro: aleleon@uv.mx
+PB  - Frontiers Media S.A.
+SN  - 1662-5153(Electronic)
+N2  - Understanding behavioral systems as emergent systems comprising the environment and organism subsystems, include spatial dynamics as a primary dimension in natural settings. Nevertheless, under the standard approaches, the experimental analysis of behavior is based on the single response paradigm and the temporal distribution of discrete responses. Thus, the continuous analysis of spatial behavioral dynamics is a scarcely studied field. The technological advancements in computer vision have opened new methodological perspectives for the continuous sensing of spatial behavior. With the application of such advancements, recent studies suggest that there are multiple features embedded in the spatial dynamics of behavior, such as entropy, and that they are affected by programmed stimuli (e.g., schedules of reinforcement) at least as much as features related to discrete responses. Despite the progress, the characterization of behavioral systems is still segmented, and integrated data analysis and representations between discrete responses and continuous spatial behavior are exiguous in the experimental analysis of behavior. Machine learning advancements, such as t-distributed stochastic neighbor embedding and variable ranking, provide invaluable tools to crystallize an integrated approach for analyzing and representing multidimensional behavioral data. Under this rationale, the present work (1) proposes a multidisciplinary approach for the integrative and multilevel analysis of behavioral systems, (2) provides sensitive behavioral measures based on spatial dynamics and helpful data representations to study behavioral systems, and (3) reveals behavioral aspects usually ignored under the standard approaches in the experimental analysis of behavior. To exemplify and evaluate our approach, the spatial dynamics embedded in phenomena relevant to behavioral science, namely, water-seeking behavior and motivational operations, are examined, showing aspects of behavioral systems hidden until now. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Behavioral Sciences
+KW  - *Computers
+KW  - *Learning Schedules
+KW  - *Machine Learning
+KW  - *Spatial Organization
+KW  - Rats
+KW  - Responses
+KW  - Spatial Learning
+M3  - doi:10.3389/fnbeh.2021.681771
+DO  - 10.3389/fnbeh.2021.681771
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Emotionality (Personality);  *Facial Expressions;  *Machine Learning;  *Emotion Recognition; Computer Assisted Instruction; Films
+ID  - 2021-48254-001
+T1  - Automatic facial expression recognition in standardized and non-standardized emotional expressions.
+JF  - Frontiers in Psychology
+A1  - Küntzler, Theresa
+A1  - Höfling, T. Tim A.
+A1  - Alpers, Georg W.
+VL  - 12
+Y1  - 2021
+CY  - Switzerland
+AD  - Küntzler, Theresa: theresa.kuentzler@uni-konstanz.de
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Emotional facial expressions can inform researchers about an individual's emotional state. Recent technological advances open up new avenues to automatic Facial Expression Recognition (FER). Based on machine learning, such technology can tremendously increase the amount of processed data. FER is now easily accessible and has been validated for the classification of standardized prototypical facial expressions. However, applicability to more naturalistic facial expressions still remains uncertain. Hence, we test and compare performance of three different FER systems (Azure Face API, Microsoft; Face++, Megvii Technology; FaceReader, Noldus Information Technology) with human emotion recognition (A) for standardized posed facial expressions (from prototypical inventories) and (B) for non-standardized acted facial expressions (extracted from emotional movie scenes). For the standardized images, all three systems classify basic emotions accurately (FaceReader is most accurate) and they are mostly on par with human raters. For the non-standardized stimuli, performance drops remarkably for all three systems, but Azure still performs similarly to humans. In addition, all systems and humans alike tend to misclassify some of the non-standardized emotional facial expressions as neutral. In sum, emotion recognition by automated facial expression recognition can be an attractive alternative to human emotion recognition for standardized and non-standardized emotional facial expressions. However, we also found limitations in accuracy for specific facial expressions; clearly there is need for thorough empirical evaluation to guide future developments in computer vision of emotional facial expressions. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Emotionality (Personality)
+KW  - *Facial Expressions
+KW  - *Machine Learning
+KW  - *Emotion Recognition
+KW  - Computer Assisted Instruction
+KW  - Films
+M3  - doi:10.3389/fpsyg.2021.627561
+DO  - 10.3389/fpsyg.2021.627561
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Costs and Cost Analysis;  *Neural Networks;  *Organizational Characteristics;  *Organizational Effectiveness; Knowledge Level
+ID  - 2008-10825-003
+T1  - Knowledge discovery in corporate events by neural network rule extraction.
+JF  - Applied Intelligence
+A1  - Dong, Ming
+A1  - Zhou, Xu-Shen
+VL  - 29
+SP  - 129
+EP  - 137
+Y1  - 2008
+CY  - Germany
+AD  - Dong, Ming: Machine Vision and Pattern Recognition Laboratory, Department of Computer Science, Wayne State University, Detroit, MI, US, 48202, ak3389@wayne.edu
+PB  - Springer
+SN  - 1573-7497(Electronic),0924-669X(Print)
+N2  - Over the last two decades, artificial neural networks (ANN) have been applied to solve a variety of problems such as pattern classification and function approximation. In many applications, it is desirable to extract knowledge from trained neural networks for the users to gain a better understanding of the network’s solution. In this paper, we use a neural network rule extraction method to extract knowledge from 2222 dividend initiation and resumption events. We find that the positive relation between the short-term price reaction and the ratio of annualized dividend amount to stock price is primarily limited to 96 small firms with high dividend ratios. The results suggest that the degree of short-term stock price under reaction to dividend events may not be as dramatic as previously believed. The results also show that the relations between the stock price response and firm size is different across different types of firms. Thus, drawing the conclusions from the whole dividend event data may leave some important information unexamined. This study shows that neural network rule extraction method can reveal more knowledge from the data. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Costs and Cost Analysis
+KW  - *Neural Networks
+KW  - *Organizational Characteristics
+KW  - *Organizational Effectiveness
+KW  - Knowledge Level
+M3  - doi:10.1007/s10489-007-0053-3
+DO  - 10.1007/s10489-007-0053-3
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Artificial Intelligence;  *Baseball;  *Fatigue;  *Sports;  *Systems Design; Machine Learning
+PMID  - 34966320
+ID  - 2022-18580-001
+T1  - Design and analysis of a pitch fatigue detection system for adaptive baseball learning.
+JF  - Frontiers in Psychology
+A1  - Ma, Yi-Wei
+A1  - Chen, Jiann-Liang
+A1  - Hsu, Chia-Chi
+A1  - Lai, Ying-Hsun
+VL  - 12
+Y1  - 2021
+CY  - Switzerland
+AD  - Lai, Ying-Hsun: yhlai@nttu.edu.tw
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Owing to the rapid development of information and communication technologies, such as the Internet of Things, artificial intelligence, and computer vision, in recent years, the concept of smart sports has been proposed. A pitch fatigue detection method that includes acquisition, analysis, quantification, aggregation, learning, and public layers for adaptive baseball learning is proposed herein. The learning determines the fatigue index of the pitcher based on the angle of the pitcher's elbow and back as the number of pitches increases. The coach uses this auxiliary information to avoid baseball injuries during baseball learning. Results show a test accuracy rate of 89.1%, indicating that the proposed method effectively provides reference information for adaptive baseball learning. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Artificial Intelligence
+KW  - *Baseball
+KW  - *Fatigue
+KW  - *Sports
+KW  - *Systems Design
+KW  - Machine Learning
+M3  - doi:10.3389/fpsyg.2021.741805
+DO  - 10.3389/fpsyg.2021.741805
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Computer Applications;  *Human Machine Systems Design;  *Measurement;  *Nervous System Disorders;  *Virtual Reality; Virtual Environment
+ID  - 1998-07498-012
+T1  - Virtual reality in the assessment of neuromotor diseases: Measurement of time response in real and virtual environments.
+T2  - Virtual reality in neuro-psycho-physiology:  Cognitive, clinical and methodological issues in assessment and rehabilitation.
+T3  - Studies in health technology and informatics.
+A1  - Rovetta, Alberto
+A1  - Lorini, Flavio
+A1  - Canina, Maria R.
+SP  - 165
+EP  - 184
+Y1  - 1997
+CY  - Amsterdam,  Netherlands
+PB  - IOS Press
+SN  - 90-5199-364-1 (Hardcover)
+N2  - This chapter deals with the design and the development of a piece of equipment, called DDI (Disease Detector), developed for the quantitative analysis of neuromotor diseases. It measures the reaction of a person, evaluating in the motion of one finger of the hand the time response, the velocity of phalanxes, and the force exerted from the finger against a button. The conditions of motion are ballistic motion, controlled motion guided by vision, controlled motion without vision, and motion with a virtual reality modelization on the computer screen. The system also performs the requirements for medical applications and with its portability and accordance to European norms for safety and quality, represents a new step towards the possibility of quantitative analysis of the performances of the human hand, both of mechanical phenomena and electromyography of neuromotor diseases, which provoke a decrease in upper and lower limb action. Preliminary conclusions from a 1st series of tests are that DDI seems to be suitable for testing either the effectiveness of various types of visual control or individual performances in manipulation. A 1st therapeutic application is the rehabilitation of people disabled on spinal cord activity because of injuries. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Computer Applications
+KW  - *Human Machine Systems Design
+KW  - *Measurement
+KW  - *Nervous System Disorders
+KW  - *Virtual Reality
+KW  - Virtual Environment
+ER  -
+TY  - THES
+DESCRIPTORS  - *Inference;  *Machine Learning;  *Neural Networks;  *Nonlinear Regression;  *Statistical Analysis; Models; Training; Deep Neural Networks
+ID  - 2020-58780-227
+T1  - Statistical machine learning & deep neural networks applied to neural data analysis.
+A1  - Shokri Razaghi, Hooshmand
+VL  - 82
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2021
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - Computational neuroscience seeks to discover the underlying mechanisms by which neural activity is generated. With the recent advancement in neural data acquisition methods, the bottleneck of this pursuit is the analysis of ever-growing volume of neural data acquired in numerous labs from various experiments. These analyses can be broadly divided into two categories. First, extraction of high quality neuronal signals from noisy large scale recordings. Second, inference for statistical models aimed at explaining the neuronal signals and underlying processes that give rise to them. Conventionally, majority of the methodologies employed for this effort are based on statistics and signal processing. However, in recent years recruiting Artificial Neural Networks (ANN) for neural data analysis is gaining traction. This is due to their immense success in computer vision and natural language processing, and the stellar track record of ANN architectures generalizing to a wide variety of problems. In this work we investigate and improve upon statistical and ANN machine learning methods applied to multi-electrode array recordings and inference for dynamical systems that play critical roles in computational neuroscience.In the first and second part of this thesis, we focus on spike sorting problem. The analysis of large-scale multi-neuronal spike train data is crucial for current and future of neuroscience research. However, this type of data is not available directly from recordings and require further processing to be converted into spike trains. Dense multi-electrode arrays (MEA) are standard methods for collecting such recordings. The processing needed to extract spike trains from these raw electrical signals is carried out by ``spike sorting' algorithms. We introduce a robust and scalable MEA spike sorting pipeline \exttt{YASS} (Yet Another Spike Sorter) to address many challenges that are inherent to this task. We primarily pay attention to MEA data collected from the primate retina for important reasons such as the unique challenges and available side information that ultimately assist us in scoring different spike sorting pipelines. We also introduce a Neural Network architecture and an accompanying training scheme specifically devised to address the challenging task of deconvolution in MEA recordings.In the last part, we shift our attention to inference for non-linear dynamics. Dynamical systems are the governing force behind many real world phenomena and temporally correlated data. Recently, a number of neural network architectures have been proposed to address inference for nonlinear dynamical systems. We introduce two different methods based on normalizing flows for posterior inference in latent non-linear dynamical systems. We also present gradient-based amortized posterior inference approaches using the auto-encoding variational Bayes framework that can be applied to a wide range of generative models with nonlinear dynamics. We call our method \extit{Filtering Normalizing Flows} (FNF). FNF performs favorably against state-of-the-art inference methods in terms of accuracy of predictions and quality of uncovered codes and dynamics on synthetic data. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Inference
+KW  - *Machine Learning
+KW  - *Neural Networks
+KW  - *Nonlinear Regression
+KW  - *Statistical Analysis
+KW  - Models
+KW  - Training
+KW  - Deep Neural Networks
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Computer Applications;  *Computer Simulation;  *Eye Movements;  *Human Machine Systems Design;  *Visual Displays; Visual Perception
+ID  - 1997-08005-009
+T1  - Commentary on high-performance computing and human vision II: Virtual reality and eyeball tracking.
+JF  - Behavior Research Methods, Instruments & Computers
+A1  - Edwards, Lynne K.
+A1  - Link, Stephen W.
+VL  - 29
+SP  - 66
+EP  - 66
+Y1  - 1997
+CY  - US
+PB  - Psychonomic Society
+SN  - 0743-3808(Print)
+N2  - Comments on the articles by M. K. Kaiser and M. J. Montegut (see record 84-28296) and J. B. Mulligan (see record 84-25199). Kaiser and Montegut describe Mars the Movie and illustrates the use of stereo resolution for producing realistic vistas of the Mars surface. Mulligan offers the real-time recording and analysis of eyeball-tracking data as another example of human vision research which benefits from high-performance computing. It is noted that the visualization of scientific data that are not normally visible can be greatly enhanced by understanding human visual perception. The authors also suggest that currently the bottleneck is not in the hardware but in the available software to transform data efficiently. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Computer Applications
+KW  - *Computer Simulation
+KW  - *Eye Movements
+KW  - *Human Machine Systems Design
+KW  - *Visual Displays
+KW  - Visual Perception
+M3  - doi:10.3758/BF03200568
+DO  - 10.3758/BF03200568
+ER  -
+TY  - THES
+DESCRIPTORS  - *Facial Expressions;  *Models; Emotions
+ID  - 2019-00353-065
+T1  - Computational models of the production and perception of facial expressions.
+A1  - Srinivasan, Ramprakash
+VL  - 80
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2019
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - By combining different facial muscle actions, called Action Units (AUs), humans can produce an extraordinarily large number of facial expressions. Computational models and studies in cognitive science have long hypothesized the brain needs to visually interpret these action units to understand other people's actions and intentions. Surprisingly, no studies have identified the neural basis of the visual recognition of these action units. Here, using functional Magnetic Resonance Imaging (fMRI) and an innovative machine learning analysis approach, we identify a consistent and differential coding of action units in the brain. Crucially, in a brain region thought to be responsible for the processing of changeable aspects of the face, pattern analysis could decode the presence of specific action units in an image. This coding was found to be consistent across people, facilitating the estimation of the perceived action units on participants not used to train the pattern analysis decoder. Research in face perception and emotion theory requires very large annotated databases of images of facial expressions of emotion. Useful annotations include AUs and their intensities, as well as emotion category. This process cannot be practically achieved manually. Herein, we present a novel computer vision algorithm to annotate a large database of a million images of facial expressions of emotion from the wild (i.e., face images downloaded from the Internet). Comparisons with state-of-the-art algorithms demonstrate the algorithm's high accuracy. We further use WordNet to download 1,000,000 images of facial expressions with associated emotion keywords from the Internet. The downloaded images are then automatically annotated with AUs, AU intensities and emotion categories by our algorithm. The result is a highly useful database that can be readily queried using semantic descriptions for applications in computer vision, affective computing, social and cognitive psychology. Color is a fundamental image feature of facial expressions. For example, when we furrow our eyebrows in anger, blood rushes in and a reddish color becomes apparent around that area of the face. Surprisingly, these image properties have not been exploited to recognize the facial action units (AUs) associated with these expressions. Herein, we present the first system to do recognition of AUs and their intensities using these functional color changes. These color features are shown to be robust to changes in identity, gender, race, ethnicity and skin color. Because these image changes are given by functions rather than vectors, we use a functional classifiers to identify the most discriminant color features of an AU and its intensities. We demonstrate that, using these discriminant color features, one can achieve results superior to those of the state-of-the-art. Lastly, the study of emotion has reached an impasse that can only be addressed once we know which facial expressions are used within and across cultures in the wild, not in controlled lab conditions. Yet, no such studies exist. Here, we present the first large-scale study of the production and visual perception of facial expressions of emotion in the wild. We find that of the 16,384 possible facial configurations that people can produce, only 35 are successfully used to transmit emotive information across cultures, and 8 within a smaller number of cultures. Cross-cultural expressions successfully transmit emotion category and valence, but not arousal. Cultural-specific expressions successfully transmit valence and arousal, but not categories. These unexpected findings cannot be fully explained by current models of emotion. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Facial Expressions
+KW  - *Models
+KW  - Emotions
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Goals;  *Human Computer Interaction;  *Perception;  *Robotics;  *Human Robot Interaction; Brain; Cognitive Processes; Action Research
+ID  - 2014-27692-001
+T1  - Implications of robot actions for human perception. How do we represent actions of the observed robots?
+JF  - International Journal of Social Robotics
+A1  - Wykowska, Agnieszka
+A1  - Chellali, Ryad
+A1  - Al-Amin, Md. Mamun
+A1  - Müller, Hermann J.
+VL  - 6
+SP  - 357
+EP  - 366
+Y1  - 2014
+CY  - Germany
+AD  - Wykowska, Agnieszka: General and Experimental Psychology Unit, Department of Psychology, Ludwig-Maximilians-Universitat, Leopoldstr. 13, Munich, Germany, 80802, agnieszka.wykowska@psy.lmu.de
+PB  - Springer
+SN  - 1875-4805(Electronic),1875-4791(Print)
+N2  - Social robotics aims at developing robots that are to assist humans in their daily lives. To achieve this aim, robots must act in a comprehensible and intuitive manner for humans. That is, humans should be able to cognitively represent robot actions easily, in terms of action goals and means to achieve them. This yields a question of how actions are represented in general. Based on ideomotor theories (Greenwald Psychol Rev 77:73–99, 1970) and accounts postulating common code between action and perception (Hommel et al. Behav Brain Sci 24:849–878, 2001) as well as empirical evidence (Wykowska et al. J Exp Psychol 35:1755–1769, 2009), we argue that action and perception domains are tightly linked in the human brain. The aim of the present study was to examine if robot actions would be represented similarly, and in consequence, elicit similar perceptual effects, as representing human actions. Our results showed that indeed robot actions elicited perceptual effects of the same kind as human actions, arguing in favor of that humans are capable of representing robot actions in a similar manner as human actions. Future research will aim at examining how much these representations depend on physical properties of the robot actor and its behavior. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Goals
+KW  - *Human Computer Interaction
+KW  - *Perception
+KW  - *Robotics
+KW  - *Human Robot Interaction
+KW  - Brain
+KW  - Cognitive Processes
+KW  - Action Research
+M3  - doi:10.1007/s12369-014-0239-x
+DO  - 10.1007/s12369-014-0239-x
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Automation;  *Facial Expressions;  *Machine Learning;  *Single Persons; Collaborative Learning; Emotional Responses; Films; Social Behavior
+PMID  - 31447752
+ID  - 2019-49756-001
+T1  - Automatic micro-expression analysis: Open challenges.
+JF  - Frontiers in Psychology
+A1  - Zhao, Guoying
+A1  - Li, Xiaobai
+VL  - 10
+Y1  - 2019
+CY  - Switzerland
+AD  - Zhao, Guoying: guoying.zhao@oulu.fi
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - The current micro-expressions research focuses on single person watching affective movies or advertisements, which is reasonable in the early stage for making challenging tasks easier and more feasible. Natural interactions will induce more natural and spontaneous emotional responses in terms of facial expressions and micro-expressions, but the scenario will also become very complicated. The collaboration of machine learning, psychology, cognition and social behavior is necessary for advancing the in-depth investigation of micro-expressions and related applications in real world. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Automation
+KW  - *Facial Expressions
+KW  - *Machine Learning
+KW  - *Single Persons
+KW  - Collaborative Learning
+KW  - Emotional Responses
+KW  - Films
+KW  - Social Behavior
+M3  - doi:10.3389/fpsyg.2019.01833
+DO  - 10.3389/fpsyg.2019.01833
+ER  -
+TY  - THES
+DESCRIPTORS  - *Alzheimer's Disease;  *Assisted Living;  *Brain Neoplasms;  *Machine Learning;  *Medical Education; Magnetic Resonance Imaging; Glioma; Image Analysis
+ID  - 2022-34092-165
+T1  - Machine learning methods for image analysis in medical applications, from Alzheimer’s disease, brain tumors, to assisted living.
+A1  - Ge, Chenjie
+VL  - 83
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - Healthcare has progressed greatly nowadays owing to technological advances, where machine learning plays an important role in processing and analyzing a large amount of medical data. This thesis investigates four healthcare-related issues (Alzheimer's disease detection, glioma classification, human fall detection, and obstacle avoidance in prosthetic vision), where the underlying methodologies are associated with machine learning and computer vision. For Alzheimer's disease (AD) diagnosis, apart from symptoms of patients, Magnetic Resonance Images (MRIs) also play an important role. Inspired by the success of deep learning, a new multi-stream multi-scale Convolutional Neural Network (CNN) architecture is proposed for AD detection from MRIs, where AD features are characterized in both the tissue level and the scale level for improved feature learning. Good classification performance is obtained for AD/NC (normal control) classification with test accuracy 94.74%. In glioma subtype classification, biopsies are usually needed for determining different molecular-based glioma subtypes. We investigate non-invasive glioma subtype prediction from MRIs by using deep learning. A 2D multi-stream CNN architecture is used to learn the features of gliomas from multi-modal MRIs, where the training dataset is enlarged with synthetic brain MRIs generated by pairwise Generative Adversarial Networks (GANs). Test accuracy 88.82% has been achieved for IDH mutation (a molecular-based subtype) prediction. A new deep semi-supervised learning method is also proposed to tackle the problem of missing molecular-related labels in training datasets for improving the performance of glioma classification. In other two applications, we also address video-based human fall detection by using co-saliency-enhanced Recurrent Convolutional Networks (RCNs), as well as obstacle avoidance in prosthetic vision by characterizing obstacle-related video features using a Spiking Neural Network (SNN). These investigations can benefit future research, where artificial intelligence/deep learning may open a new way for real medical applications. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Alzheimer's Disease
+KW  - *Assisted Living
+KW  - *Brain Neoplasms
+KW  - *Machine Learning
+KW  - *Medical Education
+KW  - Magnetic Resonance Imaging
+KW  - Glioma
+KW  - Image Analysis
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Air Traffic Control;  *Human Factors Engineering;  *Human Machine Systems;  *Human Machine Systems Design;  *Visual Displays; Air Transportation; Aircraft; Aircraft Pilots; Computer Simulation; Divided Attention; Flight Simulation; Learning Environment; Performance; Visual Perception
+ID  - 2004-17247-009
+T1  - Displays.
+T2  - Human performance, situation awareness and automation: Current research and trends, Vol 1&2 HPSAA II.
+A1  - Zuschlag, Michael
+A1  - Hayashi, Miwa
+A1  - Oman, Charles
+A1  - Alexander, Amy L.
+A1  - Wickens, Christopher D.
+A1  - Hardy, Thomas J.
+A1  - Lif, Patrik
+A1  - Alm, Torbjörn
+A1  - Kreseen-Imbembo, Stephanie
+A1  - Fadden, Steve
+A1  - Mafera, Paul
+A1  - Prinzel III, Lawrence J.
+A1  - Hughes, Monica F.
+A1  - Kramer, Lynda J.
+A1  - Arthur, Jarvis J.
+A1  - Bruce, Deborah
+A1  - Boehm-Davis, Deborah A.
+A1  - Mahach, Karen
+A1  - Anderson, Richard P.
+A1  - Macchiarella, Nickolas D.
+A1  - Baron, Robert
+A1  - Kratchounova, Daniela
+A1  - Fiore, Stephen
+A1  - Jentsch, Florian
+A1  - Muller, Pete
+A1  - Schmorrow, Dylan
+A1  - Raley, Colby
+SP  - 142
+EP  - 198
+Y1  - 2004
+CY  - Mahwah,  NJ,  US
+PB  - Lawrence Erlbaum Associates Publishers
+SN  - 0-8058-5341-3 (Paperback)
+N2  - "Quantification of Visual Clutter Using a Computational Model of Human Perception: An Application for Head-Up Displays" / Michael Zuschlag  "Effects of Head-Up Display Airspeed Indicatory and Altimeter Formats on Pilot Scanning and Attention Switching" / Miwa Hayashi, Charles M. Oman and Michael Zuschlag  "Synthetic Vision System Display Guidance, Integration, and Visibility Effects on Flightpath Tracking, Situation Awareness, and Mental Workload" / Amy L. Alexander, Christopher D. Wickens and Thomas J. Hardy  "Relative Height in 3D Aircraft Displays" / Patrik Lif and Torbjörn Alm  "Approach for Designing an Integrated Air Traffic Control Workstation Around the Needs of Controllers" / Stephanie Kreseen-Imbembo, Steve Fadden and Paul Mafera  "Aviation Safety Benefits of NASA Synthetic Vision: Low Visibility Loss-of-Control, Runway Incursion Detection, and CFIT Experiments / Lawrence J. Prinzel III, Monica F. Hughes, Lynda J. Kramer and Jarvis J. Arthur  "A Comparison of Auditory and Visual In-Vehicle Information Displays" / Deborah Bruce, Deborah A. Boehm-Davis and Karen Mahach  "Nonmotion Flight Simulation Development of Slow Flight and Stall Tasks for Use in AB Initio Flight Training" / Richard P. Anderson and Nickolas D. Macchiarella  "Why Are Routine Flight Operations Killing Pilots and Their Passengers?" / Robert Baron  "Design of Learning Environments for Complex System Architectures: Expanding the 'Keyhole' via Dual-Mode Theory" / Daniela Kratchounova, Stephen Fiore and Florian Jentsch  "Military Training and Simulation for the Nintendo Generation" / Pete Muller, Dylan Schmorrow and Colby Raley (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Air Traffic Control
+KW  - *Human Factors Engineering
+KW  - *Human Machine Systems
+KW  - *Human Machine Systems Design
+KW  - *Visual Displays
+KW  - Air Transportation
+KW  - Aircraft
+KW  - Aircraft Pilots
+KW  - Computer Simulation
+KW  - Divided Attention
+KW  - Flight Simulation
+KW  - Learning Environment
+KW  - Performance
+KW  - Visual Perception
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Attention;  *Brain;  *Models; Visual Perception
+PMID  - 28848458
+ID  - 2017-36431-001
+T1  - Complexity level analysis revisited: What can 30 years of hindsight tell us about how the brain might represent visual information?
+JF  - Frontiers in Psychology
+A1  - Tsotsos, John K.
+VL  - 8
+Y1  - 2017
+CY  - Switzerland
+AD  - Tsotsos, John K.: tsotsos@cse.yorku.ca
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Much has been written about how the biological brain might represent and process visual information, and how this might inspire and inform machine vision systems. Indeed, tremendous progress has been made, and especially during the last decade in the latter area. However, a key question seems too often, if not mostly, be ignored. This question is simply: do proposed solutions scale with the reality of the brain's resources? This scaling question applies equally to brain and to machine solutions. A number of papers have examined the inherent computational difficulty of visual information processing using theoretical and empirical methods. The main goal of this activity had three components: to understand the deep nature of the computational problem of visual information processing; to discover how well the computational difficulty of vision matches to the fixed resources of biological seeing systems; and, to abstract from the matching exercise the key principles that lead to the observed characteristics of biological visual performance. This set of components was termed complexity level analysis in Tsotsos (1987) and was proposed as an important complement to Marr's three levels of analysis. This paper revisits that work with the advantage that decades of hindsight can provide. (PsycINFO Database Record (c) 2018 APA, all rights reserved)
+KW  - *Attention
+KW  - *Brain
+KW  - *Models
+KW  - Visual Perception
+M3  - doi:10.3389/fpsyg.2017.01216
+DO  - 10.3389/fpsyg.2017.01216
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Human Computer Interaction;  *Human Machine Systems; Brain; Computer Mediated Communication
+ID  - 2009-01868-040
+T1  - Review of Toward brain-computer interfacing.
+JF  - European Journal of Neurology
+A1  - Jellinger, K. A.
+VL  - 16
+SP  - e52
+EP  - e52
+Y1  - 2009
+CY  - United Kingdom
+PB  - Wiley-Blackwell Publishing Ltd.
+SN  - 1468-1331(Electronic),1351-5101(Print)
+N2  - Reviews the book, Toward brain-computer interfacing edited by Guido Dornhege, José del R. Millán, Thilo Hinterberger, Dennis J. McFarland, and Klaus-Robert Müller (2007). Interest in developing an effective communication interface connecting the human brain and a computer has grown rapidly over the past decade. The advances in brain-computer interfaces (BCI) in this book, published in the Neural Information Proceeding series, edited by renowned computer scientists from Germany, Switzerland and the USA, and written by an international expert panel, covers a broad range of topics, describing work on both non-invasive and invasive approaches in current BCI research. This unique book contains 25 chapters. After an introduction to BCI, Section I—Non-invasive BCI systems and approaches—presents data on clinical experimental approaches on BCI for communication in paralysis. Section II—Invasive BCI approaches—discusses electrocorticogram as a BCI interface signal source, probabilistically modeling and decoding neural population activities in motor cortex, BCI modalities for restoration of movement, advances in cognitive neural prosthesis, and a temporal kernel-based model for tracking hand movements from neural activities. Section III—BCI techniques—reviews general signal processing and machine learning tools for BCI analysis, classifying event-related desynchronization in electrophysiological signals and time-embedded electroencephalography, noninvasive estimates of local field potentials, error-related electroencephalographic potentials in BCI, adaption in BCIs, and evaluation criteria for BCI research. Section IV—BCI software—refers to BioSig, an open-source software library for BCI research, and BCI 2000, a general-purpose software platform for BCI. The last part—Applications—reports on perspectives on clinical application of BCI for communication and motor control, scouting virtual worlds by combining BCI and virtual reality, improving human performance in a real operating environment through real-time mental workload detection, and signal trial analysis of EEG during rapid visual discrimination, enabling cortical coupled computer vision. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Human Computer Interaction
+KW  - *Human Machine Systems
+KW  - Brain
+KW  - Computer Mediated Communication
+M3  - doi:10.1111/j.1468-1331.2008.02463.x
+DO  - 10.1111/j.1468-1331.2008.02463.x
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Human Computer Interaction;  *Human Machine Systems Design; Language
+ID  - 2011-11333-002
+T1  - The organization of interaction design pattern languages alongside the design process.
+JF  - Interacting with Computers
+A1  - Hübscher, Christian
+A1  - Pauwels, Stefan L.
+A1  - Roth, Sandra P.
+A1  - Bargas-Avila, Javier A.
+A1  - Opwis, Klaus
+VL  - 23
+SP  - 189
+EP  - 201
+Y1  - 2011
+CY  - Netherlands
+AD  - Hübscher, Christian: University of Basel, Department of Psychology, Center for Cognitive Psychology and Methodology, Basel, Switzerland, 4055, christian.huebscher@unibas.ch
+PB  - Elsevier Science
+SN  - 1873-7951(Electronic),0953-5438(Print)
+N2  - This work explores the possibility of taking the structural characteristics of approaches to interaction design as a basis for the organization of interaction design patterns. The Universal Model of the User Interface (Baxley, 2003) is seen as well suited to this; however, in order to cover the full range of interaction design patterns the model had to be extended slightly. Four existing collections of interaction design patterns have been selected for an analysis in which the patterns have been mapped onto the extended model. The conclusion from this analysis is that the use of the model supports the process of building a pattern language, because it is predictive and helps to complete the language. If several pattern writers were to adopt the model, a new level of synergy could be attained among these pattern efforts. A concluding vision would be that patterns could be transferred freely between pattern collections to make them as complete as possible. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Human Computer Interaction
+KW  - *Human Machine Systems Design
+KW  - Language
+M3  - doi:10.1016/j.intcom.2011.02.009
+DO  - 10.1016/j.intcom.2011.02.009
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Color;  *Emotions;  *Linguistics;  *Well Being; Universality
+PMID  - 32900287
+ID  - 2020-76782-004
+T1  - Universal patterns in color-emotion associations are further shaped by linguistic and geographic proximity.
+JF  - Psychological Science
+A1  - Jonauskaite, Domicele
+A1  - Abu-Akel, Ahmad
+A1  - Dael, Nele
+A1  - Oberfeld, Daniel
+A1  - Abdel-Khalek, Ahmed M.
+A1  - Al-Rasheed, Abdulrahman S.
+A1  - Antonietti, Jean-Philippe
+A1  - Bogushevskaya, Victoria
+A1  - Chamseddine, Amer
+A1  - Chkonia, Eka
+A1  - Corona, Violeta
+A1  - Fonseca-Pedrero, Eduardo
+A1  - Griber, Yulia A.
+A1  - Grimshaw, Gina
+A1  - Hasan, Aya Ahmed
+A1  - Havelka, Jelena
+A1  - Hirnstein, Marco
+A1  - Karlsson, Bodil S. A.
+A1  - Laurent, Eric
+A1  - Lindeman, Marjaana
+A1  - Marquardt, Lynn
+A1  - Mefoh, Philip
+A1  - Papadatou-Pastou, Marietta
+A1  - Pérez-Albéniz, Alicia
+A1  - Pouyan, Niloufar
+A1  - Roinishvili, Maya
+A1  - Romanyuk, Lyudmyla
+A1  - Salgado Montejo, Alejandro
+A1  - Schrag, Yann
+A1  - Sultanova, Aygun
+A1  - Uusküla, Mari
+A1  - Vainio, Suvi
+A1  - Wąsowicz, Grażyna
+A1  - Zdravković, Sunčica
+A1  - Zhang, Meng
+A1  - Mohr, Christine
+VL  - 31
+SP  - 1245
+EP  - 1260
+Y1  - 2020
+CY  - US
+AD  - Jonauskaite, Domicele: University of Lausanne, Institute of Psychology, Quartier Mouline, Batiment Geopolis, Lausanne, Switzerland, CH-1015, domicele.jonauskaite@unil.ch
+PB  - Sage Publications
+SN  - 1467-9280(Electronic),0956-7976(Print)
+N2  - Many of us “see red,” “feel blue,” or “turn green with envy.” Are such color-emotion associations fundamental to our shared cognitive architecture, or are they cultural creations learned through our languages and traditions? To answer these questions, we tested emotional associations of colors in 4,598 participants from 30 nations speaking 22 native languages. Participants associated 20 emotion concepts with 12 color terms. Pattern-similarity analyses revealed universal color-emotion associations (average similarity coefficient r = .88). However, local differences were also apparent. A machine-learning algorithm revealed that nation predicted color-emotion associations above and beyond those observed universally. Similarity was greater when nations were linguistically or geographically close. This study highlights robust universal color-emotion associations, further modulated by linguistic and geographic factors. These results pose further theoretical and empirical questions about the affective properties of color and may inform practice in applied domains, such as well-being and design. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Color
+KW  - *Emotions
+KW  - *Linguistics
+KW  - *Well Being
+KW  - Universality
+M3  - doi:10.1177/0956797620948810
+DO  - 10.1177/0956797620948810
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Evaluation;  *Human Machine Systems; Task Analysis
+ID  - 1996-13208-001
+T1  - The case for supportive evaluation during design.
+JF  - Interacting with Computers
+A1  - May, Jon
+A1  - Barnard, Philip
+VL  - 7
+SP  - 115
+EP  - 143
+Y1  - 1995
+CY  - Netherlands
+PB  - Elsevier Science
+SN  - 1873-7951(Electronic),0953-5438(Print)
+N2  - Examines the effectiveness of cognitive walkthroughs (CWs). Evidence suggests that CW has not proved effective. The problem lies not with CW or its underlying theory in particular, but with its limited scope and in the increasing dissociation of an evaluation method from its theoretical foundation. Evaluation methods retaining a theoretical element would provide the necessary conceptual support to enable designers to identify, comprehend, and resolve usability problems and would also be less limited than dissociated evaluation methods in their application. A vision of a supportive evaluation tool is presented and cognitive task analysis (CTA), the methodology upon which a proof-of-concept tool has been based, is described. Three design scenarios are described to illustrate how CTA supports the identification and resolution of usability problems, and the role of cognitive modeling in the context of design is discussed. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Evaluation
+KW  - *Human Machine Systems
+KW  - Task Analysis
+M3  - doi:10.1016/0953-5438(95)93504-X
+DO  - 10.1016/0953-5438(95)93504-X
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Artificial Intelligence;  *Cognitive Psychology;  *Crowding;  *Group Dynamics;  *Cognitive Computing; Computers; Machine Learning; Population; Deep Neural Networks
+ID  - 2020-48200-001
+T1  - Towards the cognitive and psychological perspectives of crowd behaviour: A vision-based analysis.
+JF  - Connection Science
+A1  - Varghese, Elizabeth B.
+A1  - Thampi, Sabu M.
+VL  - 33
+SP  - 380
+EP  - 405
+Y1  - 2021
+CY  - United Kingdom
+AD  - Thampi, Sabu M.: sabu.thampi@iiitmk.ac.in
+PB  - Taylor & Francis
+SN  - 1360-0494(Electronic),0954-0091(Print)
+N2  - Smart and proactive surveillance of crowds has turned up into greater importance in recent years due to the increase in urban population and immutable crowd disasters. Although the behaviours that emerged in a crowd are often unpredictable, researches in computer vision try to figure out this emergent behaviour based on the psychological and cognitive aspects of the crowd. This review is intended to analyse the insights shared from these aspects for analysing crowd behaviour. We also try to uncover the crowd psychological theories present in the literature that largely helps in determining the non-adaptive crowd behaviours. Further, this paper discusses an outlook of state-of-the-art psychological, cognitive computing and cognitive psychological approaches of crowd behaviour analysis. This paper also provides a discussion on the benchmark datasets available for vision-based crowd analysis. The comprehensive discussion and insights based on crowd psychology and cognition will provide a deep understanding of the fundamental prospects of smart crowd behaviour analysis. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Artificial Intelligence
+KW  - *Cognitive Psychology
+KW  - *Crowding
+KW  - *Group Dynamics
+KW  - *Cognitive Computing
+KW  - Computers
+KW  - Machine Learning
+KW  - Population
+KW  - Deep Neural Networks
+M3  - doi:10.1080/09540091.2020.1772723
+DO  - 10.1080/09540091.2020.1772723
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Automated Information Processing;  *Machine Learning;  *Neural Networks;  *Semantics; Language
+ID  - 2020-87914-004
+T1  - Distributional and network semantics. Text analysis approaches.
+T2  - Neuroinformatics and semantic representations: Theory and applications.
+A1  - Kharlamov, Alexander
+A1  - Gordeev, Denis
+A1  - Pantiukhin, Dmitry
+SP  - 114
+EP  - 126
+Y1  - 2020
+CY  - Newcastle upon Tyne,  United Kingdom
+PB  - Cambridge Scholars Publishing
+SN  - 1-5275-4852-X (Hardcover); 978-1-5275-4852-7 (Hardcover)
+N2  - The scope of application of neural network models for automatic language recognition tasks is now booming. Researchers offer something new almost every week, but are still far from strong dialogue agents, since existing machine-learning approaches cannot go beyond the data from the training sample. In addition, pragmatics of texts is still not taken into account in most tasks. And if it is taken into account, there is a limitation in predicting a small number of pragmatic classes (intents). This approach makes it possible to solve a number of problems for business; however, despite the assertions of many researchers and popularisers in the field of automatic language processing, an ImageNet for the NLP has not yet been created (unlike computer vision), and the existing complex models are rather an analogue of a pre-trained probabilistic auto-encoder, GAN, or Boltzmann network for images. This is undoubtedly an important step in the formation of the field, but there are still many more unsolved problems in the NLP than solved ones. Perhaps some of the methods will help partially resole existing problems in the field of automatic language processing. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Automated Information Processing
+KW  - *Machine Learning
+KW  - *Neural Networks
+KW  - *Semantics
+KW  - Language
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Emotional Content;  *Eye Movements; Visual Displays
+PMID  - 26407322
+ID  - 2016-03425-001
+T1  - Predicting the valence of a scene from observers’ eye movements.
+JF  - PLoS ONE
+A1  - R.-Tavakoli, Hamed
+A1  - Atyabi, Adham
+A1  - Rantanen, Antti
+A1  - Laukka, Seppo J.
+A1  - Nefti-Meziani, Samia
+A1  - Heikkilä, Janne
+VL  - 10
+Y1  - 2015
+CY  - US
+AD  - R.-Tavakoli, Hamed: Department of Computer Science, Aalto University, Espoo, Finland, Hamed.R-Tavakoli@aalto.fi
+PB  - Public Library of Science
+SN  - 1932-6203(Electronic)
+N2  - Multimedia analysis benefits from understanding the emotional content of a scene in a variety of tasks such as video genre classification and content-based image retrieval. Recently, there has been an increasing interest in applying human bio-signals, particularly eye movements, to recognize the emotional gist of a scene such as its valence. In order to determine the emotional category of images using eye movements, the existing methods often learn a classifier using several features that are extracted from eye movements. Although it has been shown that eye movement is potentially useful for recognition of scene valence, the contribution of each feature is not well-studied. To address the issue, we study the contribution of features extracted from eye movements in the classification of images into pleasant, neutral, and unpleasant categories. We assess ten features and their fusion. The features are histogram of saccade orientation, histogram of saccade slope, histogram of saccade length, histogram of saccade duration, histogram of saccade velocity, histogram of fixation duration, fixation histogram, top-ten salient coordinates, and saliency map. We utilize machine learning approach to analyze the performance of features by learning a support vector machine and exploiting various feature fusion schemes. The experiments reveal that ‘saliency map’, ‘fixation histogram’, ‘histogram of fixation duration’, and ‘histogram of saccade slope’ are the most contributing features. The selected features signify the influence of fixation information and angular behavior of eye movements in the recognition of the valence of images. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Emotional Content
+KW  - *Eye Movements
+KW  - Visual Displays
+M3  - doi:10.1371/journal.pone.0138198
+DO  - 10.1371/journal.pone.0138198
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Algorithms;  *Automated Information Coding;  *Computer Programming;  *Emotions;  *Facial Expressions; Computers; Cross Cultural Differences; Experimental Design; Machine Learning; Neurosciences; Visual Perception
+PMID  - 31464498
+ID  - 2019-50498-012
+T1  - The promises and perils of automated facial action coding in studying children’s emotions.
+JF  - Developmental Psychology
+A1  - Martinez, Aleix M.
+VL  - 55
+SP  - 1965
+EP  - 1981
+Y1  - 2019
+CY  - US
+AD  - Martinez, Aleix M.: Department of Electrical and Computer Engineering, and the Center for Cognitive and Brain Sciences, The Ohio State University, 205 Dreese Labs, 2015 Neil Avenue, Columbus, OH, US, 43210, martinez.158@osu.edu
+PB  - American Psychological Association
+SN  - 1939-0599(Electronic),0012-1649(Print)
+N2  - Computer vision algorithms have made tremendous advances in recent years. We now have algorithms that can detect and recognize objects, faces, and even facial actions in still images and video sequences. This is wonderful news for researchers that need to code facial articulations in large data sets of images and videos, because this task is time consuming and can only be completed by expert coders, making it very expensive. The availability of computer algorithms that can automatically code facial actions in extremely large data sets also opens the door to studies in psychology and neuroscience that were not previously possible, for example, to study the development of the production of facial expressions from infancy to adulthood within and across cultures. Unfortunately, there is a lack of methodological understanding on how these algorithms should and should not be used, and on how to select the most appropriate algorithm for each study. This article aims to address this gap in the literature. Specifically, we present several methodologies for use in hypothesis-based and exploratory studies, explain how to select the computer algorithms that best fit to the requirements of our experimental design, and detail how to evaluate whether the automatic annotations provided by existing algorithms are trustworthy. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Automated Information Coding
+KW  - *Computer Programming
+KW  - *Emotions
+KW  - *Facial Expressions
+KW  - Computers
+KW  - Cross Cultural Differences
+KW  - Experimental Design
+KW  - Machine Learning
+KW  - Neurosciences
+KW  - Visual Perception
+M3  - doi:10.1037/dev0000728
+DO  - 10.1037/dev0000728
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Consciousness States;  *Priming;  *Signal Detection (Perception);  *Unconscious (Personality Factor);  *Task; Cognitive Ability; Masking; Reaction Time; Reasoning; Responses; Scientists
+PMID  - 34264714
+ID  - 2021-62978-001
+T1  - Advancing research on unconscious priming: When can scientists claim an indirect task advantage?
+JF  - Journal of Experimental Psychology: General
+A1  - Meyen, Sascha
+A1  - Zerweck, Iris A.
+A1  - Amado, Catarina
+A1  - von Luxburg, Ulrike
+A1  - Franz, Volker H.
+VL  - 151
+SP  - 65
+EP  - 81
+Y1  - 2022
+CY  - US
+AD  - Meyen, Sascha: Department of Computer Science, University of Tübingen, Sand 6, 72076, Germany, Tübingen, sascha.meyen@uni-tuebingen.de
+PB  - American Psychological Association
+SN  - 1939-2222(Electronic),0096-3445(Print)
+N2  - Current literature holds that many cognitive functions can be performed outside consciousness. Evidence for this view comes from unconscious priming. In a typical experiment, visual stimuli are masked such that participants are close to chance performance when directly asked to which of two categories the stimuli belong. This close-to-zero sensitivity is seen as evidence that participants cannot consciously report the category of the masked stimuli. Nevertheless, the category of the masked stimuli can indirectly affect responses to other stimuli (e.g., reaction times or brain activity)—an effect called priming. The priming effect is seen as evidence for a higher sensitivity to the masked stimuli in the indirect responses as compared with the direct responses. Such an apparent difference in sensitivities is taken as evidence that processing occurred unconsciously. But we show that this “standard reasoning of unconscious priming” is flawed: Sensitivities are not properly compared, creating the wrong impression of a difference in sensitivities even if there is none. We describe the appropriate way to determine sensitivities, replicate the behavioral part of a landmark study, develop methods to estimate sensitivities from reported summary statistics of published studies, and use these methods to reanalyze 15 highly influential studies. Results show that the interpretations of many studies need to be changed and that a community effort is required to reassess the vast literature on unconscious priming. This process will allow scientists to learn more about the true boundary conditions of unconscious priming, thereby advancing the scientific understanding of consciousness. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Consciousness States
+KW  - *Priming
+KW  - *Signal Detection (Perception)
+KW  - *Unconscious (Personality Factor)
+KW  - *Task
+KW  - Cognitive Ability
+KW  - Masking
+KW  - Reaction Time
+KW  - Reasoning
+KW  - Responses
+KW  - Scientists
+M3  - doi:10.1037/xge0001065
+DO  - 10.1037/xge0001065
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Biological Markers;  *Major Depression;  *Physiological Arousal;  *Posttraumatic Stress Disorder;  *Deep Neural Networks; Auditory Perception; Auditory Thresholds; Emotional States; Learning; Visual Perception; Visual Thresholds; Voice; Computer Assisted Therapy; Emergency Medicine
+ID  - 2020-57463-001
+T1  - Deep learning-based classification of posttraumatic stress disorder and depression following trauma utilizing visual and auditory markers of arousal and mood.
+JF  - Psychological Medicine
+A1  - Schultebraucks, Katharina
+A1  - Yadav, Vijay
+A1  - Shalev, Arieh Y.
+A1  - Bonanno, George A.
+A1  - Galatzer-Levy, Isaac R.
+VL  - 52
+SP  - 957
+EP  - 967
+Y1  - 2022
+CY  - United Kingdom
+AD  - Schultebraucks, Katharina: ks3796@cumc.columbia.edu
+PB  - Cambridge University Press
+SN  - 1469-8978(Electronic),0033-2917(Print)
+N2  - Background: Visual and auditory signs of patient functioning have long been used for clinical diagnosis, treatment selection, and prognosis. Direct measurement and quantification of these signals can aim to improve the consistency, sensitivity, and scalability of clinical assessment. Currently, we investigate if machine learning-based computer vision (CV), semantic, and acoustic analysis can capture clinical features from free speech responses to a brief interview 1 month post-trauma that accurately classify major depressive disorder (MDD) and posttraumatic stress disorder (PTSD). Methods: N = 81 patients admitted to an emergency department (ED) of a Level-1 Trauma Unit following a life-threatening traumatic event participated in an open-ended qualitative interview with a para-professional about their experience 1 month following admission. A deep neural network was utilized to extract facial features of emotion and their intensity, movement parameters, speech prosody, and natural language content. These features were utilized as inputs to classify PTSD and MDD cross-sectionally. Results: Both video- and audio-based markers contributed to good discriminatory classification accuracy. The algorithm discriminates PTSD status at 1 month after ED admission with an AUC of 0.90 (weighted average precision = 0.83, recall = 0.84, and f1-score = 0.83) as well as depression status at 1 month after ED admission with an AUC of 0.86 (weighted average precision = 0.83, recall = 0.82, and f1-score = 0.82). Conclusions: Direct clinical observation during post-trauma free speech using deep learning identifies digital markers that can be utilized to classify MDD and PTSD status. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Biological Markers
+KW  - *Major Depression
+KW  - *Physiological Arousal
+KW  - *Posttraumatic Stress Disorder
+KW  - *Deep Neural Networks
+KW  - Auditory Perception
+KW  - Auditory Thresholds
+KW  - Emotional States
+KW  - Learning
+KW  - Visual Perception
+KW  - Visual Thresholds
+KW  - Voice
+KW  - Computer Assisted Therapy
+KW  - Emergency Medicine
+M3  - doi:10.1017/S0033291720002718
+DO  - 10.1017/S0033291720002718
+ER  -
