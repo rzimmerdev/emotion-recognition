@@ -1,0 +1,701 @@
+Provider: American Psychological Association
+Database: PsycINFO
+Content: application/x-research-info-systems
+
+TY  - JOUR
+DESCRIPTORS  - *Internet;  *Linguistics;  *Machine Learning;  *Sentence Structure;  *Verbal Meaning; Consumer Psychology; Emotional Content; Labeling; Semantics; Sentences; Syntax; Computational Modeling; Social Media; Sentiment Analysis
+ID  - 2014-21666-001
+T1  - Incorporating conditional random fields and active learning to improve sentiment identification.
+JF  - Neural Networks
+A1  - Zhang, Kunpeng
+A1  - Xie, Yusheng
+A1  - Yang, Yi
+A1  - Sun, Aaron
+A1  - Liu, Hengchang
+A1  - Choudhary, Alok
+VL  - 58
+SP  - 60
+EP  - 67
+Y1  - 2014
+CY  - Netherlands
+AD  - Xie, Yusheng: yxi389@eecs.northwestern.edu
+PB  - Elsevier Science
+SN  - 1879-2782(Electronic),0893-6080(Print)
+N2  - Many machine learning, statistical, and computational linguistic methods have been developed to identify sentiment of sentences in documents, yielding promising results. However, most of state-of-the-art methods focus on individual sentences and ignore the impact of context on the meaning of a sentence. In this paper, we propose a method based on conditional random fields to incorporate sentence structure and context information in addition to syntactic information for improving sentiment identification. We also investigate how human interaction affects the accuracy of sentiment labeling using limited training data. We propose and evaluate two different active learning strategies for labeling sentiment data. Our experiments with the proposed approach demonstrate a 5%–15% improvement in accuracy on Amazon customer reviews compared to existing supervised learning and rule-based methods. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Internet
+KW  - *Linguistics
+KW  - *Machine Learning
+KW  - *Sentence Structure
+KW  - *Verbal Meaning
+KW  - Consumer Psychology
+KW  - Emotional Content
+KW  - Labeling
+KW  - Semantics
+KW  - Sentences
+KW  - Syntax
+KW  - Computational Modeling
+KW  - Social Media
+KW  - Sentiment Analysis
+M3  - doi:10.1016/j.neunet.2014.04.005
+DO  - 10.1016/j.neunet.2014.04.005
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Emotions;  *Machine Learning;  *Mental Lexicon;  *Social Media;  *Sentiment Analysis; Text Structure
+ID  - 2016-55885-006
+T1  - Sensing social media: A range of approaches for sentiment analysis.
+T2  - Cyberemotions: Collective emotions in cyberspace.
+T3  - Understanding complex systems.
+A1  - Paltoglou, Georgios
+A1  - Thelwall, Mike
+SP  - 97
+EP  - 117
+Y1  - 2017
+CY  - Cham,  Switzerland
+AD  - Paltoglou, Georgios: School of Mathematics and Computer Science, University of Wolverhampton, Wulfruna Street, Wolverhampton, United Kingdom, WV1 1LY, g.paltoglou@wlv.ac.uk
+PB  - Springer International Publishing
+SN  - 978-3-319-43637-1 (Hardcover); 978-3-319-43639-5 (Digital (undefined format))
+N2  - In this chapter, we discuss a range of different approaches to solve the problem of accurately predicting the nature of private states expressed in social media. Section 6.2 will focus on machine learning solutions, i.e., solutions that require some pre-annotated data to automatically extract the underlying patterns that characterise different affective content. Section 6.3 will present the lexicon-based solutions that were investigated within the project, that is, algorithms that rely on sentiment dictionaries. Lastly, the chapter concludes with a summary and a discussion of the potential future directions of the field in Sect. 6.4. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Emotions
+KW  - *Machine Learning
+KW  - *Mental Lexicon
+KW  - *Social Media
+KW  - *Sentiment Analysis
+KW  - Text Structure
+M3  - doi:10.1007/978-3-319-43639-5_6
+DO  - 10.1007/978-3-319-43639-5_6
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Discourse Analysis;  *Emotions;  *Ethnography;  *Language;  *Oral Communication; Methodology
+ID  - 2019-21155-011
+T1  - The ethnography of affect in discourse practice: Performing sentiment in the time machine.
+T2  - Analyzing affective societies: Methods and methodologies.
+T3  - Routledge studies in affective societies.
+A1  - Bens, Jonas
+SP  - 199
+EP  - 213
+Y1  - 2019
+CY  - New York,  NY,  US
+PB  - Routledge/Taylor & Francis Group
+SN  - 9781138388796 (Hardcover); 978-0-429-42436-6 (Digital (undefined format))
+N2  - An ethnography of discourse practice investigates the workings of discourse practice events through participant observation, writing about this as 'thickly' as possible. This chapter proposes an ethnographic approach to discourse practice as it is embedded in affective dynamics. At the heart of such ethnographies is the observation of discourse practice events—most broadly defined as a specific place in the world and a specific moment in time in which people communicate in order to be heard by a public. Such events have usually been investigated with a focus on language and speech. Without abandoning the analysis of talk, the chapter makes the argument that it is crucial to strive for an ethnographic investigation that captures quite broadly the affective dimension of the events in which such talk takes place. To that end, it lays out what the author means by an ethnography of discourse practice and then argues two points on methodology. The chapter begins by discussing discourse practice events and describes as affective arrangements. It also describes discourse practice events as time machines in which sentiments become manifest, are enacted, invoked, mobilized, shaped and transformed. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Discourse Analysis
+KW  - *Emotions
+KW  - *Ethnography
+KW  - *Language
+KW  - *Oral Communication
+KW  - Methodology
+M3  - doi:10.4324/9780429424366-11
+DO  - 10.4324/9780429424366-11
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Emotional States;  *Human Computer Interaction;  *Speech Perception;  *Text Analysis; Automated Speech Recognition; Emotions
+PMID  - 22908677
+ID  - 2012-18918-005
+T1  - Detection of affective states from text and speech for real-time human–computer interaction.
+JF  - Human Factors
+A1  - Calix, Ricardo A.
+A1  - Javadpour, Leili
+A1  - Knapp, Gerald M.
+VL  - 54
+SP  - 530
+EP  - 545
+Y1  - 2012
+CY  - US
+AD  - Knapp, Gerald M.: Louisiana State University, 3128 Patrick F. Taylor Hall, Baton Rouge, LA, US, 70803, gknapp@lsu.edu
+PB  - Sage Publications
+SN  - 1547-8181(Electronic),0018-7208(Print)
+N2  - Objective: The goal of this work is to develop and test an automated system methodology that can detect emotion from text and speech features. Background: Affective human–computer interaction will be critical for the success of new systems that will be prevalent in the 21st century. Such systems will need to properly deduce human emotional state before they can determine how to best interact with people. Method: Corpora and machine learning classification models are used to train and test a methodology for emotion detection. The methodology uses a stepwise approach to detect sentiment in sentences by first filtering out neutral sentences, then distinguishing among positive, negative, and five emotion classes. Results: Results of the classification between emotion and neutral sentences achieved recall accuracies as high as 77% in the University of Illinois at Urbana-Champaign (UIUC) corpus and 61% in the Louisiana State University medical drama (LSU-MD) corpus for emotion samples. Once neutral sentences were filtered out, the methodology achieved accuracy scores for detecting negative sentences as high as 92.3%. Conclusion: Results of the feature analysis indicate that speech spectral features are better than speech prosodic features for emotion detection. Accumulated sentiment composition text features appear to be very important as well. This work contributes to the study of human communication by providing a better understanding of how language factors help to best convey human emotion and how to best automate this process. Application: Results of this study can be used to develop better automated assistive systems that interpret human language and respond to emotions through 3-D computer graphics. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Emotional States
+KW  - *Human Computer Interaction
+KW  - *Speech Perception
+KW  - *Text Analysis
+KW  - Automated Speech Recognition
+KW  - Emotions
+M3  - doi:10.1177/0018720811425922
+DO  - 10.1177/0018720811425922
+ER  -
+TY  - BOOK
+DESCRIPTORS  - *Artificial Intelligence;  *Emotions;  *Human Computer Interaction;  *Human Machine Systems Design;  *Models; Concepts; Social Processes; Sentiment Analysis
+ID  - 2016-02101-000
+T1  - Sentic computing: A common-sense-based framework for concept-level sentiment analysis.
+T2  - Sentic computing: A common-sense-based framework for concept-level sentiment analysis.
+T3  - Socio-affective computing.
+A1  - Cambria, Erik
+A1  - Hussain, Amir
+SP  - xxii, 176
+EP  - xxii, 176
+Y1  - 2015
+CY  - Cham,  Switzerland
+PB  - Springer International Publishing
+SN  - 978-3-319-23653-7 (Hardcover); 978-3-319-23654-4 (Digital (undefined format))
+N2  - This volume presents a knowledge-based approach to concept-level sentiment analysis at the crossroads between affective computing, information extraction, and commonsense reasoning, which exploits both computer and human sciences to better interpret and process social information on the Web. Concept-level sentiment analysis goes beyond a mere word-level analysis of text in order to enable a more efficient passage from (unstructured) textual information to (structured) machine-processable data, in potentially any domain. Readers will discover the following key novelties, that make this approach so unique and avant-garde, being reviewed and discussed: Sentic Computing's multi-disciplinary approach to sentiment analysis—evidenced by the concomitant use of AI, linguistics and psychology for knowledge representation and reasoning; Sentic Computing's shift from syntax to semantics—enabled by the adoption of the bag-of-concepts model instead of simply counting word co-occurrence frequencies in text; and Sentic Computing's shift from statistics to linguistics—implemented by allowing sentiments to flow from concept to concept based on the dependency relation between clauses. This volume is the first in the Series Socio-Affective Computing edited by Prof Amir Hussain and Dr Erik Cambria and will be of interest to researchers in the fields of socially intelligent, affective and multimodal human-machine interaction and systems. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Artificial Intelligence
+KW  - *Emotions
+KW  - *Human Computer Interaction
+KW  - *Human Machine Systems Design
+KW  - *Models
+KW  - Concepts
+KW  - Social Processes
+KW  - Sentiment Analysis
+M3  - doi:10.1007/978-3-319-23654-4
+DO  - 10.1007/978-3-319-23654-4
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Machine Learning;  *Social Media; Sentiment Analysis
+ID  - 2020-89396-011
+T1  - A stacked ensemble approach to Bengali sentiment analysis.
+T2  - Intelligent Human Computer Interaction: 11th international conference, IHCI 2019, Allahabad, India, December 12–14, 2019, proceedings.
+T3  - Lecture notes in computer science.
+A1  - Sarkar, Kamal
+SP  - 102
+EP  - 111
+Y1  - 2020
+CY  - Cham,  Switzerland
+AD  - Sarkar, Kamal: Computer Science and Engineering Department, Jadavpur University, Kolkata, India, 700032, jukamal2001@yahoo.com
+PB  - Springer Nature Switzerland AG
+SN  - 978-3-030-44688-8 (Hardcover); 978-3-030-44689-5 (Digital (undefined format))
+N2  - Sentiment analysis is a crucial step in the social media data analysis. The majority of research works on sentiment analysis focus on sentiment polarity detection which identifies whether an input text is positive, negative or neutral. In this paper, we have implemented a stacked ensemble approach to sentiment polarity detection in Bengali tweets. The basic concept of stacked generalization is to fuse the outputs of the first level base classifiers using a second-level Meta classifier in an ensemble. In our ensemble method, we have used two types of base classifiers- multinomial Naïve Bayes classifiers and SVM that make use of a diverse set of features. Our proposed approach shows an improvement over some existing Bengali sentiment analysis approaches reported in the literature. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Machine Learning
+KW  - *Social Media
+KW  - Sentiment Analysis
+M3  - doi:10.1007/978-3-030-44689-5_10
+DO  - 10.1007/978-3-030-44689-5_10
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Academic Achievement;  *Distance Education;  *Educational Programs;  *Open Classroom Method;  *School Learning; Emotions; Machine Learning; Simulation; Sentiment Analysis
+ID  - 2021-44943-003
+T1  - Quantifying the influence of achievement emotions for student learning in MOOCs.
+JF  - Journal of Educational Computing Research
+A1  - Liu, Bowen
+A1  - Xing, Wanli
+A1  - Zeng, Yifang
+A1  - Wu, Yonghe
+VL  - 59
+SP  - 429
+EP  - 452
+Y1  - 2021
+CY  - US
+AD  - Xing, Wanli: College of Education, University of Florida, 2-215, Normal Hall, Gainesville, FL, US, 32611, wanli.xing@coe.ufl.edu
+PB  - Sage Publications
+SN  - 1541-4140(Electronic),0735-6331(Print)
+N2  - Massive Open Online Courses (MOOCs) have become a popular tool for worldwide learners. However, a lack of emotional interaction and support is an important reason for learners to abandon their learning and eventually results in poor learning performance. This study applied an integrative framework of achievement emotions to uncover their holistic influence on students’ learning by analyzing more than 400,000 forum posts from 13 MOOCs. Six machine-learning models were first built to automatically identify achievement emotions, including K-Nearest Neighbor, Logistic Regression, Naïve Bayes, Decision Tree, Random Forest, and Support Vector Machines. Results showed that Random Forest performed the best with a kappa of 0.83 and an ROC_AUC of 0.97. Then, multilevel modeling with the “Stepwise Build-up” strategy was used to quantify the effect of achievement emotions on students’ academic performance. Results showed that different achievement emotions influenced students’ learning differently. These findings allow MOOC platforms and instructors to provide relevant emotional feedback to students automatically or manually, thereby improving their learning in MOOCs. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Academic Achievement
+KW  - *Distance Education
+KW  - *Educational Programs
+KW  - *Open Classroom Method
+KW  - *School Learning
+KW  - Emotions
+KW  - Machine Learning
+KW  - Simulation
+KW  - Sentiment Analysis
+M3  - doi:10.1177/0735633120967318
+DO  - 10.1177/0735633120967318
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Expert Systems;  *Machine Learning; Emotions; Sentences; Affective Valence
+ID  - 2012-32116-005
+T1  - Sentence-level emotion and valence tagging.
+JF  - Cognitive Computation
+A1  - Das, Dipankar
+A1  - Bandyopadhyay, Sivaji
+VL  - 4
+SP  - 420
+EP  - 435
+Y1  - 2012
+CY  - Germany
+AD  - Das, Dipankar: Department of Computer Science and Engineering, Jadavpur University, Kolkata, India, dipankar.dipnil2005@gmail.com
+PB  - Springer
+SN  - 1866-9964(Electronic),1866-9956(Print)
+N2  - The paper proposes the tagging of sentence-level emotion and valence based on the word-level constituents on the SemEval 2007 affect sensing news corpus. The baseline system for each emotion class assigns the class label to each word, while the WordNet Affect lists updated using the SentiWordNet were also used as the lexicon-based system. Though the inclusion of morphology into the lexicon-based system improves the performance of the word-level emotion tagging, the Conditional Random Field-based machine-learning framework was employed for the word-level emotion-tagging system, and it outperforms both the baseline- and lexicon-based systems. Six separate sense scores for six emotion types are calculated from the SentiWordNet and applied to word-level emotion tagged constituents for identifying sentential emotion scores. Three emotion scoring methods followed by a post-processing technique were employed for identifying the sentence-level emotion tags. In addition to that, the best two emotion tags corresponding to the maximum obtained sense scores are assigned to the sentences, whereas the sentence-level valence is identified based on the total sense scores of the word-level emotion tags along with their polarity. Evaluation was carried out with respect to the best two emotion tags on 250 gold standard test sentences and achieved satisfactory results for sentence-level emotion and valence tagging. (PsycINFO Database Record (c) 2016 APA, all rights reserved)
+KW  - *Expert Systems
+KW  - *Machine Learning
+KW  - Emotions
+KW  - Sentences
+KW  - Affective Valence
+M3  - doi:10.1007/s12559-012-9173-0
+DO  - 10.1007/s12559-012-9173-0
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Algorithms;  *Cognitive Behavior Therapy;  *Emotions;  *Feedback;  *Sentiment Analysis; Empathy; Judgment; Online Therapy
+PMID  - 31156504
+ID  - 2019-29859-001
+T1  - Validating automated sentiment analysis of online cognitive behavioral therapy patient texts: An exploratory study.
+JF  - Frontiers in Psychology
+A1  - Provoost, Simon
+A1  - Ruwaard, Jeroen
+A1  - van Breda, Ward
+A1  - Riper, Heleen
+A1  - Bosse, Tibor
+VL  - 10
+Y1  - 2019
+CY  - Switzerland
+AD  - Provoost, Simon: s.j.provoost@vu.nl
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - Introduction: Sentiment analysis may be a useful technique to derive a user’s emotional state from free text input, allowing for more empathic automated feedback in online cognitive behavioral therapy (iCBT) interventions for psychological disorders such as depression. As guided iCBT is considered more effective than unguided iCBT, such automated feedback may help close the gap between the two. The accuracy of automated sentiment analysis is domain dependent, and it is unclear how well the technology is applicable to iCBT. This paper presents an empirical study in which automated sentiment analysis by an algorithm for the Dutch language is validated against human judgment. Methods: A total of 493 iCBT user texts were evaluated on overall sentiment and the presence of five specific emotions by an algorithm, and by 52 psychology students who evaluated 75 randomly selected texts each, providing about eight human evaluations per text. Inter-rater agreement (IRR) between algorithm and humans, and humans among each other, was analyzed by calculating the intra-class correlation under a numerical interpretation of the data, and Cohen’s kappa, and Krippendorff’s alpha under a categorical interpretation. Results: All analyses indicated moderate agreement between the algorithm and average human judgment with respect to evaluating overall sentiment, and low agreement for the specific emotions. Somewhat surprisingly, the same was the case for the IRR among human judges, which means that the algorithm performed about as well as a randomly selected human judge. Thus, considering average human judgment as a benchmark for the applicability of automated sentiment analysis, the technique can be considered for practical application. Discussion/Conclusion: The low human-human agreement on the presence of emotions may be due to the nature of the texts, it may simply be difficult for humans to agree on the presence of the selected emotions, or perhaps trained therapists would have reached more consensus. Future research may focus on validating the algorithm against a more solid benchmark, on applying the algorithm in an application in which empathic feedback is provided, for example, by an embodied conversational agent, or on improving the algorithm for the iCBT domain with a bottom-up machine learning approach. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Cognitive Behavior Therapy
+KW  - *Emotions
+KW  - *Feedback
+KW  - *Sentiment Analysis
+KW  - Empathy
+KW  - Judgment
+KW  - Online Therapy
+M3  - doi:10.3389/fpsyg.2019.01065
+DO  - 10.3389/fpsyg.2019.01065
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Discourse Analysis;  *Expressed Emotion;  *Social Media;  *Text Messaging;  *Sentiment Analysis; Hypothesis Testing; Machine Learning; Psychologists; Social Interaction
+ID  - 2022-08338-019
+T1  - Theory‑driven measurement of emotion (expressions) in social media text.
+T2  - Handbook of language analysis in psychology.
+A1  - Brady, William J.
+A1  - McLoughlin, Killian
+A1  - Crockett, M. J.
+SP  - 377
+EP  - 388
+Y1  - 2022
+CY  - New York,  NY,  US
+PB  - The Guilford Press
+SN  - 978-1-4625-4843-9 (Hardcover)
+N2  - With over 3 billion users across the world, social media platforms provide researchers with an opportunity to study a massive volume of emotion expressions unfolding in real-time social interactions. As new computational tools are becoming available, social media data increasingly afford researchers the ability to study psychological questions about emotions at an unprecedented scale. This chapter provides psychologists with a practical guide for making use of advances in sentiment analysis for the purpose of measuring specific emotions in social media text, and ultimately testing hypotheses. It begins with an examination of the type of emotion related information researchers can expect to measure in social media text. Next, it presents a practical guide for the theory-driven application of supervised machine learning to measure specific emotion expressions on social media using the measurement of moral outrage expression as a case study. The chapter ends with considerations for researchers who wish to apply sentiment analysis of social media text for the purposes of psychological hypothesis testing. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Discourse Analysis
+KW  - *Expressed Emotion
+KW  - *Social Media
+KW  - *Text Messaging
+KW  - *Sentiment Analysis
+KW  - Hypothesis Testing
+KW  - Machine Learning
+KW  - Psychologists
+KW  - Social Interaction
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Algorithms;  *Artificial Intelligence;  *Linguistics;  *Machine Learning;  *Natural Language; Concepts; Sentiment Analysis; Natural Language Processing
+ID  - 2014-34186-001
+T1  - Sentic patterns: Dependency-based rules for concept-level sentiment analysis.
+JF  - Knowledge-Based Systems
+A1  - Poria, Soujanya
+A1  - Cambria, Erik
+A1  - Winterstein, Grégoire
+A1  - Huang, Guang-Bin
+VL  - 69
+SP  - 45
+EP  - 63
+Y1  - 2014
+CY  - Netherlands
+AD  - Cambria, Erik: cambria@ntu.edu.sg
+PB  - Elsevier Science
+SN  - 1872-7409(Electronic),0950-7051(Print)
+N2  - The Web is evolving through an era where the opinions of users are getting increasingly important and valuable. The distillation of knowledge from the huge amount of unstructured information on the Web can be a key factor for tasks such as social media marketing, branding, product positioning, and corporate reputation management. These online social data, however, remain hardly accessible to computers, as they are specifically meant for human consumption. The automatic analysis of online opinions involves a deep understanding of natural language text by machines, from which we are still very far. To this end, concept-level sentiment analysis aims to go beyond a mere word-level analysis of text and provide novel approaches to opinion mining and sentiment analysis that enable a more efficient passage from (unstructured) textual information to (structured) machine-processable data. A recent knowledge-based technology in this context is sentic computing, which relies on the ensemble application of common-sense computing and the psychology of emotions to infer the conceptual and affective information associated with natural language. Sentic computing, however, is limited by the richness of the knowledge base and by the fact that the bag-of-concepts model, despite more sophisticated than bag-of-words, misses out important discourse structure information that is key for properly detecting the polarity conveyed by natural language opinions. In this work, we introduce a novel paradigm to concept-level sentiment analysis that merges linguistics, common-sense computing, and machine learning for improving the accuracy of tasks such as polarity detection. By allowing sentiments to flow from concept to concept based on the dependency relation of the input sentence, in particular, we achieve a better understanding of the contextual role of each concept within the sentence and, hence, obtain a polarity detection engine that outperforms state-of-the-art statistical methods. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Algorithms
+KW  - *Artificial Intelligence
+KW  - *Linguistics
+KW  - *Machine Learning
+KW  - *Natural Language
+KW  - Concepts
+KW  - Sentiment Analysis
+KW  - Natural Language Processing
+M3  - doi:10.1016/j.knosys.2014.05.005
+DO  - 10.1016/j.knosys.2014.05.005
+ER  -
+TY  - BOOK
+DESCRIPTORS  - *Automated Information Processing;  *Emotional Content;  *Human Machine Systems Design;  *Posttraumatic Stress Disorder;  *Sentiment Analysis; Data Collection; Ontology (Philosophy); Psychodynamics; Symptoms; Technology
+ID  - 2013-40929-000
+T1  - Sentiment analysis for PTSD signals.
+T2  - Sentiment analysis for PTSD signals.
+T3  - Springer briefs in computer science.
+A1  - Kagan, Vadim
+A1  - Rossini, Edward
+A1  - Sapounas, Demetrios
+SP  - x, 81
+EP  - x, 81
+Y1  - 2013
+CY  - New York,  NY,  US
+PB  - Springer Science + Business Media
+SN  - 978-1-4614-3096-4 (Paperback); 978-1-4614-3097-1 (PDF)
+N2  - The book provides background information on PTSD and related psychological signals; details the technology developed, the data flows, the processing and results; and a sample system implementation. More specifically the subsequent chapters cover: (1) An introduction to PTSD that will explain the notion of PTSD-related psychological signals, and will also present the categorization of PTSD symptoms, the sources and methodologies used to unify clinical and colloquial terms into a PTSD ontology, and the resulting ontology. (2) A description of the selection of data sources serving as inputs to the system for training and testing the text analysis algorithms. This section will also cover the selection criteria applied to web forums and blogs, and will explain the role the materials from the psychological library play in the project. Further, the data collection and pre-processing workflow before the data is stored in a database and submitted to the text analysis engine for processing will be described. (3) As part of the discussion on text analysis of PTSD text, a description of the general approach taken with the extraction and quantification of PTSD-related signals with an overview of the relevant natural language processing techniques, focusing on sentiment mining, and the role of the annotated corpus. Additionally, the human annotation process and tools developed for creating algorithm training and testing data sets will be outlined. (4) An overview of the SentiMetrix® SentiGrade™ scoring engine, and a description of the enhancements made to the engine and the training that was necessary to tune it for the detection of PTSD-related signals. (5) A sample system implementation integrating all the tools into a cohesive environment, implementing an automated end-to-end process, including social networking features used for collecting data from anonymous user participation. The system architecture, including the data flow and feedback loops, as well as the reports generated by the system will also be outlined. 6. Finally, the project findings are presented. These findings compare and contrast the results produced by the automated system with evaluation of the same anonymous data set by a team of clinical psychologists. The analysis presents strong supporting evidence of viability of automated detection of psychological signals associated with PTSD. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Automated Information Processing
+KW  - *Emotional Content
+KW  - *Human Machine Systems Design
+KW  - *Posttraumatic Stress Disorder
+KW  - *Sentiment Analysis
+KW  - Data Collection
+KW  - Ontology (Philosophy)
+KW  - Psychodynamics
+KW  - Symptoms
+KW  - Technology
+M3  - doi:10.1007/978-1-4614-3097-1
+DO  - 10.1007/978-1-4614-3097-1
+ER  -
+TY  - JOUR
+ID  - 2022-92814-001
+T1  - Shape of the uncanny valley and emotional attitudes toward robots assessed by an analysis of youtube comments.
+JF  - International Journal of Social Robotics
+A1  - Ratajczyk, Dawid
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - Germany
+AD  - Ratajczyk, Dawid: dawid.ratajczyk@amu.edu.pl
+PB  - Springer
+SN  - 1875-4805(Electronic),1875-4791(Print)
+N2  - The uncanny valley hypothesis (UVH) suggests that almost, but not fully, humanlike artificial characters elicit a feeling of eeriness or discomfort in observers. This study used Natural Language Processing of YouTube comments to provide ecologically-valid, non-laboratory results about people’s emotional reactions toward robots. It contains analyses of 224,544 comments from 1515 videos showing robots from a wide humanlikeness spectrum. The humanlikeness scores were acquired from the Anthropomorphic roBOT database. The analysis showed that people use words related to eeriness to describe very humanlike robots. Humanlikeness was linearly related to both general sentiment and perceptions of eeriness—-more humanlike robots elicit more negative emotions. One of the subscales of humanlikeness, Facial Features, showed a UVH-like relationship with both sentiment and eeriness. The exploratory analysis demonstrated that the most suitable words for measuring the self-reported uncanny valley effect are: ‘scary’ and ‘creepy’. In contrast to theoretical expectations, the results showed that humanlikeness was not related to either pleasantness or attractiveness. Finally, it was also found that the size of robots influences sentiment toward the robots. According to the analysis, the reason behind this is the perception of smaller robots as more playable (as toys), although the prediction that bigger robots would be perceived as more threatening was not supported. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+M3  - doi:10.1007/s12369-022-00905-x
+DO  - 10.1007/s12369-022-00905-x
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Health Behavior;  *Social Media; Engineering
+PMID  - 30496232
+ID  - 2018-61911-001
+T1  - Feature engineering for sentiment analysis in e-health forums.
+JF  - PLoS ONE
+A1  - Carrillo-de-Albornoz, Jorge
+A1  - Rodríguez Vidal, Javier
+A1  - Plaza, Laura
+VL  - 13
+Y1  - 2018
+CY  - US
+AD  - Carrillo-de-Albornoz, Jorge: jcalbornoz@lsi.uned.es
+PB  - Public Library of Science
+SN  - 1932-6203(Electronic)
+N2  - Introduction: Exploiting information in health-related social media services is of great interest for patients, researchers and medical companies. The challenge is, however, to provide easy, quick and relevant access to the vast amount of information that is available. One step towards facilitating information access to online health data is opinion mining. Even though the classification of patient opinions into positive and negative has been previously tackled, most works make use of machine learning methods and bags of words. Our first contribution is an extensive evaluation of different features, including lexical, syntactic, semantic, network-based, sentiment-based and word embeddings features to represent patient-authored texts for polarity classification. The second contribution of this work is the study of polar facts (i.e. objective information with polar connotations). Traditionally, the presence of polar facts has been neglected and research in polarity classification has been bounded to opinionated texts. We demonstrate the existence and importance of polar facts for the polarity classification of health information. Material and methods: We annotate a set of more than 3500 posts to online health forums of breast cancer, crohn and different allergies, respectively. Each sentence in a post is manually labeled as “experience”, “fact” or “opinion”, and as “positive”, “negative” and “neutral”. Using this data, we train different machine learning algorithms and compare traditional bags of words representations with word embeddings in combination with lexical, syntactic, semantic, network- based and emotional properties of texts to automatically classify patient-authored contents into positive, negative and neutral. Beside, we experiment with a combination of textual and semantic representations by generating concept embeddings using the UMLS Metathesaurus. Results: We reach two main results: first, we find that it is possible to predict polarity of patient-authored contents with a very high accuracy (≈ 70 percent) using word embeddings, and that this considerably outperforms more traditional representations like bags of words; and second, when dealing with medical information, negative and positive facts (i.e. objective information) are nearly as frequent as negative and positive opinions and experiences (i.e. subjective information), and their importance for polarity classification is crucial. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Health Behavior
+KW  - *Social Media
+KW  - Engineering
+M3  - doi:10.1371/journal.pone.0207996
+DO  - 10.1371/journal.pone.0207996
+ER  -
+TY  - JOUR
+ID  - 2022-50333-001
+T1  - Are students happier the more they learn? – research on the influence of course progress on academic emotion in online learning.
+JF  - Interactive Learning Environments
+A1  - Pan, Xianglin
+A1  - Hu, Bihao
+A1  - Zhou, Zihao
+A1  - Feng, Xiang
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2022
+CY  - United Kingdom
+AD  - Feng, Xiang: xfeng@eec.ecnu.edu.cn
+PB  - Taylor & Francis
+SN  - 1744-5191(Electronic),1049-4820(Print)
+N2  -  Academic emotions of learners are important for academic achievement. For the online learning platform, it is of great value to gain insight into the academic emotion of the course in appropriate time interval from the platform. We crawled a large number of student comment texts from MOOC, and used deep learning algorithms (BERT models) to perform aspect-oriented sentiment classification on the comment texts. We conducted statistical analysis and identified keywords to explore the changes of academic emotions in the online learning environment in different aspect dimensions. The results show that academic emotions are significantly improved in the first and second period of the course schedule, and tend to be stable in the second and third period of the course schedule. From the word frequency statistics, in the dimension of the teacher, students’ concerns mainly focus on two aspects: One is whether they can acquire knowledge, the other is the characteristics of teachers; in the course dimension, students attach more importance to the learning; in the dimension of the platform, students’ negative emotions mainly focus on four aspects: certificate, learning record, prompt and subtitle. Our research aims at providing suggestions for course design, platform improvement, and teachers’ practice. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+M3  - doi:10.1080/10494820.2022.2052110
+DO  - 10.1080/10494820.2022.2052110
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Panic;  *Responses;  *Simulation;  *Social Media;  *COVID-19; Pandemics; Negative Emotions; Psychological Engagement
+PMID  - 33750739
+ID  - 2021-58443-001
+T1  - Comparison of public responses to containment measures during the initial outbreak and resurgence of COVID-19 in China: Infodemiology study.
+JF  - Journal of Medical Internet Research
+A1  - Zhou, Xinyu
+A1  - Song, Yi
+A1  - Jiang, Hao
+A1  - Wang, Qian
+A1  - Qu, Zhiqiang
+A1  - Zhou, Xiaoyu
+A1  - Jit, Mark
+A1  - Hou, Zhiyuan
+A1  - Lin, Leesa
+VL  - 23
+Y1  - 2021
+CY  - Canada
+AD  - Hou, Zhiyuan: School of Public Health, Fudan University, Mailbox 250, 138# Yixueyuan Road, Xuhui District, Shanghai, China, 200032, zyhou@fudan.edu.cn
+PB  - JMIR Publications
+SN  - 1438-8871(Electronic),1439-4456(Print)
+N2  - Background: COVID-19 cases resurged worldwide in the second half of 2020. Not much is known about the changes in public responses to containment measures from the initial outbreak to resurgence. Monitoring public responses is crucial to inform policy measures to prepare for COVID-19 resurgence. Objective: This study aimed to assess and compare public responses to containment measures during the initial outbreak and resurgence of COVID-19 in China. Methods: We curated all COVID-19–related posts from Sina Weibo (China’s version of Twitter) during the initial outbreak and resurgence of COVID-19 in Beijing, China. With a Python script, we constructed subsets of Weibo posts focusing on 3 containment measures: lockdown, the test-trace-isolate strategy, and suspension of gatherings. The Baidu open-source sentiment analysis model and latent Dirichlet allocation topic modeling, a widely used machine learning algorithm, were used to assess public engagement, sentiments, and frequently discussed topics on each containment measure. Results: A total of 8,985,221 Weibo posts were curated. In China, the containment measures evolved from a complete lockdown for the general population during the initial outbreak to a more targeted response strategy for high-risk populations during COVID-19 resurgence. Between the initial outbreak and resurgence, the average daily proportion of Weibo posts with negative sentiments decreased from 57% to 47% for the lockdown, 56% to 51% for the test-trace-isolate strategy, and 55% to 48% for the suspension of gatherings. Among the top 3 frequently discussed topics on lockdown measures, discussions on containment measures accounted for approximately 32% in both periods, but those on the second-most frequently discussed topic shifted from the expression of negative emotions (11%) to its impacts on daily life or work (26%). The public expressed a high level of panic (21%) during the initial outbreak but almost no panic (1%) during resurgence. The more targeted test-trace-isolate measure received the most support (60%) among all 3 containment measures in the initial outbreak, and its support rate approached 90% during resurgence. Conclusions: Compared to the initial outbreak, the public expressed less engagement and less negative sentiments on containment measures and were more supportive toward containment measures during resurgence. Targeted test-trace-isolate strategies were more acceptable to the public. Our results indicate that when COVID-19 resurges, more targeted test-trace-isolate strategies for high-risk populations should be promoted to balance pandemic control and its impact on daily life and the economy. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Panic
+KW  - *Responses
+KW  - *Simulation
+KW  - *Social Media
+KW  - *COVID-19
+KW  - Pandemics
+KW  - Negative Emotions
+KW  - Psychological Engagement
+M3  - doi:10.2196/26518
+DO  - 10.2196/26518
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Suicidal Ideation;  *Suicide;  *Suicide Prevention;  *Online Social Networks;  *Suicidality; Artificial Intelligence; Machine Learning
+PMID  - 29929945
+ID  - 2018-57167-001
+T1  - Detecting suicidal ideation on forums: Proof-of-concept study.
+JF  - Journal of Medical Internet Research
+A1  - Aladağ, Ahmet Emre
+A1  - Muderrisoglu, Serra
+A1  - Akbas, Naz Berfu
+A1  - Zahmacioglu, Oguzhan
+A1  - Bingol, Haluk O.
+VL  - 20
+Y1  - 2018
+CY  - Canada
+AD  - Aladağ, Ahmet Emre: Department of Computer Engineering, Bogazici University, Istanbul, Turkey, 34342, emre.aladag@boun.edu.tr
+PB  - JMIR Publications
+SN  - 1438-8871(Electronic),1439-4456(Print)
+N2  - Background: In 2016, 44,965 people in the United States died by suicide. It is common to see people with suicidal ideation seek help or leave suicide notes on social media before attempting suicide. Many prefer to express their feelings with longer passages on forums such as Reddit and blogs. Because these expressive posts follow regular language patterns, potential suicide attempts can be prevented by detecting suicidal posts as they are written. Objective: This study aims to build a classifier that differentiates suicidal and nonsuicidal forum posts via text mining methods applied on post titles and bodies. Methods: A total of 508,398 Reddit posts longer than 100 characters and posted between 2008 and 2016 on SuicideWatch, Depression, Anxiety, and ShowerThoughts subreddits were downloaded from the publicly available Reddit dataset. Of these, 10,785 posts were randomly selected and 785 were manually annotated as suicidal or nonsuicidal. Features were extracted using term frequency-inverse document frequency, linguistic inquiry and word count, and sentiment analysis on post titles and bodies. Logistic regression, random forest, and support vector machine (SVM) classification algorithms were applied on resulting corpus and prediction performance is evaluated. Results: The logistic regression and SVM classifiers correctly identified suicidality of posts with 80% to 92% accuracy and F1 score, respectively, depending on different data compositions closely followed by random forest, compared to baseline ZeroR algorithm achieving 50% accuracy and 66% F1 score. Conclusions: This study demonstrated that it is possible to detect people with suicidal ideation on online forums with high accuracy. The logistic regression classifier in this study can potentially be embedded on blogs and forums to make the decision to offer real-time online counseling in case a suicidal post is being written. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Suicidal Ideation
+KW  - *Suicide
+KW  - *Suicide Prevention
+KW  - *Online Social Networks
+KW  - *Suicidality
+KW  - Artificial Intelligence
+KW  - Machine Learning
+M3  - doi:10.2196/jmir.9840
+DO  - 10.2196/jmir.9840
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Educational Psychology;  *School Learning;  *Online Social Networks;  *Sentiment Analysis; Emotional States; Messages
+ID  - 2013-28731-001
+T1  - Sentiment analysis in facebook and its application to e-learning.
+JF  - Computers in Human Behavior
+A1  - Ortigosa, Alvaro
+A1  - Martín, José M.
+A1  - Carro, Rosa M.
+VL  - 31
+SP  - 527
+EP  - 541
+Y1  - 2014
+CY  - Netherlands
+AD  - Ortigosa, Alvaro: Department of Computer Science, Universidad Autonoma de Madrid, Francisco Tomás y Valiente 11, Madrid, Spain, 28049, alvaro.ortigosa@uam.es
+PB  - Elsevier Science
+SN  - 1873-7692(Electronic),0747-5632(Print)
+N2  - This paper presents a new method for sentiment analysis in Facebook that, starting from messages written by users, supports: (i) to extract information about the users’ sentiment polarity (positive, neutral or negative), as transmitted in the messages they write; and (ii) to model the users’ usual sentiment polarity and to detect significant emotional changes. We have implemented this method in SentBuk, a Facebook application also presented in this paper. SentBuk retrieves messages written by users in Facebook and classifies them according to their polarity, showing the results to the users through an interactive interface. It also supports emotional change detection, friend’s emotion finding, user classification according to their messages, and statistics, among others. The classification method implemented in SentBuk follows a hybrid approach: it combines lexical-based and machine-learning techniques. The results obtained through this approach show that it is feasible to perform sentiment analysis in Facebook with high accuracy (83.27%). In the context of e-learning, it is very useful to have information about the users’ sentiments available. On one hand, this information can be used by adaptive e-learning systems to support personalized learning, by considering the user’s emotional state when recommending him/her the most suitable activities to be tackled at each time. On the other hand, the students’ sentiments towards a course can serve as feedback for teachers, especially in the case of online learning, where face-to-face contact is less frequent. The usefulness of this work in the context of e-learning, both for teachers and for adaptive systems, is described too. (PsycInfo Database Record (c) 2020 APA, all rights reserved)
+KW  - *Educational Psychology
+KW  - *School Learning
+KW  - *Online Social Networks
+KW  - *Sentiment Analysis
+KW  - Emotional States
+KW  - Messages
+M3  - doi:10.1016/j.chb.2013.05.024
+DO  - 10.1016/j.chb.2013.05.024
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Autism Spectrum Disorders;  *Machine Learning;  *Schizophrenia;  *Transfer (Learning); Sentiment Analysis
+ID  - 2021-12746-001
+T1  - Single and cross-disorder detection for autism and schizophrenia.
+JF  - Cognitive Computation
+A1  - Wawer, Aleksander
+A1  - Chojnicka, Izabela
+A1  - Okruszek, Lukasz
+A1  - Sarzynska-Wawer, Justyna
+VL  - 14
+SP  - 461
+EP  - 473
+Y1  - 2022
+CY  - Germany
+AD  - Wawer, Aleksander: Institute of Computer Science, Polish Academy of Sciences, Jana Kazimierza 5, Warszawa, Poland, 01 248, axw@ipipan.waw.pl
+PB  - Springer
+SN  - 1866-9964(Electronic),1866-9956(Print)
+N2  - Detection of mental disorders from textual input is an emerging field for applied machine and deep learning methods. Here, we explore the limits of automated detection of autism spectrum disorder (ASD) and schizophrenia (SCZ). We compared the performance of: (1) dedicated diagnostic tools that involve collecting textual data, (2) automated methods applied to the data gathered by these tools, and (3) psychiatrists. Our article tests the effectiveness of several baseline approaches, such as bag of words and dictionary-based vectors, followed by a machine learning model. We employed two more refined Sentic text representations using affective features and concept-level analysis on texts. Further, we applied selected state-of-the-art deep learning methods for text representation and inference, as well as experimented with transfer and zero-shot learning. Finally, we also explored few-shot methods dedicated to low data size scenarios, which is a typical problem for the clinical setting. The best breed of automated methods outperformed human raters (psychiatrists). Cross-dataset approaches turned out to be useful (only from SCZ to ASD) despite different data types. The few-shot learning methods revealed promising results on the SCZ dataset. However, more effort is needed to explore the approaches to efficiently training models, given the very limited amounts of labeled clinical data. Psychiatry is one of the few medical fields in which the diagnosis of most disorders is based on the subjective assessment of a psychiatrist. Therefore, the introduction of objective tools supporting diagnostics seems to be pivotal. This paper is a step in this direction. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Autism Spectrum Disorders
+KW  - *Machine Learning
+KW  - *Schizophrenia
+KW  - *Transfer (Learning)
+KW  - Sentiment Analysis
+M3  - doi:10.1007/s12559-021-09834-9
+DO  - 10.1007/s12559-021-09834-9
+ER  -
+TY  - THES
+DESCRIPTORS  - *Credibility;  *Learning;  *Sentences;  *Truth;  *Social Media; Deception; Gossip; Labeling; News Media
+ID  - 2021-27921-031
+T1  - False textual information detection-towards building a truth machine.
+A1  - Yang, Fan
+VL  - 82
+SP  - No Pagination Specified
+EP  - No Pagination Specified
+Y1  - 2021
+CY  - US
+PB  - ProQuest Information & Learning
+SN  - 0419-4217(Print)
+N2  - With social media growing dominant, false information, such as questionable claims and fake news, diffuses fast. Detecting false information is one of the most elusive and long-standing challenges. With social media growing dominant, falsehood can diffuse faster and broader than truth. This calls for building a ``truth machine" that automatically debunks false information. Although existing works have developed methods to prevent false information, challenges still remain. For example, previous works demand a large amount of annotated data and related evidence, underestimating the difficulty of evidence linking and the cost of manual annotation. Besides, since a large number of works rely on evidence to determine the credibility of claims, we need to carefully address situations when no evidence or noisy evidence is provided. This thesis aims to improve detecting false textual information from four aspects: 1. we first target sentiment classification because previous works show that leveraging sentiment can boost content-based rumor detection. We propose a representation learning framework that incorporates both labeled and unlabeled data. We show that our model learns robust features across domains and removes domain-specific features. 2. we develop a hierarchical model with attention mechanism so that our model reveals important insights at the paragraph level or at the sentence level. We evaluate our model on news satire detection and find that our model can effectively discover satirical cues at different levels. 3. we extend evidence-aware claim verification from supervised learning to positive-unlabeled learning. This setting requires a comparatively small number of true claims, and more claims can be unlabeled. We adopt the generative adversarial network to generate pseudo negative examples and conduct a thorough analysis of selected models. 4. we pay special attention to analyzing whether estimating entailment between evidence and claim helps not only to verify it but also to the preliminary step of retrieving the necessary evidence. We find that entailment indeed improves evidence ranking, as far as the entailment model produces reliable outputs. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Credibility
+KW  - *Learning
+KW  - *Sentences
+KW  - *Truth
+KW  - *Social Media
+KW  - Deception
+KW  - Gossip
+KW  - Labeling
+KW  - News Media
+ER  -
+TY  - CHAP
+DESCRIPTORS  - *Emotional States;  *Affective Valence;  *Sentiment Analysis; Text Analysis
+ID  - 2021-46839-011
+T1  - Sentiment analysis: Automatically detecting valence, emotions, and other affectual states from text.
+T2  - Emotion measurement, 2nd ed.
+A1  - Mohammad, Saif M.
+SP  - 323
+EP  - 379
+Y1  - 2021
+CY  - Amsterdam,  Netherlands
+AD  - Mohammad, Saif M.: saif.mohammad@nrc-cnrc.gc.ca
+PB  - Elsevier
+SN  - 978-0-12-821125-0 (Hardcover)
+N2  - Recent advances in machine learning have led to computer systems that are humanlike in behavior. Sentiment analysis, the automatic determination of emotions in text, is allowing us to capitalize on substantial previously unattainable opportunities in commerce, public health, government policy, social sciences, and art. Further, analysis of emotions in text, from news to social media posts, is improving our understanding of not just how people convey emotions through language but also how emotions shape our behavior. This article presents a sweeping overview of sentiment analysis research that includes: the origins of the field, the rich landscape of tasks, challenges, a survey of the methods and resources used, and applications. We also discuss how, without careful fore-thought, sentiment analysis has the potential for harmful outcomes. We outline the latest lines of research in pursuit of fairness in sentiment analysis. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Emotional States
+KW  - *Affective Valence
+KW  - *Sentiment Analysis
+KW  - Text Analysis
+M3  - doi:10.1016/B978-0-12-821124-3.00011-9
+DO  - 10.1016/B978-0-12-821124-3.00011-9
+ER  -
+TY  - BOOK
+DESCRIPTORS  - *Subjectivity;  *Well Being;  *Social Media; Biased Sampling; Machine Learning; Social Networks; Statistical Analysis; Big Data
+ID  - 2021-80251-000
+T1  - Subjective well-being and social media.
+T2  - Subjective well-being and social media.
+A1  - Iacus, S. M.
+A1  - Porro, G.
+SP  - xiii, 206
+EP  - xiii, 206
+Y1  - 2021
+CY  - Boca Raton,  FL,  US
+PB  - CRC Press/Routledge/Taylor & Francis Group
+SN  - 9781138393929 (Hardcover); 978-1-032-04316-6 (Paperback); 978-0-429-40143-5 (Digital (undefined format))
+N2  - This book presents an overview of the most recent projects on the estimation of subjective well-being through social media data. In particular, it focuses on a new project, aimed at constructing a Twitter Subjective Well-Being Index, which started in 2012-almost at the same time of expansion of sentiment analysis to Twitter data-and grew slowly till the present days. The project was originally conceived at the University of Milan (Italy) and then embraced later in 2015 by the University of Insubria (Como, Italy), the University of Tokyo and the University of Waseda in Japan. The book reviews the different approaches to the estimation of well-being, from traditional macro-economic definition-both one-dimensional and multidimensional-to survey analysis and finally to big data and social networking sites (SNS) in particular. It introduces briefly the most commonly used machine learning and statistical techniques for textual analysis. It also serves two scopes: to explain how machines transforms text into meaningful statistics, and also to convey the idea that human supervision is an essential step of this process whatever technique is used. The book presents different SNS-based subjective well-being indexes that have been proposed in the literature, with a special focus on the one proposed by the authors. Among all positive aspects of SNS data, there are also some pitfalls which are quite easy to imagine, and well known to the experts in the field. The main one is that social media accounts/users/data cannot be considered statistically representative of the demographic population. The book presents a possible approach to tackle the selection bias problem by anchoring social media indexes to official statistics. It focuses on the analysis of the impact of the COVID-19 pandemic, that hit the world in 2020, on the social media indexes of subjective well-being. (PsycInfo Database Record (c) 2021 APA, all rights reserved)
+KW  - *Subjectivity
+KW  - *Well Being
+KW  - *Social Media
+KW  - Biased Sampling
+KW  - Machine Learning
+KW  - Social Networks
+KW  - Statistical Analysis
+KW  - Big Data
+M3  - doi:10.1201/9780429401435
+DO  - 10.1201/9780429401435
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Major Depression;  *Self-Report;  *Text Messaging; Machine Learning
+PMID  - 34963643
+ID  - 2022-35007-003
+T1  - The relationship between text message sentiment and self-reported depression.
+JF  - Journal of Affective Disorders
+A1  - Liu, Tony
+A1  - Meyerhoff, Jonah
+A1  - Eichstaedt, Johannes C.
+A1  - Karr, Chris J.
+A1  - Kaiser, Susan M.
+A1  - Kording, Konrad P.
+A1  - Mohr, David C.
+A1  - Ungar, Lyle H.
+VL  - 302
+SP  - 7
+EP  - 14
+Y1  - 2022
+CY  - Netherlands
+AD  - Liu, Tony: liutony@seas.upenn.edu
+PB  - Elsevier Science
+SN  - 1573-2517(Electronic),0165-0327(Print)
+N2  - Background: Personal sensing has shown promise for detecting behavioral correlates of depression, but there is little work examining personal sensing of cognitive and affective states. Digital language, particularly through personal text messages, is one source that can measure these markers. Methods: We correlated privacy-preserving sentiment analysis of text messages with self-reported depression symptom severity. We enrolled 219 U.S. adults in a 16 week longitudinal observational study. Participants installed a personal sensing app on their phones, which administered self-report PHQ-8 assessments of their depression severity, collected phone sensor data, and computed anonymized language sentiment scores from their text messages. We also trained machine learning models for predicting end-of-study self-reported depression status using on blocks of phone sensor and text features. Results: In correlation analyses, we find that degrees of depression, emotional, and personal pronoun language categories correlate most strongly with self-reported depression, validating prior literature. Our classification models which predict binary depression status achieve a leave-one-out AUC of 0.72 when only considering text features and 0.76 when combining text with other networked smartphone sensors. Limitations: Participants were recruited from a panel that over-represented women, caucasians, and individuals with self-reported depression at baseline. As language use differs across demographic factors, generalizability beyond this population may be limited. The study period also coincided with the initial COVID-19 outbreak in the United States, which may have affected smartphone sensor data quality. Conclusions: Effective depression prediction through text message sentiment, especially when combined with other personal sensors, could enable comprehensive mental health monitoring and intervention. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Major Depression
+KW  - *Self-Report
+KW  - *Text Messaging
+KW  - Machine Learning
+M3  - doi:10.1016/j.jad.2021.12.048
+DO  - 10.1016/j.jad.2021.12.048
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Computer Assisted Instruction;  *Human Sex Differences;  *Technology;  *Positive Emotions;  *Online Community; Computer Software; Emotional Content; Sentiment Analysis
+PMID  - 32528342
+ID  - 2020-41604-001
+T1  - Male and female users’ differences in online technology community based on text mining.
+JF  - Frontiers in Psychology
+A1  - Sun, Bing
+A1  - Mao, Hongying
+A1  - Yin, Chengshun
+VL  - 11
+Y1  - 2020
+CY  - Switzerland
+AD  - Sun, Bing: heusun@hotmail.com
+PB  - Frontiers Media S.A.
+SN  - 1664-1078(Electronic)
+N2  - With the emergence of online communities, more and more people are participating in online technology communities to meet personalized learning needs. This study aims to investigate whether and how male and female users behave differently in online technology communities. Using text data from the Python Technology Community, through the LDA (Latent Dirichlet Allocation) model, sentiment analysis, and regression analysis, this paper reveals the different topics of male and female users in the online technology community, their sentimental tendencies and activity under different topics, and their correlation and mutual influence. The results show the following: (1) Male users tend to provide information help, while female users prefer to participate in the topic of making friends and advertising. (2) When communicating in the technology community, male and female users mostly express positive emotions, but female users express positive emotions more frequently. (3) Different emotional tendencies of male and female users under different topics have different effects on their activity in the community. The activity of female users is more susceptible to emotional orientation. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Computer Assisted Instruction
+KW  - *Human Sex Differences
+KW  - *Technology
+KW  - *Positive Emotions
+KW  - *Online Community
+KW  - Computer Software
+KW  - Emotional Content
+KW  - Sentiment Analysis
+M3  - doi:10.3389/fpsyg.2020.00806
+DO  - 10.3389/fpsyg.2020.00806
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Models;  *Teachers;  *Training;  *Sentiment Analysis; Machine Learning; Artificial Neural Networks
+ID  - 2021-85779-001
+T1  - BERTtoCNN: Similarity-preserving enhanced knowledge distillation for stance detection.
+JF  - PLoS ONE
+A1  - Li, Yang
+A1  - Sun, Yuqing
+A1  - Zhu, Nana
+VL  - 16
+Y1  - 2021
+CY  - US
+AD  - Li, Yang: yli@nefu.edu.cn
+PB  - Public Library of Science
+SN  - 1932-6203(Electronic)
+N2  - In recent years, text sentiment analysis has attracted wide attention, and promoted the rise and development of stance detection research. The purpose of stance detection is to determine the author’s stance (favor or against) towards a specific target or proposition in the text. Pre-trained language models like BERT have been proven to perform well in this task. However, in many reality scenes, they are usually very expensive in computation, because such heavy models are difficult to implement with limited resources. To improve the efficiency while ensuring the performance, we propose a knowledge distillation model BERTtoCNN, which combines the classic distillation loss and similarity-preserving loss in a joint knowledge distillation framework. On the one hand, BERTtoCNN provides an efficient distillation process to train a novel ‘student’ CNN structure from a much larger ‘teacher’ language model BERT. On the other hand, based on the similarity-preserving loss function, BERTtoCNN guides the training of a student network, so that input pairs with similar (dissimilar) activation in the teacher network have similar (dissimilar) activation in the student network. We conduct experiments and test the proposed model on the open Chinese and English stance detection datasets. The experimental results show that our model outperforms the competitive baseline methods obviously. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Models
+KW  - *Teachers
+KW  - *Training
+KW  - *Sentiment Analysis
+KW  - Machine Learning
+KW  - Artificial Neural Networks
+M3  - doi:10.1371/journal.pone.0257130
+DO  - 10.1371/journal.pone.0257130
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Emotions;  *Language;  *Social Sciences; Social Robotics
+ID  - 2016-53499-003
+T1  - Making sense of social robots: A structural analysis of the layperson's social representation of robots.
+JF  - European Review of Applied Psychology / Revue Européenne de Psychologie Appliquée
+A1  - Piçarra, N.
+A1  - Giger, J.-C.
+A1  - Pochwatko, G.
+A1  - Gonçalves, G.
+VL  - 66
+SP  - 277
+EP  - 289
+Y1  - 2016
+CY  - Netherlands
+AD  - Giger, J.-C.: Faculdade Ciencias Humanas e Sociais, Universidade do Algarve, Campus de Gambelas, Faro, Portugal, 8005-139, jhgiger@ualg.pt
+PB  - Elsevier Science
+SN  - 1878-3457(Electronic),1162-9088(Print)
+N2  - Introduction: Given their novelty, social robots (i.e., robots using natural language, displaying and recognizing emotions) will generate uncertainty among users. Social representations allow making sense of the new, drawing from existing knowledge. Objective: A free association questionnaire was administered to 212 Portuguese adults to identify the social representation of robot. Method: Data was analysed with EVOC 2000 and SIMI 2000 software. Results: The social representation of robot is organized around the ideas of technology, help and future. Differences in the representation according to age, gender and level of education where also identified. Conclusion: The social representation of robot is marked by the conception of it as a tool. This contrasts with the concept of social robots as social agents. Implications for social robot's acceptance are discussed. (PsycINFO Database Record (c) 2019 APA, all rights reserved)
+KW  - *Emotions
+KW  - *Language
+KW  - *Social Sciences
+KW  - Social Robotics
+M3  - doi:10.1016/j.erap.2016.07.001
+DO  - 10.1016/j.erap.2016.07.001
+ER  -
+TY  - JOUR
+DESCRIPTORS  - *Dream Analysis;  *Dream Content;  *Emotions;  *Machine Learning;  *Sentiment Analysis; Algorithms; Taxonomies; Negative Emotions; Positive Emotions
+ID  - 2022-30918-001
+T1  - Automated analysis of dream sentiment—The royal road to dream dynamics?
+JF  - Dreaming
+A1  - Yu, Calvin Kai-Ching
+VL  - 32
+SP  - 33
+EP  - 51
+Y1  - 2022
+CY  - US
+AD  - Yu, Calvin Kai-Ching: Department of Counselling and Psychology, Hong Kong Shue Yan University, 10 Wai Tsui Crescent, Braemar Hill Road, North Point, Hong Kong, kcyu@hksyu.edu
+PB  - Educational Publishing Foundation
+SN  - 1573-3351(Electronic),1053-0797(Print)
+N2  - Valence Aware Dictionary for sEntiment Reasoning (VADER) is an automated software program for analyzing textual data based on an established lexicon and annotated lexical features. Support-vector machine (SVM) is a popular machine-learning model for solving classification problems. VADER and SVM can serve as potential alternatives to the conventional content analysis and Linguistic Inventory and Word Count analysis of dream emotions. The study presented here aimed to evaluate the overall affective valence of dreams using both the VADER and SVM methods. A total of 2,600 dreams primarily obtained from an open source—including dreams reported by American, German, Hong Kong, Peruvian, and Taiwanese people—were subjected to the 2 automated algorithms for sentiment analysis. The mean VADER and SVM sentiment scores indicate overall balanced sentiment in dream reports. Accordingly, an average dream report contains positive and negative emotions of similar intensity. Notwithstanding their different algorithms and methodological strategies, the marked consistency between the VADER and SVM scoring suggests that VADER and SVM can provide reliable, effective, yet distinct tools for dream sentiment analysis. In addition, the analysis of Chinese people’s dreams suggests that the discrepancy between dream sentiment scored by automated algorithms and subjective feelings experienced by dreamers may reveal some dynamic processes during dreaming, such as working through concerns and desensitizing feelings. (PsycInfo Database Record (c) 2022 APA, all rights reserved)
+KW  - *Dream Analysis
+KW  - *Dream Content
+KW  - *Emotions
+KW  - *Machine Learning
+KW  - *Sentiment Analysis
+KW  - Algorithms
+KW  - Taxonomies
+KW  - Negative Emotions
+KW  - Positive Emotions
+M3  - doi:10.1037/drm0000189
+DO  - 10.1037/drm0000189
+ER  -

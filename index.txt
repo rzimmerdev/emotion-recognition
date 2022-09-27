@@ -1,0 +1,5 @@
+1, 104, robot AND Any Field: psychology AND Any Field: emotion
+2, 50, psychology AND Any Field: machine AND Any Field: sentiment AND Any Field: analysis
+3, 27, psychology AND Any Field: machine OR Any Field: robot AND Any Field: sentiment analysis AND Any Field: emotion* OR Any Field: detection
+4, 6838, Any Field: emotion OR Any Field: sentiment AND Any Field: detection AND Any Field: algorithm OR Any Field: machine OR Any Field: robot
+5, 81, Any Field: sentiment AND Any Field: analysis AND Any Field: algorithm
