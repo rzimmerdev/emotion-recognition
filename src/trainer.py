@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
-from torch import nn, optim
 import pytorch_lightning as pl
 
 
 class LitTrainer(pl.LightningModule):
-    def __init__(self, model):
+    def __init__(self, model, optim, loss_fn):
         super().__init__()
+        self.save_hyperparameters()
         self.model = model
-        self.optim = optim.Adam(self.parameters(), lr=1e-4)
-        self.loss = nn.CrossEntropyLoss()
+        self.optim = optim
+        self.loss = loss_fn
 
     def training_step(self, batch, batch_idx):
         x, y = batch

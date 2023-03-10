@@ -1,16 +1,19 @@
+import os
+
 import torch
 from torch.utils.data import random_split, DataLoader
 import pytorch_lightning as pl
-from pytorch_lightning.loggers import MLFlowLogger
 
-from src.scripts.trainer import LitTrainer
+# from pytorch_lightning.loggers import MLFlowLogger
+
+from src.trainer import LitTrainer
 
 
 def argmax(a):
     return max(range(len(a)), key=lambda x: a[x])
 
 
-def get_dataloaders(dataset, test_data):
+def get_dataloaders(dataset, test_data=None):
     train_size = round(len(dataset) * 0.8)
     validate_size = len(dataset) - train_size
     train_data, validate_data = random_split(dataset, [train_size, validate_size])
@@ -18,7 +21,7 @@ def get_dataloaders(dataset, test_data):
     # For 8 CPU cores
     return DataLoader(train_data, num_workers=8), \
         DataLoader(validate_data, num_workers=8), \
-        DataLoader(test_data, num_workers=8)
+        DataLoader(test_data, num_workers=8) if test_data else None
 
 
 def train_loop(net, batch, loss_fn, optim, device="cuda"):
@@ -58,12 +61,25 @@ def train_net_manually(net, optim, loss_fn, train_loader, validate_loader=None, 
     torch.save(net.state_dict(), "checkpoints/pytorch/version_1.pt")
 
 
-def train_net_lightning(net, optim, loss_fn, train_loader, validate_loader=None, epochs=10):
-    logger = MLFlowLogger(experiment_name="lightning_logs", tracking_uri="file:./ml-runs")
-
-    pl_net = LitTrainer(net)
-    pl_net.optim = optim
-    pl_net.loss = loss_fn
+def train_net_lightning(net, optim, loss_fn, train_loader, validate_loader=None, epochs=10, checkpoint=None):
+    if checkpoint is None:
+        pl_net = LitTrainer(net, optim, loss_fn)
+    else:
+        pl_net = load_pl_net(net, path=checkpoint)
     trainer = pl.Trainer(limit_train_batches=100, max_epochs=epochs,
-                         default_root_dir="../checkpoints", logger=logger)
+                         default_root_dir="checkpoints/", accelerator="gpu")
     trainer.fit(pl_net, train_loader, validate_loader)
+
+
+def load_pl_net(model, path="checkpoints/lightning_logs/version_0"):
+    checkpoint = path + "/checkpoints/"
+    checkpoint = checkpoint + os.listdir(checkpoint)[0]
+
+    print(checkpoint)
+    pl_net = LitTrainer.load_from_checkpoint(checkpoint, model=model, map_location=lambda storage, loc: storage)
+    return pl_net
+
+
+def load_torch_net(model, path="checkpoints/pytorch/version_0.pt"):
+    state_dict = torch.load(path)
+    model.load_state_dict(state_dict)

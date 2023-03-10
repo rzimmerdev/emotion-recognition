@@ -1,23 +1,41 @@
 import torch
 
-from src.models import CNN
-from src.dataset import DatasetMNIST, download_mnist
-from src.train import get_dataloaders, train_net_manually, train_net_lightning
+from src.models import CNN, ImageRNN
+from src.train import get_dataloaders, train_net_lightning
+from src.dataset import DatasetFER
 
 
-def main(device):
-    mnist = download_mnist("downloads/mnist/")
-    dataset, test_data = DatasetMNIST(*mnist["train"]), DatasetMNIST(*mnist["test"])
-    train_loader, validate_loader, test_loader = get_dataloaders(dataset, test_data)
+def train(device):
+    dataset = DatasetFER()
+    train_loader, validate_loader, test_loader = get_dataloaders(dataset)
 
-    # Training manually
-    net = CNN(input_channels=1, num_classes=10).to(device)
+    net = CNN(input_channels=1, num_classes=9).to(device)
     optim = torch.optim.Adam(net.parameters(), lr=1e-4)
     loss_fn = torch.nn.CrossEntropyLoss()
-    max_epochs = 1
+    epochs = 20
 
-    train_net_manually(net, optim, loss_fn, train_loader, validate_loader, max_epochs, device)
+    train_net_lightning(net, optim, loss_fn, train_loader, validate_loader, epochs,
+                        checkpoint="checkpoints/lightning_logs/version_0")
 
 
 if __name__ == "__main__":
-    main("cpu")
+    train("cuda")
+
+
+# Optimizers:
+#
+# - Adam
+# - SGD
+#
+#
+# Loss:
+#
+# - RMSE
+# - Cross-Entropy
+#
+#
+# Layers:
+#
+# - Convolution
+# - RNN / LSTM
+# - Linear

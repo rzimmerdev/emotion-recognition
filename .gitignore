@@ -7,7 +7,8 @@
 *.pyc
 
 # Ignore all cached downloads
-/src/venv/
 
 /src/downloads/mnist/*
 !/src/downloads/mnist/.gitkeep
+
+/checkpoints/
