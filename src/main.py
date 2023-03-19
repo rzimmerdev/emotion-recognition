@@ -1,6 +1,6 @@
 import torch
 
-from src.models import CNN, ImageRNN
+from src.models import CNN_RGB
 from src.train import get_dataloaders, train_net_lightning
 from src.dataset import DatasetFER
 
@@ -9,7 +9,7 @@ def train(device):
     dataset = DatasetFER()
     train_loader, validate_loader, test_loader = get_dataloaders(dataset)
 
-    net = CNN(input_channels=1, num_classes=9).to(device)
+    net = CNN_RGB(input_channels=1, num_classes=9).to(device)
     optim = torch.optim.Adam(net.parameters(), lr=1e-4)
     loss_fn = torch.nn.CrossEntropyLoss()
     epochs = 20

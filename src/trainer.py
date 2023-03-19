@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 import pytorch_lightning as pl
+from torchmetrics import Accuracy
 
 
 class LitTrainer(pl.LightningModule):
@@ -26,6 +27,10 @@ class LitTrainer(pl.LightningModule):
 
         y_pred = self.model(x).reshape(1, -1)
         validate_loss = self.loss(y_pred, y)
+
+        accuracy = Accuracy(task="multiclass", num_classes=9)
+        acc = accuracy(y_pred, y)
+        self.log('accuracy', acc, on_epoch=True)
 
         self.log("val_loss", validate_loss)
 

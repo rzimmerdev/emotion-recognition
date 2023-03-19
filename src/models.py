@@ -2,8 +2,11 @@
 import torch
 from torch import nn
 
+import cv2 as cv
+import numpy as np
 
-class CNN(nn.Module):
+
+class CNN_RGB(nn.Module):  # UNET
     def __init__(self, input_channels, num_classes):
         super().__init__()
 
@@ -41,6 +44,57 @@ class CNN(nn.Module):
         x = self.feature_extractor(x)
         y = self.classifier(torch.flatten(x))
         return y
+
+
+class CNN_HSV(nn.Module):  # VGG
+    def __init__(self):
+        super().__init__()
+
+        self.convolutions = nn.Module()
+        self.linear = nn.Module()
+
+    def forward(self, x):
+        x = self.convolutions(x)
+        x = x.reshape(x.size(0), -1)
+        y_hat = self.linear(x)
+
+        return y_hat
+
+class DenseOpticalFlow:  # Gunnar-Farneback
+    def __init__(self):
+        pass
+
+    def forward(self, x):
+        if len(x) <= 0:
+            return x
+
+        mask = np.zeros_like(x)
+
+        curr_mask = np.zeros_like(x[0])
+        curr_mask[..., 1] = 255
+
+        prev = np.zeros_like(x[0])
+        prev = cv.cvtColor(prev, cv.COLOR_BGR2GRAY)
+
+        for idx, frame in enumerate(x):
+            curr = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+
+            flow = cv.calcOpticalFlowFarneback(curr, prev, None, 0.5, 3, 15, 3, 5, 1.2, 0)
+
+            magnitude, angle = cv.cartToPolar(flow[..., 0], flow[..., 1])
+            curr_mask[..., 0] = angle * 90 / np.pi
+            curr_mask[..., 2] = cv.normalize(magnitude, None, 0, 255, cv.NORM_MINMAX)
+
+            mask[idx] = curr_mask
+
+        return mask
+
+class TransformerClassifier(nn.Module):  # Simple Default Transformer Layer
+    pass
+
+
+class LateMultidimensionalFusion(nn.Module):  # Transformer(UNET + VGG(Gunnar-Farneback))
+    pass
 
 
 class ImageRNN(nn.Module):
