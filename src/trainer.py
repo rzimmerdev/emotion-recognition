@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
 import pytorch_lightning as pl
+
 from torchmetrics import Accuracy
+import torch.nn
 
 
 class LitTrainer(pl.LightningModule):
-    def __init__(self, model, optim, loss_fn):
+    def __init__(self, model):
         super().__init__()
-        self.save_hyperparameters()
         self.model = model
-        self.optim = optim
-        self.loss = loss_fn
+        self.loss = torch.nn.CrossEntropyLoss()
 
     def training_step(self, batch, batch_idx):
         x, y = batch
@@ -47,4 +47,4 @@ class LitTrainer(pl.LightningModule):
         return self.model(x)
 
     def configure_optimizers(self):
-        return self.optim
+        return torch.optim.Adam(self.parameters(), lr=1e-3)

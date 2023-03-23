@@ -61,9 +61,9 @@ def train_net_manually(net, optim, loss_fn, train_loader, validate_loader=None, 
     torch.save(net.state_dict(), "checkpoints/pytorch/version_1.pt")
 
 
-def train_net_lightning(net, optim, loss_fn, train_loader, validate_loader=None, epochs=10, checkpoint=None):
+def train_net_lightning(net, train_loader, validate_loader=None, epochs=10, checkpoint=None):
     if checkpoint is None:
-        pl_net = LitTrainer(net, optim, loss_fn)
+        pl_net = LitTrainer(net)
     else:
         pl_net = load_pl_net(net, path=checkpoint)
     trainer = pl.Trainer(limit_train_batches=100, max_epochs=epochs,

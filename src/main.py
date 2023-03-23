@@ -10,11 +10,9 @@ def train(device):
     train_loader, validate_loader, test_loader = get_dataloaders(dataset)
 
     net = CNN_RGB(input_channels=1, num_classes=9).to(device)
-    optim = torch.optim.Adam(net.parameters(), lr=1e-4)
-    loss_fn = torch.nn.CrossEntropyLoss()
     epochs = 20
 
-    train_net_lightning(net, optim, loss_fn, train_loader, validate_loader, epochs,
+    train_net_lightning(net, train_loader, validate_loader, epochs,
                         checkpoint="checkpoints/lightning_logs/version_0")
 
 

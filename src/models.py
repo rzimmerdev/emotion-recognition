@@ -1,6 +1,6 @@
 # https://d2l.ai/chapter_recurrent-neural-networks/index.html
 import torch
-from torch import nn
+import torch.nn as nn
 
 import cv2 as cv
 import numpy as np
@@ -47,11 +47,26 @@ class CNN_RGB(nn.Module):  # UNET
 
 
 class CNN_HSV(nn.Module):  # VGG
-    def __init__(self):
+    def __init__(self, input_channels, num_classes):
         super().__init__()
 
-        self.convolutions = nn.Module()
-        self.linear = nn.Module()
+        self.feature_layers = [(input_channels, 64, 64), (128, 128), (256, 256, 256), (512, 512, 512), (512, 512, 512)]
+
+        self.convolutions = []
+        for block in self.feature_layers:
+
+            block_channels = list(zip(block[:-1], block[1:]))
+
+            layer = [nn.Sequential(nn.Conv2d(in_channels, out_channels, kernel_size=3),
+                                   nn.BatchNorm2d(out_channels),
+                                   nn.ReLU())
+                     for in_channels, out_channels in block_channels]
+
+            self.convolutions.append(nn.Sequential(*layer))
+        self.convolutions = nn.Sequential(*self.convolutions)
+
+        self.linear = nn.Linear(in_features= )
+
 
     def forward(self, x):
         x = self.convolutions(x)
@@ -60,37 +75,40 @@ class CNN_HSV(nn.Module):  # VGG
 
         return y_hat
 
-class DenseOpticalFlow:  # Gunnar-Farneback
-    def __init__(self):
-        pass
 
-    def forward(self, x):
-        if len(x) <= 0:
-            return x
+def DenseOpticalFlow(x):  # Gunnar-Farneback
+    if len(x) <= 0:
+        return x
 
-        mask = np.zeros_like(x)
+    mask = np.zeros_like(x)
 
-        curr_mask = np.zeros_like(x[0])
-        curr_mask[..., 1] = 255
+    curr_mask = np.zeros_like(x[0])
+    curr_mask[..., 1] = 255
 
-        prev = np.zeros_like(x[0])
-        prev = cv.cvtColor(prev, cv.COLOR_BGR2GRAY)
+    prev = np.zeros_like(x[0])
+    prev = cv.cvtColor(prev, cv.COLOR_BGR2GRAY)
 
-        for idx, frame in enumerate(x):
-            curr = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+    for idx, frame in enumerate(x):
+        curr = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
-            flow = cv.calcOpticalFlowFarneback(curr, prev, None, 0.5, 3, 15, 3, 5, 1.2, 0)
+        flow = cv.calcOpticalFlowFarneback(curr, prev, None, 0.5, 3, 15, 3, 5, 1.2, 0)
 
-            magnitude, angle = cv.cartToPolar(flow[..., 0], flow[..., 1])
-            curr_mask[..., 0] = angle * 90 / np.pi
-            curr_mask[..., 2] = cv.normalize(magnitude, None, 0, 255, cv.NORM_MINMAX)
+        magnitude, angle = cv.cartToPolar(flow[..., 0], flow[..., 1])
+        curr_mask[..., 0] = angle * 90 / np.pi
+        curr_mask[..., 2] = cv.normalize(magnitude, None, 0, 255, cv.NORM_MINMAX)
 
-            mask[idx] = curr_mask
+        mask[idx] = curr_mask
 
-        return mask
+    return mask
+
 
 class TransformerClassifier(nn.Module):  # Simple Default Transformer Layer
-    pass
+    def __init__(self, num_classes):
+        self.feature_layers = CNN_RGB(3, num_classes), CNN_HSV()
+
+        self.optical_flow = DenseOpticalFlow
+
+        self.classifier_layer = nn.Transf
 
 
 class LateMultidimensionalFusion(nn.Module):  # Transformer(UNET + VGG(Gunnar-Farneback))
