@@ -9,18 +9,18 @@ import numpy as np
 import plotly.express as px
 from plotly.subplots import make_subplots
 
-from src.dataset import DatasetFER
-from src.train import get_dataloaders, load_pl_net
+from dataset import DatasetFER
+from train import get_dataloaders, load_pl_net
 
 
-def get_sequence(model):
+def get_sequence(model, min_prob=True):
     fig = make_subplots(rows=2, cols=5)
     i = 0
 
     while i < 9:
         x, y = next(data)
         predicted, p = predict(x, model)
-        if predicted == i and p > 0.95:
+        if not min_prob or (predicted == i and p > 0.95):
             img = np.flip(np.array(x.reshape(48, 48)), 0)
             fig.add_trace(px.imshow(img).data[0], row=int(i/5)+1, col=i % 5+1)
             i += 1
@@ -31,7 +31,6 @@ def predict(x, model, device="cuda"):
     y_pred = model(x.to(device)).detach().cpu()
     predicted = int(np.argmax(y_pred))
     p = torch.max(nn.functional.softmax(y_pred, dim=0))
-    print(y_pred)
     return predicted, p
 
 

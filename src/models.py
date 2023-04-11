@@ -6,7 +6,7 @@ import cv2 as cv
 import numpy as np
 
 
-class CNN_RGB(nn.Module):  # UNET
+class CNNColor(nn.Module):  # UNET
     def __init__(self, input_channels, num_classes):
         super().__init__()
 
@@ -19,6 +19,7 @@ class CNN_RGB(nn.Module):  # UNET
         self.classifier_layers = [(48 // (2 * 3)) ** 2 * self.feature_layers[-1],
                                   120, 84, num_classes]
         self.classifier_activations = [nn.ReLU for _ in range(len(self.classifier_layers) - 1)]
+        self.out = nn.Softmax(dim=0)
 
         feature_layers = []
         for idx, layer in enumerate(list(zip(self.feature_layers[:-1], self.feature_layers[1:]))):
@@ -43,10 +44,10 @@ class CNN_RGB(nn.Module):  # UNET
     def forward(self, x):
         x = self.feature_extractor(x)
         y = self.classifier(torch.flatten(x))
-        return y
+        return self.out(y)
 
 
-class CNN_HSV(nn.Module):  # VGG
+class CNNFlow(nn.Module):  # VGG
     def __init__(self, input_channels, num_classes):
         super().__init__()
 
@@ -65,8 +66,7 @@ class CNN_HSV(nn.Module):  # VGG
             self.convolutions.append(nn.Sequential(*layer))
         self.convolutions = nn.Sequential(*self.convolutions)
 
-        self.linear = nn.Linear(in_features= )
-
+        self.linear = nn.Linear(in_features=3, out_features=num_classes)
 
     def forward(self, x):
         x = self.convolutions(x)
@@ -76,7 +76,7 @@ class CNN_HSV(nn.Module):  # VGG
         return y_hat
 
 
-def DenseOpticalFlow(x):  # Gunnar-Farneback
+def dense_optical_flow(x):  # Gunnar-Farneback
     if len(x) <= 0:
         return x
 
@@ -104,11 +104,11 @@ def DenseOpticalFlow(x):  # Gunnar-Farneback
 
 class TransformerClassifier(nn.Module):  # Simple Default Transformer Layer
     def __init__(self, num_classes):
-        self.feature_layers = CNN_RGB(3, num_classes), CNN_HSV()
+        self.feature_layers = CNNColor(3, num_classes), CNNFlow(3, num_classes)
 
-        self.optical_flow = DenseOpticalFlow
+        self.optical_flow = dense_optical_flow
 
-        self.classifier_layer = nn.Transf
+        self.classifier_layer = nn.Transformer()
 
 
 class LateMultidimensionalFusion(nn.Module):  # Transformer(UNET + VGG(Gunnar-Farneback))

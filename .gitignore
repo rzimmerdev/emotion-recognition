@@ -11,4 +11,4 @@
 /src/downloads/mnist/*
 !/src/downloads/mnist/.gitkeep
 
-/checkpoints/
+/src/checkpoints/

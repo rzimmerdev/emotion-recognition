@@ -2,8 +2,8 @@
 # coding: utf-8
 import pytorch_lightning as pl
 
-from torchmetrics import Accuracy
 import torch.nn
+import torchmetrics
 
 
 class LitTrainer(pl.LightningModule):
@@ -27,11 +27,9 @@ class LitTrainer(pl.LightningModule):
 
         y_pred = self.model(x).reshape(1, -1)
         validate_loss = self.loss(y_pred, y)
+        accuracy = torchmetrics.Accuracy().to("cuda")
 
-        accuracy = Accuracy(task="multiclass", num_classes=9)
-        acc = accuracy(y_pred, y)
-        self.log('accuracy', acc, on_epoch=True)
-
+        self.log('accuracy', accuracy(torch.argsort(y_pred[0]), torch.argsort(y[0])))
         self.log("val_loss", validate_loss)
 
     def test_step(self, batch, batch_idx):

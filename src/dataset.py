@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 import gzip
-import os
 
 import torch
 from torch.utils.data import Dataset
@@ -49,13 +48,14 @@ class DatasetFER(Dataset):
         self.paths = labels["Image name"]
         self.labels = labels[self.classes]
         self.images = images["pixels"]
+        self.out = torch.nn.Softmax(dim=0)
 
     def __getitem__(self, n):
         label = self.labels.iloc[n]
         data = self.images.iloc[n]
         image = np.reshape(list(map(np.float32, data.split(' '))),
                            (48, 48))
-        return torch.tensor(image) / 10, torch.tensor(label, dtype=torch.float32)[:-1].reshape(-1)
+        return torch.tensor(image) / 10, self.out(torch.tensor(label, dtype=torch.float32)[:-1].reshape(-1))
 
     def __len__(self):
         return len(self.labels)

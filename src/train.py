@@ -4,9 +4,9 @@ import torch
 from torch.utils.data import random_split, DataLoader
 import pytorch_lightning as pl
 
-# from pytorch_lightning.loggers import MLFlowLogger
+from pytorch_lightning.loggers import MLFlowLogger
 
-from src.trainer import LitTrainer
+from trainer import LitTrainer
 
 
 def argmax(a):
@@ -65,18 +65,19 @@ def train_net_lightning(net, train_loader, validate_loader=None, epochs=10, chec
     if checkpoint is None:
         pl_net = LitTrainer(net)
     else:
-        pl_net = load_pl_net(net, path=checkpoint)
-    trainer = pl.Trainer(limit_train_batches=100, max_epochs=epochs,
+        pl_net = load_pl_net(path=checkpoint)
+    trainer = pl.Trainer(limit_train_batches=50, max_epochs=epochs,
                          default_root_dir="checkpoints/", accelerator="gpu")
     trainer.fit(pl_net, train_loader, validate_loader)
 
 
-def load_pl_net(model, path="checkpoints/lightning_logs/version_0"):
-    checkpoint = path + "/checkpoints/"
-    checkpoint = checkpoint + os.listdir(checkpoint)[0]
+def load_pl_net(path="checkpoints/lightning_logs"):
+    latest_version = os.listdir(path)[-1]
+    checkpoint = f"{path}/{latest_version}/checkpoints/"
+    checkpoint = checkpoint + os.listdir(checkpoint)[-1]
 
-    print(checkpoint)
-    pl_net = LitTrainer.load_from_checkpoint(checkpoint, model=model, map_location=lambda storage, loc: storage)
+    print("Loading model weights from:", checkpoint)
+    pl_net = LitTrainer.load_from_checkpoint(checkpoint)
     return pl_net
 
 
