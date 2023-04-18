@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-import os
 
 import torch
 from torch import nn
@@ -9,8 +8,8 @@ import numpy as np
 import plotly.express as px
 from plotly.subplots import make_subplots
 
-from dataset import DatasetFER
-from train import get_dataloaders, load_pl_net
+from src.loaders.dataset import DatasetFER
+from src.training.train import get_dataloaders, load_pl_net
 
 
 def get_sequence(model, min_prob=True):

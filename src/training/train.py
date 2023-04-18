@@ -1,7 +1,6 @@
 import os
 
 import torch
-from torch.utils.data import random_split, DataLoader
 import pytorch_lightning as pl
 
 from pytorch_lightning.loggers import MLFlowLogger
@@ -11,17 +10,6 @@ from trainer import LitTrainer
 
 def argmax(a):
     return max(range(len(a)), key=lambda x: a[x])
-
-
-def get_dataloaders(dataset, test_data=None):
-    train_size = round(len(dataset) * 0.8)
-    validate_size = len(dataset) - train_size
-    train_data, validate_data = random_split(dataset, [train_size, validate_size])
-
-    # For 8 CPU cores
-    return DataLoader(train_data, num_workers=8), \
-        DataLoader(validate_data, num_workers=8), \
-        DataLoader(test_data, num_workers=8) if test_data else None
 
 
 def train_loop(net, batch, loss_fn, optim, device="cuda"):
@@ -67,7 +55,7 @@ def train_net_lightning(net, train_loader, validate_loader=None, epochs=10, chec
     else:
         pl_net = load_pl_net(path=checkpoint)
     trainer = pl.Trainer(limit_train_batches=50, max_epochs=epochs,
-                         default_root_dir="checkpoints/", accelerator="gpu")
+                         default_root_dir="../checkpoints/", accelerator="gpu")
     trainer.fit(pl_net, train_loader, validate_loader)
 
 
