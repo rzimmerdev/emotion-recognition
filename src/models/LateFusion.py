@@ -1,7 +1,9 @@
 from torch import nn, concat
 
 from UNet import CNNColor
+from torchvision.models import inception
 from VGG import CNNFlow
+from torchvision.models import resnet50
 from OpticalFlow import dense_optical_flow
 from Sequential import TransformerClassifier
 

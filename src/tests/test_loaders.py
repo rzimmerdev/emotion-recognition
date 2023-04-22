@@ -5,12 +5,15 @@ from loaders.dataloaders import ImageDataloader
 
 
 class TestFER(TestCase):
-    def setUp(self):
-        self.dataset = DatasetFER()
+
+    @classmethod
+    def setUpClass(cls):
+        cls.dataset = DatasetFER()
+
 
     def test_shape(self):
         x, y = self.dataset.__getitem__(0)
-        self.assertEqual(x.shape, (48, 48))
+        self.assertEqual(x.shape, (1, 48, 48))
         self.assertEqual(y.shape, (7,))  # 6 basic emotions + 1 neutral
 
     def test_size(self):
@@ -18,7 +21,6 @@ class TestFER(TestCase):
 
     def test_loader(self):
         loader = ImageDataloader(self.dataset)
-
 
 
 class TestKDEF(TestCase):

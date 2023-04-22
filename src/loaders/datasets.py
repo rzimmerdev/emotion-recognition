@@ -6,20 +6,25 @@ from torch.utils.data import Dataset
 
 
 class DatasetFER(Dataset):
-    def __init__(self, path="/home/rzimmerdev/Downloads/fer2013"):
+    def __init__(self, path="../../data/FER"):
         self.path = path
-
-        labels = pd.read_csv(self.path + "/fer2013new.csv")
         images = pd.read_csv(self.path + "/fer2013.csv")
+        labels = pd.read_csv(self.path + "/fer2013new.csv")
 
-        self.labels = labels.iloc[:, 2:9]
         self.images = images["pixels"]
+        self.labels = labels.iloc[:, 2:9]
+
+        self.__data_shape = ((1, 48, 48), (7,))
+
+    @property
+    def data_shape(self):
+        return self.__data_shape
 
     def __getitem__(self, n):
         data = self.images.iloc[n]
         label = self.labels.iloc[n]
 
-        x = np.reshape(list(map(np.uint8, data.split(' '))), (48, 48))
+        x = np.reshape(list(map(np.uint8, data.split(' '))), (1, 48, 48))
         y = np.array(label)
 
         return x, y
