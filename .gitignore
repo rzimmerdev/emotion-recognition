@@ -8,7 +8,8 @@
 
 # Ignore all cached downloads
 
-/src/downloads/mnist/*
-!/src/downloads/mnist/.gitkeep
+/data/FER
+/data/KDEF
 
 /src/checkpoints/
+
