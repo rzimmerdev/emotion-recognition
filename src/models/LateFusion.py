@@ -1,25 +1,23 @@
 from torch import nn, concat
 
-from UNet import CNNColor
-from torchvision.models import inception
-from VGG import CNNFlow
-from torchvision.models import resnet50
-from OpticalFlow import dense_optical_flow
-from Sequential import TransformerClassifier
+from .CNN import UNet, VGG, ResNet, InceptionNet
+from .OpticalFlow import dense_optical_flow
 
 
 class LateMultidimensionalFusion(nn.Module):  # Transformer(UNET + VGG(Gunnar-Farneback))
-    def __init__(self, channels=1, classes=9):
+    def __init__(self, in_features=1, out_features=8):
         super().__init__()
 
-        self.cnn_1 = CNNColor(channels, classes)
-        self.cnn_2 = CNNFlow(channels, classes)
+        self.cnn_raw = ResNet(in_features=in_features)
+        self.cnn_flow = InceptionNet(in_features=in_features)
 
         self.optical_flow = dense_optical_flow
 
-        self.transformer = TransformerClassifier(classes)
+        self.rnn = nn.LSTM(input_size=64, hidden_size=100, num_layers=2)
+        self.out = nn.Linear(in_features=100, out_features=out_features)
 
     def forward(self, x):
-        features = concat((self.cnn_1(x), self.cnn_2(self.optical_flow(x))))
+        features = concat((self.cnn_raw(x), self.cnn_flow(self.optical_flow(x))))
+        series = self.rnn(features)
 
-        return self.transformer(features)
+        return self.out(series)
