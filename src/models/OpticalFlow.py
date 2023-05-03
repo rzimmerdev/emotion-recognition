@@ -2,29 +2,31 @@ import numpy as np
 import cv2
 
 
-def dense_optical_flow(x):  # Gunnar-Farneback
-    if len(x) <= 0:
-        return x
+def dense_optical_flow(frames):  # Gunnar-Farneback
+    if len(frames) <= 0:
+        return frames
 
-    mask = np.zeros_like(x)
+    frames = np.array(np.transpose(frames, (0, 2, 3, 1)), dtype=np.float32)
 
-    curr_mask = np.zeros_like(x[0])
-    curr_mask[..., 1] = 255
+    mask = np.zeros(frames.shape[-3:])
+    mask[..., 1] = 255
+    masks = []
 
-    prev = np.zeros_like(x[0])
+    prev = np.zeros(frames.shape[-3:-1])
 
-    for idx, frame in enumerate(x):
-        curr = frame
+    for idx, frame in enumerate(frames):
+        gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
 
-        flow = cv2.calcOpticalFlowFarneback(curr, prev, None, 0.5, 3, 15, 3, 5, 1.2, 0)
+        flow = cv2.calcOpticalFlowFarneback(prev, gray, None, 0.5, 3, 15, 3, 5, 1.2, 0)
 
         magnitude, angle = cv2.cartToPolar(flow[..., 0], flow[..., 1])
-        curr_mask[..., 0] = angle * 90 / np.pi
-        curr_mask[..., 2] = cv2.normalize(magnitude, None, 0, 255, cv2.NORM_MINMAX)
+        mask[..., 0] = angle * 90 / np.pi
+        mask[..., 2] = cv2.normalize(magnitude, None, 0, 255, cv2.NORM_MINMAX)
 
-        mask[idx] = curr_mask
+        masks.append(mask.copy())
+        prev = gray
 
-    return mask
+    return np.transpose(np.array(masks), (0, 3, 1, 2))
 
 
 class HaarcascadeClipper:

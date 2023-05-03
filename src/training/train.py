@@ -3,7 +3,6 @@ import os
 import torch
 import pytorch_lightning as pl
 
-from pytorch_lightning.loggers import MLFlowLogger
 
 from trainer import LitTrainer
 

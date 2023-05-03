@@ -1,5 +1,7 @@
 import torch
 from torch import nn, flatten
+from torchvision import transforms
+from torchvision.models import Inception3, resnet34
 
 
 class UNet(nn.Module):  # UNET
@@ -83,27 +85,53 @@ class VGG(nn.Module):  # VGG
         return y_hat
 
 
+class Channels(nn.Module):
+    def __init__(self, channels, batched=True):
+        super().__init__()
+        if batched:
+            self.forward = lambda x: x.repeat(1, channels, 1, 1)
+        else:
+            self.forward = lambda x: x.repeat(channels, 1, 1)
+
+
+def preprocess(resize, crop, is_rgb=True):
+    if not is_rgb:
+        return transforms.Compose([
+            Channels(3),
+            transforms.Resize(resize, antialias=True),
+            transforms.CenterCrop(crop),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        ])
+    else:
+        return transforms.Compose([
+            transforms.Resize(resize, antialias=True),
+            transforms.CenterCrop(crop),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        ])
+
+
 class ResNet(nn.Module):
-    def __init__(self, in_features=1):
+    def __init__(self, in_channels=1, out_channels=8):
         super().__init__()
 
-        self.model = torch.hub.load('pytorch/vision:v0.10.0', 'resnet34', pretrained=False)
+        model = resnet34()
 
-        self.ap = nn.AdaptiveAvgPool2d(in_features)
-        self.mp = nn.AdaptiveMaxPool2d(in_features)
+        self.preprocess = preprocess(256, 224, is_rgb=in_channels == 3)
+
+        self.model = nn.Sequential(
+            model,
+            nn.Linear(1000, out_channels)
+        )
 
     def forward(self, x):
-        return self.model(torch.cat([self.mp(x), self.ap(x)], 1))
+        return self.model(self.preprocess(x))
 
 
 class InceptionNet(nn.Module):
-    def __init__(self, in_features=1):
+    def __init__(self, in_channels=1, out_channels=8):
         super().__init__()
 
-        self.model = torch.hub.load('pytorch/vision:v0.10.0', 'inception_v3', pretrained=False)
-
-        self.ap = nn.AdaptiveAvgPool2d(in_features)
-        self.mp = nn.AdaptiveMaxPool2d(in_features)
+        self.model = Inception3(num_classes=out_channels, init_weights=False)
 
     def forward(self, x):
-        return self.model(torch.cat([self.mp(x), self.ap(x)], 1))
+        return self.model(x)

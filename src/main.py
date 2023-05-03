@@ -8,7 +8,7 @@ from src.predict import predict
 
 
 def train(device):
-    dataset = DatasetFER()
+    dataset = DatasetChildEFES()
     train_loader, validate_loader, test_loader = get_dataloaders(dataset, VideoDataloader)
 
     net = LateMultidimensionalFusion(in_features=1, out_features=8).to(device)
@@ -20,7 +20,3 @@ def train(device):
 
 if __name__ == "__main__":
     train("cuda" if torch.cuda.is_available() else "cpu")
-
-    x, y = DatasetChildEFES.__getitem__(0)
-
-    predict(x, load_pl_net("checkpoints/lightning_logs/version_0"))
