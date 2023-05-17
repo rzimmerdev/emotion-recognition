@@ -4,7 +4,7 @@ import torch
 import torchmetrics
 
 
-class LitTrainer(pl.LightningModule):
+class LitModel(pl.LightningModule):
     def __init__(self, model, num_classes=8):
         super().__init__()
         self.model = model
@@ -13,6 +13,8 @@ class LitTrainer(pl.LightningModule):
 
     def training_step(self, batch, batch_idx):
         x, y = batch
+        x = x.to(device=self.device)
+        y = y.to(device=self.device)
 
         intervals = -(-len(x[0]) // 10)
 
@@ -27,13 +29,15 @@ class LitTrainer(pl.LightningModule):
 
     def validation_step(self, batch, batch_idx):
         x, y = batch
+        x = x.to(device=self.device)
+        y = y.to(device=self.device)
 
         intervals = -(-len(x[0]) // 10)
 
         y_pred = self.model(x)
         y = torch.repeat_interleave(y, intervals, dim=0)
         validate_loss = self.loss(y_pred, torch.argmax(y, dim=1))
-        accuracy = torchmetrics.Accuracy("multiclass", num_classes=self.num_classes).to("cuda")
+        accuracy = torchmetrics.Accuracy("multiclass", num_classes=self.num_classes).to(device=self.device)
         softmax = torch.nn.Softmax(dim=0)
 
         self.log('accuracy', accuracy(softmax(y_pred[-1]), y[-1]))
