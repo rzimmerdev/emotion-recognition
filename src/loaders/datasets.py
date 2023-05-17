@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 import glob
 
 import cv2
@@ -67,7 +65,7 @@ class DatasetChildEFES(Dataset):
             loading, frame = video.read()
             if not loading:
                 break
-            frame = np.expand_dims(cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY), axis=0)
+            frame = np.transpose(frame, (2, 0, 1))
             x_sequence.append(frame)
 
         x = np.asarray(x_sequence)

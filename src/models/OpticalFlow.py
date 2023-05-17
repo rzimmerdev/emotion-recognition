@@ -6,7 +6,7 @@ def dense_optical_flow(frames):  # Gunnar-Farneback
     if len(frames) <= 0:
         return frames
 
-    frames = np.array(np.transpose(frames, (0, 2, 3, 1)), dtype=np.float32)
+    frames = np.array(np.transpose(frames, (0, 2, 3, 1)))
 
     mask = np.zeros(frames.shape[-3:])
     mask[..., 1] = 255

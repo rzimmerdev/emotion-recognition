@@ -1,4 +1,3 @@
-import torch
 from torch import nn, flatten
 from torchvision import transforms
 from torchvision.models import Inception3, resnet34
@@ -133,5 +132,7 @@ class InceptionNet(nn.Module):
 
         self.model = Inception3(num_classes=out_channels, init_weights=False)
 
+        self.preprocess = preprocess(299, 299, is_rgb=in_channels == 3)
+
     def forward(self, x):
-        return self.model(x)
+        return self.model(self.preprocess(x))

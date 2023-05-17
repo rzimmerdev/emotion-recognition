@@ -27,11 +27,11 @@ class TestChildEFES(TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.dataset = DatasetChildEFES()
+        cls.dataset = DatasetChildEFES(path="../../data/datasets/ChildEFES")
 
     def test_shape(self):
         x, y = self.dataset.__getitem__(0)
-        self.assertEqual(x.shape[1:], (1, 720, 1280))
+        self.assertEqual((3, 720, 1280), x.shape[1:])
         self.assertEqual(y.shape, (8,))
 
     def test_size(self):
