@@ -48,8 +48,8 @@ if __name__ == "__main__":
     device = torch.device("cuda")
 
     try:
-        test_dataset("cuda" if torch.cuda.is_available() else "cpu")
+        test_sample("cuda" if torch.cuda.is_available() else "cpu")
     except RuntimeError:
-        test_dataset("cpu")
+        test_sample("cpu")
 
 
