@@ -2,12 +2,10 @@ import torch
 from torch import nn
 import numpy as np
 
-
 from src.loaders.datasets import DatasetChildEFES
 from src.loaders.dataloaders import get_dataloaders
 from src.lightning.utils import load_weights
 from src.lightning.model import LitModel
-
 
 from src.models.LateFusion import LateMultidimensionalFusion
 
@@ -51,5 +49,3 @@ if __name__ == "__main__":
         test_sample("cuda" if torch.cuda.is_available() else "cpu")
     except RuntimeError:
         test_sample("cpu")
-
-
