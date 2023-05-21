@@ -13,8 +13,8 @@ class LitModel(pl.LightningModule):
 
     def training_step(self, batch, batch_idx):
         x, y = batch
-        x = x.to(device=self.device)
-        y = y.to(device=self.device)
+        x = x.to(device=self.device, dtype=torch.float32)
+        y = y.to(device=self.device, dtype=torch.float32)
 
         intervals = -(-len(x[0]) // 10)
 
@@ -29,8 +29,8 @@ class LitModel(pl.LightningModule):
 
     def validation_step(self, batch, batch_idx):
         x, y = batch
-        x = x.to(device=self.device)
-        y = y.to(device=self.device)
+        x = x.to(device=self.device, dtype=torch.float32)
+        y = y.to(device=self.device, dtype=torch.float32)
 
         intervals = -(-len(x[0]) // 10)
 
